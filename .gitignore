@@ -4,6 +4,7 @@ obj
 builds
 Assets/UnityVS
 Assets/UnityVS.meta
+ProjectSettings/ProjectVersion.txt
 
 *.unityproj
 *.userprefs
