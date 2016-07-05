@@ -30,5 +30,7 @@ public class Timeline {
 				return dangers[i];
 			}
 		}
+
+		return null;
 	}
 }
