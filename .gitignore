@@ -5,6 +5,7 @@ builds
 Assets/UnityVS
 Assets/UnityVS.meta
 ProjectSettings/ProjectVersion.txt
+ProjectSettings/ProjectSettings.asset
 
 *.unityproj
 *.userprefs
