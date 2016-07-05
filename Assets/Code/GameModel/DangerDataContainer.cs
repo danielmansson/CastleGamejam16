@@ -1,10 +1,9 @@
 ﻿using System.Collections;
+using System.Collections.Generic;
 
 [System.Serializable]
 
-public class DangerData {
-	public Danger.Type type;
-	public Player.Action requiredAction;
-	public int hp;
-	public int timestamp;
+public class DangerDataContainer {
+	public List<DangerData> container = new List<DangerData>();
 }
+

@@ -30,12 +30,11 @@ public class Timeline {
 				return danger;
 			}
 		}
-
 		return null; //we should do the StageComplete check earlier
 	}
 
 	private List<Danger> GetDangersFromFile(){
-		string json = System.IO.File.ReadAllText("config" + id + ".json");
+		string json = System.IO.File.ReadAllText(Application.dataPath+"/Saves/stage0_dangers" + id + ".json");
 		DangerDataContainer ddc = JsonUtility.FromJson<DangerDataContainer>(json);
 
 		List<Danger> dangers = new List<Danger>();
