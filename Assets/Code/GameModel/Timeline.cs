@@ -10,7 +10,7 @@ public class Timeline {
 	public Timeline(int id){
 		this.id = id;
 		player = new Player(id);
-		dangers = new List<Danger>();
+		dangers = GetDangersFromFile();
 	}
 
 	public bool StageComplete(){
@@ -23,14 +23,26 @@ public class Timeline {
 	}
 
 	public Danger NextActiveDanger(){
-		for(int i = 0; i < dangers.Count; i++){
-			if(dangers[i].timestamp >= player.timestamp 
-				&& dangers[i].state != Danger.State.Dead)
+		foreach (var danger in dangers) {
+			if(danger.timestamp >= player.timestamp 
+				&& danger.state != Danger.State.Dead)
 			{
-				return dangers[i];
+				return danger;
 			}
 		}
 
 		return null; //we should do the StageComplete check earlier
+	}
+
+	private List<Danger> GetDangersFromFile(){
+		string json = System.IO.File.ReadAllText("config" + id + ".json");
+		DangerDataContainer ddc = JsonUtility.FromJson<DangerDataContainer>(json);
+
+		List<Danger> dangers = new List<Danger>();
+		foreach (var dangerData in ddc.container) {
+			dangers.Add(new Danger(dangerData));
+		}
+
+		return dangers;
 	}
 }
