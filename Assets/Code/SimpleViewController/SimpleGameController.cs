@@ -26,11 +26,11 @@ public class SimpleGameController : MonoBehaviour
 		{
 			if (Input.GetKeyDown(KeyCode.A))
 			{
-				m_model.PerformAction(GameModel.Action.Left);
+				m_model.PerformAction(Player.Action.Left);
 			}
 			else if(Input.GetKeyDown(KeyCode.D))
 			{
-				m_model.PerformAction(GameModel.Action.Right);
+				m_model.PerformAction(Player.Action.Right);
 			}
 		}
 	}

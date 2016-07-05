@@ -4,8 +4,8 @@ using System.Collections.Generic;
 
 public class Timeline {
 	public int id;
-	Player player;
-	List<Danger> dangers;
+	public Player player;
+	public List<Danger> dangers;
 
 	public Timeline(int id){
 		this.id = id;
@@ -25,7 +25,7 @@ public class Timeline {
 	public Danger NextActiveDanger(){
 		for(int i = 0; i < dangers.Count; i++){
 			if(dangers[i].timestamp >= player.timestamp 
-				&& dangers[i].state != Constants.DANGER_DEAD)
+				&& dangers[i].state != Danger.State.Dead)
 			{
 				return dangers[i];
 			}
