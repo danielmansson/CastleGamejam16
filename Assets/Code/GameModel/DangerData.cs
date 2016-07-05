@@ -7,4 +7,11 @@ public class DangerData {
 	public Player.Action requiredAction;
 	public int hp;
 	public int timestamp;
+
+	public DangerData(Danger.Type type, Player.Action requiredAction, int hp, int timestamp) {
+		this.type = type;
+		this.timestamp = timestamp;
+		this.hp = hp;
+		this.requiredAction = requiredAction;
+	}
 }

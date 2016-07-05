@@ -33,5 +33,6 @@ public class Danger {
 		this.timestamp = timestamp;
 		this.hp = hp;
 		this.requiredAction = requiredAction;
+		this.state = Danger.State.Alive;
 	}
 }

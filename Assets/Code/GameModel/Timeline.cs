@@ -11,6 +11,10 @@ public class Timeline {
 		this.id = id;
 		player = new Player(id);
 		dangers = GetDangersFromFile();
+
+		foreach (var item in dangers) {
+			Debug.Log(item.type + ", " + item.requiredAction + ", " + item.hp + ", " + item.state + ", " + item.timestamp);
+		}
 	}
 
 	public bool StageComplete(){
