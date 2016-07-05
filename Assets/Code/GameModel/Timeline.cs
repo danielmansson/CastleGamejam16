@@ -5,7 +5,8 @@ using System.Collections.Generic;
 public class Timeline {
 	public int id;
 	public Player player;
-	public List<Danger> dangers;
+	public List<Danger> dangers = new List<Danger>();
+	public int frame;
 
 	public Timeline(int stage, int id){
 		this.id = id;
@@ -47,5 +48,22 @@ public class Timeline {
 		}
 
 		return dangers;
+	}
+
+	public void TryToPerformAction(Player.Action action)
+	{
+		player.TryToPerformAction(action);
+	}
+
+	public void Step()
+	{
+		frame++;
+
+		player.Step();
+
+		foreach (var danger in dangers)
+		{
+			danger.Step(frame);
+		}
 	}
 }

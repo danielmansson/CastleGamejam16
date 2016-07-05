@@ -19,6 +19,7 @@ public class Danger {
 	public Player.Action requiredAction;
 	public int hp;
 	public int timestamp;
+	public int distanceLeft;
 
 	public Danger(DangerData data) {
 		this.type = data.type;
@@ -26,13 +27,13 @@ public class Danger {
 		this.hp = data.hp;
 		this.requiredAction = data.requiredAction;
 		this.state = Danger.State.Alive;
+
+		distanceLeft = timestamp;
 	}
 
-	public Danger(Danger.Type type, Player.Action requiredAction, int hp, int timestamp) {
-		this.type = type;
-		this.timestamp = timestamp;
-		this.hp = hp;
-		this.requiredAction = requiredAction;
+	public void Step(int currentFrame)
+	{
+		distanceLeft--;
 		this.state = Danger.State.Alive;
 	}
 }

@@ -14,4 +14,8 @@ public class DangerData {
 		this.hp = hp;
 		this.requiredAction = requiredAction;
 	}
+
+	public DangerData()
+	{
+	}
 }

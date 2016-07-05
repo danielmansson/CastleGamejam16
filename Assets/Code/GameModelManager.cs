@@ -13,7 +13,7 @@ public class GameModelManager : MonoBehaviour
 		//Fetch whatever data needed from System.Instance.GameInfo and init the Model
 		Model = new GameModel(new GameModelConfig()
 		{
-			secondsPerTick = 1
+			secondsPerTick = 0.5f * 0.25f * 0.5f
 		});
 
 		if (OnModelInitialized != null)
