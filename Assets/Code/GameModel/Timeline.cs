@@ -13,7 +13,7 @@ public class Timeline {
 		dangers = new List<Danger>();
 	}
 
-	public bool isFinished(){
+	public bool StageComplete(){
 		return player.timestamp > dangers[dangers.Count-1].timestamp;
 	}
 
@@ -31,6 +31,6 @@ public class Timeline {
 			}
 		}
 
-		return null;
+		return null; //we should do the StageComplete check earlier
 	}
 }
