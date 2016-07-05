@@ -23,6 +23,7 @@ public class Systems : MonoBehaviour
 
 	//List your systems here
 	public StateManager State { get; private set; }
+	public GameInfo GameInfo { get; private set; }
 
 	void Awake()
 	{
@@ -36,6 +37,7 @@ public class Systems : MonoBehaviour
 
 			//Fetch system components
 			State = m_systems.GetComponent<StateManager>();
+			GameInfo = m_systems.GetComponent<GameInfo>();
 
 			// start state
 			State.SetStateImmediately(m_startState);

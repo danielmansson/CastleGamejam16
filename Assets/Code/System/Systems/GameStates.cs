@@ -81,7 +81,11 @@ public class GameState : GameStateBase
 
 	public override void Update()
 	{
-		if (Input.anyKeyDown)
+		if (Input.GetKeyDown(KeyCode.Escape))
+		{
+			Systems.Instance.State.QueueState(State.Start);
+		}
+		if (Input.GetKeyDown(KeyCode.F1))
 		{
 			Systems.Instance.State.QueueState(State.Win);
 		}
