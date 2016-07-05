@@ -11,7 +11,10 @@ public class GameModelManager : MonoBehaviour
 	void Start ()
 	{
 		//Fetch whatever data needed from System.Instance.GameInfo and init the Model
-		Model = new GameModel();
+		Model = new GameModel(new GameModelConfig()
+		{
+			secondsPerTick = 1
+		});
 
 		if (OnModelInitialized != null)
 		{
@@ -21,6 +24,6 @@ public class GameModelManager : MonoBehaviour
 	
 	void Update ()
 	{
-	
+		Model.Update(Time.deltaTime);
 	}
 }
