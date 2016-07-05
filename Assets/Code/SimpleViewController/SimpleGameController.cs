@@ -6,7 +6,7 @@ public class SimpleGameController : MonoBehaviour
 	[SerializeField]
 	GameModelManager m_modelMgr;
 
-	GameModelDummy m_model;
+	GameModel m_model;
 
 	void Awake ()
 	{
@@ -26,11 +26,11 @@ public class SimpleGameController : MonoBehaviour
 		{
 			if (Input.GetKeyDown(KeyCode.A))
 			{
-				//perform action
+				m_model.PerformAction(GameModel.Action.Left);
 			}
 			else if(Input.GetKeyDown(KeyCode.D))
 			{
-				//perform action
+				m_model.PerformAction(GameModel.Action.Right);
 			}
 		}
 	}

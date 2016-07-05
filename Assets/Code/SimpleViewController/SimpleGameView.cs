@@ -1,12 +1,13 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Linq;
 
 public class SimpleGameView : MonoBehaviour
 {
 	[SerializeField]
 	GameModelManager m_modelMgr;
 
-	GameModelDummy m_model;
+	GameModel m_model;
 
 	void Awake ()
 	{
@@ -18,5 +19,9 @@ public class SimpleGameView : MonoBehaviour
 		m_model = m_modelMgr.Model;
 
 		//Set up view
+
+		var timeline = m_model.GetTimelines().FirstOrDefault();
+
+		//timeline.
 	}
 }
