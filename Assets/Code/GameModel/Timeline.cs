@@ -7,10 +7,10 @@ public class Timeline {
 	public Player player;
 	public List<Danger> dangers;
 
-	public Timeline(int id){
+	public Timeline(int stage, int id){
 		this.id = id;
 		player = new Player(id);
-		dangers = GetDangersFromFile();
+		dangers = GetDangersFromFile(stage);
 
 		foreach (var item in dangers) {
 			Debug.Log(item.type + ", " + item.requiredAction + ", " + item.hp + ", " + item.state + ", " + item.timestamp);
@@ -37,8 +37,8 @@ public class Timeline {
 		return null; //we should do the StageComplete check earlier
 	}
 
-	private List<Danger> GetDangersFromFile(){
-		string json = System.IO.File.ReadAllText(Application.dataPath+"/Saves/stage0_dangers" + id + ".json");
+	private List<Danger> GetDangersFromFile(int stage){
+		string json = System.IO.File.ReadAllText(Application.dataPath+"/Saves/stage" + stage + "_dangers" + id + ".json");
 		DangerDataContainer ddc = JsonUtility.FromJson<DangerDataContainer>(json);
 
 		List<Danger> dangers = new List<Danger>();

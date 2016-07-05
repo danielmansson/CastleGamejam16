@@ -17,17 +17,9 @@ public class GameModel
 	{
 		m_config = config;
 
-		timelines.Add(new Timeline(0));
-		timelines.Add(new Timeline(1));
-		timelines.Add(new Timeline(2));
-
-		//tmp dummy data
-		timelines[0].dangers.Add(new Danger(Danger.Type.Block, Player.Action.Right, 1, 0x1f));
-		timelines[0].dangers.Add(new Danger(Danger.Type.Block, Player.Action.Right, 1, 0x2f));
-		timelines[1].dangers.Add(new Danger(Danger.Type.Monster, Player.Action.Right, 1, 0x3f));
-		timelines[1].dangers.Add(new Danger(Danger.Type.Monster, Player.Action.Right, 1, 0x4f));
-		timelines[2].dangers.Add(new Danger(Danger.Type.Shot, Player.Action.Right, 1, 0x5f));
-		timelines[2].dangers.Add(new Danger(Danger.Type.Shot, Player.Action.Right, 1, 0x6f));
+		timelines.Add(new Timeline(0, 0));
+		timelines.Add(new Timeline(0, 1));
+		timelines.Add(new Timeline(0, 2));
 
 	}
 
