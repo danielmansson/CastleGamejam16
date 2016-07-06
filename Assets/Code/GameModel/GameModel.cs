@@ -13,21 +13,38 @@ public class GameModel
 	List<Timeline> timelines = new List<Timeline>();
 	float m_stepAccumulator;
 	int totalFrame = 0;
+	public event System.Action<Timeline, Danger> OnDeath;
+
+	public bool GameOver { get; private set; }
 
 	public GameModel(GameModelConfig config)
 	{
 		m_config = config;
 
-		timelines.Add(new Timeline(0, 0));
-		timelines.Add(new Timeline(0, 1));
-		timelines.Add(new Timeline(0, 2));
 
-		List<List<Danger>> dangers = DangerGenerator.GenerateDangers(timelines, 100, 15, 5);
-		for(int i = 0; i < 3; i++){
-			foreach (var danger in dangers[i]) {
-				timelines[i].AddDangerToTimeline(danger);
-			}
-		}
+		timelines.Add(new Timeline(new TimelineConfig()
+		{
+			id = 0,
+			type = Timeline.Type.Shield,
+			playerActionDuration = 1
+		}));
+
+		timelines.Add(new Timeline(new TimelineConfig()
+		{
+			id = 1,
+			type = Timeline.Type.Jumper,
+			playerActionDuration = 4
+		}));
+
+		timelines.Add(new Timeline(new TimelineConfig()
+		{
+			id = 2,
+			type = Timeline.Type.Shooter,
+			playerActionDuration = 1,
+			range = 100
+		}));
+
+		DangerGenerator.GenerateDangers(timelines, 100, 15, 4);
 
 		//tmp dummy data
 		/*for (int i = 0; i < 8; i++)
@@ -37,14 +54,36 @@ public class GameModel
 				type = Danger.Type.Monster,
 				hp = 1,
 				requiredAction = Random.Range(0, 2) == 0 ? Player.Action.Left : Player.Action.Right,
-				timestamp = Random.Range(38, 200)
+				timestamp = Random.Range(38, 300)
 			};
 
 			foreach (var tl in timelines)
 			{
-				tl.dangers.Add(new Danger(data));
+				tl.AddDangerToTimeline(new Danger(data));
 			}
 		}*/
+
+		foreach (var timeline in timelines)
+		{
+			timeline.OnPlayerDeath += (danger) => 
+			{
+				OnAnyDeathHandler(timeline, danger);
+			};
+		}
+	}
+
+	void OnAnyDeathHandler(Timeline timeline, Danger danger)
+	{
+		if (!GameOver)
+		{
+			GameOver = true;
+			Debug.Log("Death");
+
+			if (OnDeath != null)
+			{
+				OnDeath(timeline, danger);
+			}
+		}
 	}
 
 	public List<Timeline> GetTimelines()
@@ -54,6 +93,9 @@ public class GameModel
 
 	public void PerformAction(Player.Action action)
 	{
+		if (GameOver)
+			return;
+
 		Debug.Log("I wanna perform an action: " + action);
 
 		foreach (var timeline in timelines)

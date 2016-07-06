@@ -27,10 +27,16 @@ public class SimpleTimeline : MonoBehaviour
 			var dangerView = (SimpleDanger)Instantiate(m_dangerPrefab, transform.position, Quaternion.identity);
 			dangerView.transform.parent = transform;
 			dangerView.SetActionType(danger.requiredAction == Player.Action.Left);
-			dangerView.Danger = danger;
+			dangerView.Init(danger);
+			dangerView.OnDestroy += ViewDestroyedHandler;
 
 			m_activeDangers.Add(dangerView);
 		}
+	}
+
+	void ViewDestroyedHandler(SimpleDanger dangerView)
+	{
+		m_activeDangers.Remove(dangerView);
 	}
 
 	void Start ()
@@ -41,19 +47,33 @@ public class SimpleTimeline : MonoBehaviour
 	
 	void Update ()
 	{
-		m_player.SetPlayerState(m_timeline.player.m_action, m_timeline.player.state);
+		m_player.SetPlayerState(m_timeline.m_player.m_action, m_timeline.m_player.state);
 
 		foreach (var danger in m_activeDangers)
 		{
 			int d = danger.Danger.distanceLeft;
-			if (d > 0)
+
+			float speed = 1f;
+
+			if (m_timeline.TimelineType == Timeline.Type.Shield)
 			{
-				danger.transform.localPosition = Vector3.right * m_model.ExtrapolateSecondsLeft(d) * 1.8f;
+				speed = 6f;
 			}
-			else
+			else if (m_timeline.TimelineType == Timeline.Type.Jumper)
 			{
-				danger.gameObject.SetActive(false);
+				speed = 4f;
 			}
+			else if (m_timeline.TimelineType == Timeline.Type.Shooter)
+			{
+				speed = 2f;
+
+				if (d <= m_timeline.Config.range)
+					danger.transform.localScale = Vector3.one;
+				else
+					danger.transform.localScale = new Vector3(1f, 0.4f, 1f);
+			}
+
+			danger.transform.localPosition = Vector3.right * m_model.ExtrapolateSecondsLeft(d) * speed;
 		}
 	}
 }
