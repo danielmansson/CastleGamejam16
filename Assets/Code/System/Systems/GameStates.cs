@@ -92,6 +92,34 @@ public class GameState : GameStateBase
 	}
 }
 
+public class FancyGameState : GameStateBase
+{
+	public override State State
+	{
+		get { return State.FancyGame; }
+	}
+
+	public override void Begin(State previousState)
+	{
+		if (!IsSceneLoaded("fancygame"))
+		{
+			SceneManager.LoadScene("fancygame");
+		}
+	}
+
+	public override void Update()
+	{
+		if (Input.GetKeyDown(KeyCode.Escape))
+		{
+			Systems.Instance.State.QueueState(State.Start);
+		}
+		if (Input.GetKeyDown(KeyCode.F1))
+		{
+			Systems.Instance.State.QueueState(State.Win);
+		}
+	}
+}
+
 public class WinState : GameStateBase
 {
 	public override State State

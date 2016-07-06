@@ -63,7 +63,31 @@ public class GameModel
 
 			foreach (var tl in timelines)
 			{
-				tl.AddDangerToTimeline(new Danger(data));
+				if (tl.TimelineType != Timeline.Type.Jumper || Random.Range(0f, 1f) < 0.70f)
+					tl.AddDangerToTimeline(new Danger(data));
+
+				if (tl.TimelineType == Timeline.Type.Shield)
+				{
+					for (int j = 0; j < 2; j++)
+					{
+						if (Random.Range(0f, 1f) < 0.30f)
+						{
+							data.timestamp -= Random.Range(3, 4);
+							tl.AddDangerToTimeline(new Danger(data));
+						}
+					}
+				}
+				if (tl.TimelineType == Timeline.Type.Shooter)
+				{
+					for (int j = 0; j < 1; j++)
+					{
+						if (Random.Range(0f, 1f) < 0.30f)
+						{
+							data.timestamp -= Random.Range(3, 10);
+							tl.AddDangerToTimeline(new Danger(data));
+						}
+					}
+				}
 			}
 		}*/
 

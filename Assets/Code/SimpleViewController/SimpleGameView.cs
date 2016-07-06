@@ -15,7 +15,7 @@ public class SimpleGameView : MonoBehaviour
 	float m_distance = 3f;
 
 	GameModel m_model;
-	List<SimpleTimeline> m_timelines;
+	List<SimpleTimeline> m_timelines = new List<SimpleTimeline>();
 	
 	void Awake ()
 	{
@@ -38,6 +38,8 @@ public class SimpleGameView : MonoBehaviour
 			pos += Vector3.down * m_distance;
 
 			timelineView.Init(m_model, timeline);
+
+			m_timelines.Add(timelineView);
 		}
 	}
 }

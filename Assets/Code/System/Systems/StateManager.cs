@@ -10,6 +10,7 @@ public enum State
 	Boot,
 	Start,
 	Game,
+	FancyGame,
 	Win,
 }
 
@@ -105,6 +106,8 @@ public class StateManager : MonoBehaviour
 				return new StartState();
 			case State.Game:
 				return new GameState();
+			case State.FancyGame:
+				return new FancyGameState();
 			case State.Win:
 				return new WinState();
 		}
