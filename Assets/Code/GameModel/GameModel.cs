@@ -13,6 +13,9 @@ public class GameModel
 	List<Timeline> timelines = new List<Timeline>();
 	float m_stepAccumulator;
 	int totalFrame = 0;
+	public event System.Action<Timeline, Danger> OnDeath;
+
+	public bool GameOver { get; private set; }
 
 	public GameModel(GameModelConfig config)
 	{
@@ -37,14 +40,36 @@ public class GameModel
 				type = Danger.Type.Monster,
 				hp = 1,
 				requiredAction = Random.Range(0, 2) == 0 ? Player.Action.Left : Player.Action.Right,
-				timestamp = Random.Range(38, 200)
+				timestamp = Random.Range(38, 300)
 			};
 
 			foreach (var tl in timelines)
 			{
-				tl.dangers.Add(new Danger(data));
+				tl.AddDangerToTimeline(new Danger(data));
 			}
 		}*/
+
+		foreach (var timeline in timelines)
+		{
+			timeline.OnPlayerDeath += (danger) => 
+			{
+				OnAnyDeathHandler(timeline, danger);
+			};
+		}
+	}
+
+	void OnAnyDeathHandler(Timeline timeline, Danger danger)
+	{
+		if (!GameOver)
+		{
+			GameOver = true;
+			Debug.Log("Death");
+
+			if (OnDeath != null)
+			{
+				OnDeath(timeline, danger);
+			}
+		}
 	}
 
 	public List<Timeline> GetTimelines()
@@ -54,6 +79,9 @@ public class GameModel
 
 	public void PerformAction(Player.Action action)
 	{
+		if (GameOver)
+			return;
+
 		Debug.Log("I wanna perform an action: " + action);
 
 		foreach (var timeline in timelines)

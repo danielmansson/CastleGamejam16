@@ -8,7 +8,26 @@ public class SimpleDanger : MonoBehaviour
 	[SerializeField]
 	GameObject m_down;
 
-	public Danger Danger { get; set; }
+	public Danger Danger { get; private set; }
+	public event System.Action<SimpleDanger> OnDestroy;
+
+	void DestroyHandler()
+	{
+		Danger.OnDestroy -= DestroyHandler;
+
+		Destroy(this.gameObject);
+
+		if (OnDestroy != null)
+		{
+			OnDestroy(this);
+		}
+	}
+
+	public void Init(Danger danger)
+	{
+		Danger = danger;
+		Danger.OnDestroy += DestroyHandler;
+	}
 
 	public void SetActionType(bool up)
 	{

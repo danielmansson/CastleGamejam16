@@ -2,11 +2,19 @@
 using System.Collections;
 using System.Collections.Generic;
 
-public class Timeline {
+public class Timeline
+{
+	public enum Type
+	{
+		Defend,
+		Attack
+	}
+
 	public int id;
 	public Player player;
 	public List<Danger> m_dangers = new List<Danger>();
-	public int frame;
+	public int m_tick;
+	public Type TimelineType { get; set; }
 
 	public event System.Action<Danger> OnPlayerDeath;
 	public event System.Action<Danger> OnDangerAdded;
@@ -14,17 +22,6 @@ public class Timeline {
 	public Timeline(int stage, int id){
 		this.id = id;
 		player = new Player(id);
-		/*var dangers = GetDangersFromFile(stage);
-
-		foreach (var danger in dangers)
-		{
-			AddDangerToTimeline(danger);
-		}
-
-		foreach (var item in dangers) {
-			Debug.Log(item.type + ", " + item.requiredAction + ", " + item.hp + ", " + item.state + ", " + item.timestamp);
-		}
-		*/
 	}
 
 	public void AddDangerToTimeline(Danger danger)
@@ -76,15 +73,29 @@ public class Timeline {
 
 	public void Step()
 	{
-		frame++;
+		m_tick++;
 
 		player.Step();
+		player.timestamp = m_tick;
 
 		List<Danger> dangersToRemove = new List<Danger>();
 
 		foreach (var danger in m_dangers)
 		{
-			danger.Step(frame);
+			danger.Step(m_tick);
+
+			bool destroyedDanger = false;
+
+	/*		if (TimelineType == Type.Attack)
+			{
+				destroyedDanger |= HandleAttackBehaviour(danger);
+			}
+			else
+			{
+				destroyedDanger |= HandleDefensiveBehaviour(danger);
+			}*/
+
+
 
 			if (danger.distanceLeft == 0)
 			{
@@ -109,5 +120,17 @@ public class Timeline {
 		{
 			m_dangers.Remove(danger);
 		}
+	}
+
+	/// <returns>True if the danger got destroyed</returns>
+	bool HandleDefensiveBehaviour(Danger danger)
+	{
+		return false;
+	}
+
+	/// <returns>True if the danger got destroyed</returns>
+	bool HandleAttackBehaviour(Danger danger)
+	{
+		return false;
 	}
 }

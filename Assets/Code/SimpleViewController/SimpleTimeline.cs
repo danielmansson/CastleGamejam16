@@ -27,10 +27,16 @@ public class SimpleTimeline : MonoBehaviour
 			var dangerView = (SimpleDanger)Instantiate(m_dangerPrefab, transform.position, Quaternion.identity);
 			dangerView.transform.parent = transform;
 			dangerView.SetActionType(danger.requiredAction == Player.Action.Left);
-			dangerView.Danger = danger;
+			dangerView.Init(danger);
+			dangerView.OnDestroy += ViewDestroyedHandler;
 
 			m_activeDangers.Add(dangerView);
 		}
+	}
+
+	void ViewDestroyedHandler(SimpleDanger dangerView)
+	{
+		m_activeDangers.Remove(dangerView);
 	}
 
 	void Start ()
@@ -46,14 +52,8 @@ public class SimpleTimeline : MonoBehaviour
 		foreach (var danger in m_activeDangers)
 		{
 			int d = danger.Danger.distanceLeft;
-			if (d > 0)
-			{
-				danger.transform.localPosition = Vector3.right * m_model.ExtrapolateSecondsLeft(d) * 1.8f;
-			}
-			else
-			{
-				danger.gameObject.SetActive(false);
-			}
+
+			danger.transform.localPosition = Vector3.right * m_model.ExtrapolateSecondsLeft(d) * 1.8f;
 		}
 	}
 }
