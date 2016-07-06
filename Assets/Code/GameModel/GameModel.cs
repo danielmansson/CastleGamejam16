@@ -17,6 +17,7 @@ public class GameModel
 	public event System.Action<Timeline, Danger> OnDeath;
 
 	public bool GameOver { get; private set; }
+	public int TotalFrame { get { return totalFrame; } }
 
 	public GameModel(GameModelConfig config)
 	{
@@ -48,7 +49,7 @@ public class GameModel
 			range = 100
 		}));
 
-		DangerGenerator.GenerateDangers(timelines, 50, 15, m_config.ticksPerSecond, 4);
+		DangerGenerator.GenerateDangers(timelines, 50, 15, m_config.ticksPerSecond, 7);
 
 		//tmp dummy data
 		/*for (int i = 0; i < 8; i++)

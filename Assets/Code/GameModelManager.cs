@@ -27,4 +27,25 @@ public class GameModelManager : MonoBehaviour
 	{
 		Model.Update(Time.deltaTime);
 	}
+
+	void OnDrawGizmos()
+	{
+		if (Model == null)
+			return;
+
+		int frame = Model.TotalFrame;
+
+		if (frame % 8 == 0)
+		{
+			Gizmos.DrawSphere(Vector3.zero, 1f);
+		}
+		/*if (frame % 4 == 0)
+		{
+			Gizmos.DrawSphere(Vector3.right*2, 0.75f);
+		}
+		if (frame % 2 == 0)
+		{
+			Gizmos.DrawSphere(Vector3.right * 4, 0.4f);
+		}*/
+	}
 }
