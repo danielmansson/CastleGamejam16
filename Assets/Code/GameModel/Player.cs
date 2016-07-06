@@ -12,7 +12,9 @@ public class Player {
 		Idle,
 		Intro,
 		Safe,
-		Outro
+		Outro,
+		SafeLeft,
+		SafeRight
 	}
 
 	public int id;

@@ -37,6 +37,17 @@ public class Timeline {
 		}
 	}
 
+	public bool IsTimestampSafe(Player.Action requiredAction, int timestamp){
+		if(timestamp > player.timestamp && m_dangers.Count == 0) return true;
+		if(timestamp < player.timestamp || timestamp < m_dangers[m_dangers.Count-1].timestamp){ 
+			return false;
+		}
+		else if(m_dangers.Count > 0 && timestamp - m_dangers[m_dangers.Count-1].timestamp > Constants.MAX_DANGER_FREQUENCY[id]){
+			return true;
+		}
+		return false;
+	}
+
 	public bool StageComplete(){
 		return player.timestamp > m_dangers[m_dangers.Count-1].timestamp;
 	}

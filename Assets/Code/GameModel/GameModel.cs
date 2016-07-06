@@ -22,7 +22,7 @@ public class GameModel
 		timelines.Add(new Timeline(0, 1));
 		timelines.Add(new Timeline(0, 2));
 
-		List<List<Danger>> dangers = DangerGenerator.GenerateDangers(0, 15, 4);
+		List<List<Danger>> dangers = DangerGenerator.GenerateDangers(timelines, 100, 15, 5);
 		for(int i = 0; i < 3; i++){
 			foreach (var danger in dangers[i]) {
 				timelines[i].AddDangerToTimeline(danger);
