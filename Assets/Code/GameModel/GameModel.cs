@@ -26,6 +26,7 @@ public class GameModel
 		{
 			id = 0,
 			type = Timeline.Type.Shield,
+			totalPlayerActionDuration = 3,
 			playerActionDuration = 1
 		}));
 
@@ -33,6 +34,7 @@ public class GameModel
 		{
 			id = 1,
 			type = Timeline.Type.Jumper,
+			totalPlayerActionDuration = 14,
 			playerActionDuration = 4
 		}));
 
@@ -40,11 +42,12 @@ public class GameModel
 		{
 			id = 2,
 			type = Timeline.Type.Shooter,
+			totalPlayerActionDuration = 5,
 			playerActionDuration = 1,
 			range = 100
 		}));
 
-		DangerGenerator.GenerateDangers(timelines, 100, 15, 4);
+		DangerGenerator.GenerateDangers(timelines, 50, 15, 4, 1);
 
 		//tmp dummy data
 		/*for (int i = 0; i < 8; i++)

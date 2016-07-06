@@ -8,6 +8,7 @@ public class TimelineConfig
 	public Timeline.Type type;
 	public int id;
 	public int playerActionDuration;
+	public int totalPlayerActionDuration;
 	public int range;
 }
 
@@ -20,7 +21,7 @@ public class Timeline
 		Shooter
 	}
 
-	TimelineConfig m_config;
+	public TimelineConfig m_config;
 	public Player m_player;
 	public List<Danger> m_dangers = new List<Danger>();
 	public int m_tick;
