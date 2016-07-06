@@ -1,7 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Danger {
+public class Danger : System.IComparable<Danger>
+{
 	public enum Type
 	{
 		Block,
@@ -55,5 +56,10 @@ public class Danger {
 		{
 			OnDestroy();
 		}
+	}
+
+	public int CompareTo(Danger other)
+	{
+		return distanceLeft - other.distanceLeft;
 	}
 }

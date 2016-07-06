@@ -21,19 +21,37 @@ public class GameModel
 	{
 		m_config = config;
 
-		timelines.Add(new Timeline(0, 0));
-		timelines.Add(new Timeline(0, 1));
-		timelines.Add(new Timeline(0, 2));
+		timelines.Add(new Timeline(new TimelineConfig()
+		{
+			id = 0,
+			type = Timeline.Type.Shield,
+			playerActionDuration = 1
+		}));
 
-		List<List<Danger>> dangers = DangerGenerator.GenerateDangers(0, 15, 4);
+		timelines.Add(new Timeline(new TimelineConfig()
+		{
+			id = 1,
+			type = Timeline.Type.Jumper,
+			playerActionDuration = 4
+		}));
+
+		timelines.Add(new Timeline(new TimelineConfig()
+		{
+			id = 2,
+			type = Timeline.Type.Shooter,
+			playerActionDuration = 1,
+			range = 100
+		}));
+
+		/*List<List<Danger>> dangers = DangerGenerator.GenerateDangers(0, 15, 4);
 		for(int i = 0; i < 3; i++){
 			foreach (var danger in dangers[i]) {
 				timelines[i].AddDangerToTimeline(danger);
 			}
-		}
+		}*/
 
 		//tmp dummy data
-		/*for (int i = 0; i < 8; i++)
+		for (int i = 0; i < 8; i++)
 		{
 			var data = new DangerData()
 			{
@@ -47,7 +65,7 @@ public class GameModel
 			{
 				tl.AddDangerToTimeline(new Danger(data));
 			}
-		}*/
+		}
 
 		foreach (var timeline in timelines)
 		{

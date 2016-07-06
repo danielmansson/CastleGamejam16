@@ -20,13 +20,12 @@ public class Player {
 	public Player.State state;
 	public Player.Action m_action;
 
-	//TODO: config per timeline
-	const int m_actionFrames = 4;
-
+	int m_actionDuration = 4;
 	int m_timer;
 
-	public Player(int id)
+	public Player(int id, int actionDuration)
 	{
+		m_actionDuration = actionDuration;
 		this.id = id;
 		timestamp = 0;
 		state = Player.State.Idle;
@@ -50,7 +49,7 @@ public class Player {
 		}
 		else if (state == State.Safe)
 		{
-			if (m_timer > m_actionFrames)
+			if (m_timer > m_actionDuration)
 			{
 				m_timer = 0;
 				state = Player.State.Idle;

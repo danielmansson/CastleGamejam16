@@ -47,13 +47,33 @@ public class SimpleTimeline : MonoBehaviour
 	
 	void Update ()
 	{
-		m_player.SetPlayerState(m_timeline.player.m_action, m_timeline.player.state);
+		m_player.SetPlayerState(m_timeline.m_player.m_action, m_timeline.m_player.state);
 
 		foreach (var danger in m_activeDangers)
 		{
 			int d = danger.Danger.distanceLeft;
 
-			danger.transform.localPosition = Vector3.right * m_model.ExtrapolateSecondsLeft(d) * 1.8f;
+			float speed = 1f;
+
+			if (m_timeline.TimelineType == Timeline.Type.Shield)
+			{
+				speed = 6f;
+			}
+			else if (m_timeline.TimelineType == Timeline.Type.Jumper)
+			{
+				speed = 4f;
+			}
+			else if (m_timeline.TimelineType == Timeline.Type.Shooter)
+			{
+				speed = 2f;
+
+				if (d <= m_timeline.Config.range)
+					danger.transform.localScale = Vector3.one;
+				else
+					danger.transform.localScale = new Vector3(1f, 0.4f, 1f);
+			}
+
+			danger.transform.localPosition = Vector3.right * m_model.ExtrapolateSecondsLeft(d) * speed;
 		}
 	}
 }
