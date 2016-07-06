@@ -38,7 +38,6 @@ public class GameModel
 				tl.dangers.Add(new Danger(data));
 			}
 		}*/
-
 	}
 
 	public List<Timeline> GetTimelines()

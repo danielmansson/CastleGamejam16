@@ -5,21 +5,39 @@ using System.Collections.Generic;
 public class Timeline {
 	public int id;
 	public Player player;
-	public List<Danger> dangers = new List<Danger>();
+	public List<Danger> m_dangers = new List<Danger>();
 	public int frame;
+
+	public event System.Action<Danger> OnPlayerDeath;
+	public event System.Action<Danger> OnDangerAdded;
 
 	public Timeline(int stage, int id){
 		this.id = id;
 		player = new Player(id);
-		dangers = GetDangersFromFile(stage);
+		var dangers = GetDangersFromFile(stage);
+
+		foreach (var danger in dangers)
+		{
+			AddDangerToTimeline(danger);
+		}
 
 		foreach (var item in dangers) {
 			Debug.Log(item.type + ", " + item.requiredAction + ", " + item.hp + ", " + item.state + ", " + item.timestamp);
 		}
 	}
 
+	public void AddDangerToTimeline(Danger danger)
+	{
+		m_dangers.Add(danger);
+
+		if (OnDangerAdded != null)
+		{
+			OnDangerAdded(danger);
+		}
+	}
+
 	public bool StageComplete(){
-		return player.timestamp > dangers[dangers.Count-1].timestamp;
+		return player.timestamp > m_dangers[m_dangers.Count-1].timestamp;
 	}
 
 	public int TimeUntilImpact(){
@@ -28,7 +46,7 @@ public class Timeline {
 	}
 
 	public Danger NextActiveDanger(){
-		foreach (var danger in dangers) {
+		foreach (var danger in m_dangers) {
 			if(danger.timestamp >= player.timestamp 
 				&& danger.state != Danger.State.Dead)
 			{
@@ -61,9 +79,34 @@ public class Timeline {
 
 		player.Step();
 
-		foreach (var danger in dangers)
+		List<Danger> dangersToRemove = new List<Danger>();
+
+		foreach (var danger in m_dangers)
 		{
 			danger.Step(frame);
+
+			if (danger.distanceLeft == 0)
+			{
+				if (player.state == Player.State.Safe && player.m_action == danger.requiredAction)
+				{
+					//Safe
+					danger.Destroy();
+					dangersToRemove.Add(danger);
+				}
+				else
+				{
+					//You die
+					if (OnPlayerDeath != null)
+					{
+						OnPlayerDeath(danger);
+					}
+				}
+			}
+		}
+
+		foreach (var danger in dangersToRemove)
+		{
+			m_dangers.Remove(danger);
 		}
 	}
 }

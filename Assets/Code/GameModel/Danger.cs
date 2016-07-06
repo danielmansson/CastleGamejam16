@@ -21,6 +21,8 @@ public class Danger {
 	public int timestamp;
 	public int distanceLeft;
 
+	public event System.Action OnDestroy;
+
 	public Danger(DangerData data) {
 		this.type = data.type;
 		this.timestamp = data.timestamp;
@@ -35,5 +37,13 @@ public class Danger {
 	{
 		distanceLeft--;
 		this.state = Danger.State.Alive;
+	}
+
+	public void Destroy()
+	{
+		if (OnDestroy != null)
+		{
+			OnDestroy();
+		}
 	}
 }

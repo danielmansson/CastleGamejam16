@@ -22,7 +22,7 @@ public class SimpleTimeline : MonoBehaviour
 		m_model = model;
 		m_timeline = timeline;
 
-		foreach (var danger in m_timeline.dangers)
+		foreach (var danger in m_timeline.m_dangers)
 		{
 			var dangerView = (SimpleDanger)Instantiate(m_dangerPrefab, transform.position, Quaternion.identity);
 			dangerView.transform.parent = transform;
