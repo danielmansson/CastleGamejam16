@@ -51,7 +51,7 @@ public class GameModel
 		}*/
 
 		//tmp dummy data
-		for (int i = 0; i < 8; i++)
+		/*for (int i = 0; i < 8; i++)
 		{
 			var data = new DangerData()
 			{
@@ -65,7 +65,7 @@ public class GameModel
 			{
 				tl.AddDangerToTimeline(new Danger(data));
 			}
-		}
+		}*/
 
 		foreach (var timeline in timelines)
 		{
