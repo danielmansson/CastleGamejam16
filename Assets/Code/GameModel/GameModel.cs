@@ -4,7 +4,8 @@ using System.Collections.Generic;
 
 public class GameModelConfig
 {
-	public float secondsPerTick = (1f / 5f);
+	public int ticksPerSecond;
+	public float secondsPerTick;
 }
 
 public class GameModel
@@ -26,7 +27,7 @@ public class GameModel
 		{
 			id = 0,
 			type = Timeline.Type.Shield,
-			totalPlayerActionDuration = 3,
+			totalPlayerActionDuration = 4,
 			playerActionDuration = 1
 		}));
 
@@ -34,7 +35,7 @@ public class GameModel
 		{
 			id = 1,
 			type = Timeline.Type.Jumper,
-			totalPlayerActionDuration = 14,
+			totalPlayerActionDuration = 17,
 			playerActionDuration = 4
 		}));
 
@@ -47,7 +48,7 @@ public class GameModel
 			range = 100
 		}));
 
-		DangerGenerator.GenerateDangers(timelines, 50, 15, 4, 1);
+		DangerGenerator.GenerateDangers(timelines, 50, 15, m_config.ticksPerSecond, 4);
 
 		//tmp dummy data
 		/*for (int i = 0; i < 8; i++)

@@ -12,8 +12,9 @@ public class GameModelManager : MonoBehaviour
 	{
 		//Fetch whatever data needed from System.Instance.GameInfo and init the Model
 		Model = new GameModel(new GameModelConfig()
-		{
-			secondsPerTick = 0.5f * 0.25f * 0.5f
+			{
+				ticksPerSecond = 16,
+				secondsPerTick = 1f/16
 		});
 
 		if (OnModelInitialized != null)
