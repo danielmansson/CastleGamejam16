@@ -14,7 +14,7 @@ public class Timeline {
 	public Timeline(int stage, int id){
 		this.id = id;
 		player = new Player(id);
-		var dangers = GetDangersFromFile(stage);
+		/*var dangers = GetDangersFromFile(stage);
 
 		foreach (var danger in dangers)
 		{
@@ -24,6 +24,7 @@ public class Timeline {
 		foreach (var item in dangers) {
 			Debug.Log(item.type + ", " + item.requiredAction + ", " + item.hp + ", " + item.state + ", " + item.timestamp);
 		}
+		*/
 	}
 
 	public void AddDangerToTimeline(Danger danger)
