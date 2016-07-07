@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using System;
 
 public class TimelineView : MonoBehaviour
 {
@@ -31,24 +32,37 @@ public class TimelineView : MonoBehaviour
 		environment.transform.parent = transform;
 		Environment = environment.GetComponent<Environment>();
 
+		Timeline.OnDangerAdded += HandleDangerAdded;
+
 		foreach (var danger in Timeline.m_dangers)
 		{
-			var dangerView = (DangerView)Instantiate(m_dangerPrefab, transform.position, transform.rotation);
-			dangerView.transform.parent = transform;
-
-			var dangerContext = new DangerView.Context()
-			{
-				model = Model,
-				timeline = Timeline,
-				danger = danger,
-				loader = m_context.loader
-			};
-
-			dangerView.Init(dangerContext);
-			dangerView.OnDestroy += ViewDestroyedHandler;
-
+			var dangerView = CreateDangerView(danger);
 			m_activeDangers.Add(dangerView);
 		}
+	}
+
+	private void HandleDangerAdded(Danger danger)
+	{
+		CreateDangerView(danger);
+	}
+
+	DangerView CreateDangerView(Danger danger)
+	{
+		var dangerView = (DangerView)Instantiate(m_dangerPrefab, transform.position, transform.rotation);
+		dangerView.transform.parent = transform;
+
+		var dangerContext = new DangerView.Context()
+		{
+			model = Model,
+			timeline = Timeline,
+			danger = danger,
+			loader = m_context.loader
+		};
+
+		dangerView.Init(dangerContext);
+		dangerView.OnDestroy += ViewDestroyedHandler;
+
+		return dangerView;
 	}
 
 	void ViewDestroyedHandler(DangerView dangerView)

@@ -20,6 +20,6 @@ public class Stage {
 
 		int bpm = songBpm[id % 3];
 		this.ticksPerSecond = (Constants.TICKS_PER_BEAT*bpm)/60; //will be slight rounding error...
-		this.secondsPerTick = 1/ticksPerSecond;
+		this.secondsPerTick = 1f/ticksPerSecond;
 	}
 }

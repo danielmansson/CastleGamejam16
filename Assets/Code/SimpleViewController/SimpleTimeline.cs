@@ -24,14 +24,26 @@ public class SimpleTimeline : MonoBehaviour
 
 		foreach (var danger in m_timeline.m_dangers)
 		{
-			var dangerView = (SimpleDanger)Instantiate(m_dangerPrefab, transform.position, Quaternion.identity);
-			dangerView.transform.parent = transform;
-			dangerView.SetActionType(danger.requiredAction == Player.Action.Left);
-			dangerView.Init(danger);
-			dangerView.OnDestroy += ViewDestroyedHandler;
-
+			var dangerView = CreateDangerView(danger);
 			m_activeDangers.Add(dangerView);
 		}
+	}
+
+	private void HandleDangerAdded(Danger danger)
+	{
+		var dangerView = CreateDangerView(danger);
+		m_activeDangers.Add(dangerView);
+	}
+
+	SimpleDanger CreateDangerView(Danger danger)
+	{
+		var dangerView = (SimpleDanger)Instantiate(m_dangerPrefab, transform.position, Quaternion.identity);
+		dangerView.transform.parent = transform;
+		dangerView.SetActionType(danger.requiredAction == Player.Action.Left);
+		dangerView.Init(danger);
+		dangerView.OnDestroy += ViewDestroyedHandler;
+
+		return dangerView;
 	}
 
 	void ViewDestroyedHandler(SimpleDanger dangerView)

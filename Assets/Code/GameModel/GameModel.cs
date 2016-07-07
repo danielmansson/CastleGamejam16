@@ -2,25 +2,20 @@
 using System.Collections;
 using System.Collections.Generic;
 
-public class GameModelConfig
-{
-}
-
 public class GameModel
 {
-	GameModelConfig m_config;
 	List<Timeline> timelines = new List<Timeline>();
 	float m_stepAccumulator;
 	int totalFrame = 0;
-	Stage m_stage = new Stage(0);
+	Stage m_stage;
 	public event System.Action<Timeline, Danger> OnDeath;
 
 	public bool GameOver { get; private set; }
 	public int TotalFrame { get { return totalFrame; } }
 
-	public GameModel(GameModelConfig config)
+	public GameModel()
 	{
-		m_config = config;
+		m_stage = new Stage(0);
 
 
 		timelines.Add(new Timeline(new TimelineConfig()

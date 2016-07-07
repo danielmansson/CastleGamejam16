@@ -11,9 +11,7 @@ public class GameModelManager : MonoBehaviour
 	void Start ()
 	{
 		//Fetch whatever data needed from System.Instance.GameInfo and init the Model
-		Model = new GameModel(new GameModelConfig()
-			{
-		});
+		Model = new GameModel();
 
 		if (OnModelInitialized != null)
 		{
