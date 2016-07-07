@@ -3,30 +3,40 @@ using System.Collections;
 using System.Collections.Generic;
 
 public class DangerGenerator {
-	public static void GenerateDangers(List<Timeline> timelines, int startTick, float seconds, int ticksPerSecond, int slowingFactor)
+	public static void GenerateDangers(List<Timeline> timelines, int startTick, Stage stage)
 	{
-		int numDimensions = 3;
+		//timelines[0].m_dangers.Clear();
+		//timelines[1].m_dangers.Clear();
+		//timelines[2].m_dangers.Clear();
 
-		for(int i = 0; i < ticksPerSecond*seconds; i++){
+		for(int i = 0; i < stage.ticksPerSecond*stage.duration; i++){
 			//written out because might be different later
-			if(i % (slowingFactor * timelines[0].m_config.totalPlayerActionDuration) == 0){
-				Danger newDanger = new Danger((Danger.Type)0, (Player.Action)Random.Range(0,2), 1, ClosestEight(startTick+i));
+			int dangerTimestamp = ClosestEight(startTick+i);
+			if(i % (stage.slowFactor * timelines[0].m_config.totalPlayerActionDuration) == 0){
+				Danger newDanger = new Danger((Danger.Type)0, (Player.Action)Random.Range(0,2), 1, dangerTimestamp);
 				if(DangerDoesntBreakStuff(timelines, newDanger)){
 					timelines[0].AddDangerToTimeline(newDanger);
 				}
 			}
-			if(i % (slowingFactor * timelines[1].m_config.totalPlayerActionDuration) == 0){
-				Danger newDanger = new Danger((Danger.Type)1, (Player.Action)Random.Range(0,2), 1, ClosestEight(startTick+i));
+			if(i % (stage.slowFactor * timelines[1].m_config.totalPlayerActionDuration) == 0){
+				Danger newDanger = new Danger((Danger.Type)1, (Player.Action)Random.Range(0,2), 1, dangerTimestamp);
 				if(DangerDoesntBreakStuff(timelines, newDanger)){
 					timelines[1].AddDangerToTimeline(newDanger);
 				}
 			}
-			if(i % (slowingFactor * timelines[2].m_config.totalPlayerActionDuration) == 0){
-				Danger newDanger = new Danger((Danger.Type)2, (Player.Action)Random.Range(0,2), 1, ClosestEight(startTick+i));
+			if(i % (stage.slowFactor * timelines[2].m_config.totalPlayerActionDuration) == 0){
+				Danger newDanger = new Danger((Danger.Type)2, (Player.Action)Random.Range(0,2), 1, dangerTimestamp);
 				if(DangerDoesntBreakStuff(timelines, newDanger)){
 					timelines[2].AddDangerToTimeline(newDanger);
 				}
 			}
+		}
+		foreach (var timeline in timelines)
+		{
+			timeline.OnPlayerDeath += (danger) => 
+			{
+				OnAnyDeathHandler(timeline, danger);
+			};
 		}
 	}
 

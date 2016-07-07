@@ -78,6 +78,7 @@ public class Timeline
 	}
 
 	public bool StageComplete(){
+		if(m_dangers.Count == 0) return true;
 		return m_player.timestamp > m_dangers[m_dangers.Count-1].timestamp;
 	}
 
@@ -163,6 +164,7 @@ public class Timeline
 				if (OnPlayerDeath != null)
 				{
 					OnPlayerDeath(danger);
+					break;
 				}
 			}
 		}
