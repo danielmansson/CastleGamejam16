@@ -59,6 +59,7 @@ public class SimpleGameController : MonoBehaviour
                 AudioEvent.ChangeParameter("PressedA", "LVL", musicParameter);
             }
 
+            //Change to when player is hit (if the player will have health)
             if (Input.GetKeyDown(KeyCode.S))
             {
                 AudioEvent.Play("PlayerHit");
