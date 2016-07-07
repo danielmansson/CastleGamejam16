@@ -9,6 +9,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 422514}
   - 114: {fileID: 11412964}
+  - 114: {fileID: 11443332}
   m_Layer: 0
   m_Name: GameView
   m_TagString: Untagged
@@ -50,6 +51,36 @@ MonoBehaviour:
   - type: 2
     prefab: {fileID: 165372, guid: 87895f3ffd7f7ac4693e843016b4e0e5, type: 2}
     offset: {x: 0, y: 0, z: 0}
+--- !u!114 &11443332
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 135900}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e64e569375bc16042bdc4d83d85b5be8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_prefabs:
+  - type: 0
+    action: 0
+    prefab: {fileID: 109750, guid: 6fa0ba6ae5ff2344bbf4f61992757615, type: 2}
+  - type: 0
+    action: 1
+    prefab: {fileID: 109750, guid: 6fa0ba6ae5ff2344bbf4f61992757615, type: 2}
+  - type: 1
+    action: 0
+    prefab: {fileID: 147350, guid: ef54ecb19f1c2eb43a8676c7cc9cc5a6, type: 2}
+  - type: 1
+    action: 1
+    prefab: {fileID: 147350, guid: ef54ecb19f1c2eb43a8676c7cc9cc5a6, type: 2}
+  - type: 2
+    action: 0
+    prefab: {fileID: 169212, guid: 91c120f8b837d8b4e96d762bb333f132, type: 2}
+  - type: 2
+    action: 1
+    prefab: {fileID: 169212, guid: 91c120f8b837d8b4e96d762bb333f132, type: 2}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

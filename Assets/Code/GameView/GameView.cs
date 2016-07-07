@@ -20,9 +20,12 @@ public class GameView : MonoBehaviour
 	List<TimelineViewEntry> m_timelineViews;
 
 	GameModel m_model;
+	VisualPrefabLoader m_visualPrefabLoader;
 
 	void Awake ()
 	{
+		m_visualPrefabLoader = GetComponent<VisualPrefabLoader>();
+
 		m_modelMgr.OnModelInitialized += Init;
 	}
 
@@ -44,7 +47,14 @@ public class GameView : MonoBehaviour
 				go.transform.parent = transform;
 				var timelineView = go.GetComponent<TimelineView>();
 
-				timelineView.Init(m_model, timeline);
+				var context = new TimelineView.Context()
+				{
+					model = m_model,
+					timeline = timeline,
+					loader = m_visualPrefabLoader
+				};
+
+				timelineView.Init(context);
 			}
 		}
 	}

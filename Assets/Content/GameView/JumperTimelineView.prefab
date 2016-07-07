@@ -140,6 +140,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63e6165436dd15a47b660d24ddf36dec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_dangerPrefab: {fileID: 11496234, guid: 56fc0aeae48e5464884b2f47e1ca9b47, type: 2}
 --- !u!124 &12444404
 Behaviour:
   m_ObjectHideFlags: 1
@@ -183,7 +184,12 @@ Prefab:
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
-    m_Modifications: []
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: m_dangerPrefab
+      value: 
+      objectReference: {fileID: 11496234, guid: 56fc0aeae48e5464884b2f47e1ca9b47,
+        type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 148574}
