@@ -15,3 +15,5 @@ ProjectSettings/ProjectSettings.asset
 *.suo
 .DS_Store
 .mayaSwatches
+/fmod_editor.log
+/fmod.log
