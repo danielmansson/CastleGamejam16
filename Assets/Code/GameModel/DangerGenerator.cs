@@ -31,13 +31,6 @@ public class DangerGenerator {
 				}
 			}
 		}
-		foreach (var timeline in timelines)
-		{
-			timeline.OnPlayerDeath += (danger) => 
-			{
-				OnAnyDeathHandler(timeline, danger);
-			};
-		}
 	}
 
 	private static int ClosestEight(int a)

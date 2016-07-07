@@ -168,6 +168,22 @@ Prefab:
       propertyPath: m_modelMgr
       value: 
       objectReference: {fileID: 1818040291}
+    - target: {fileID: 11412964, guid: 41de44d342389a049a6ce7af79e74d92, type: 2}
+      propertyPath: m_timelineViews.Array.data[1].offset.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11412964, guid: 41de44d342389a049a6ce7af79e74d92, type: 2}
+      propertyPath: m_timelineViews.Array.data[1].offset.y
+      value: 140
+      objectReference: {fileID: 0}
+    - target: {fileID: 11412964, guid: 41de44d342389a049a6ce7af79e74d92, type: 2}
+      propertyPath: m_timelineViews.Array.data[2].offset.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11412964, guid: 41de44d342389a049a6ce7af79e74d92, type: 2}
+      propertyPath: m_timelineViews.Array.data[2].offset.y
+      value: 280
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 41de44d342389a049a6ce7af79e74d92, type: 2}
   m_IsPrefabParent: 0

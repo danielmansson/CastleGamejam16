@@ -1,0 +1,992 @@
+fileFormatVersion: 2
+guid: 3ef6975490010694da4b0dfe320ccc10
+timeCreated: 1467844562
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: enviro_medieval_leaves1_0
+    21300002: enviro_medieval_leaves1_1
+    21300004: enviro_medieval_leaves1_2
+    21300006: enviro_medieval_leaves1_3
+    21300008: enviro_medieval_leaves1_4
+    21300010: enviro_medieval_leaves1_5
+    21300012: enviro_medieval_leaves1_6
+    21300014: enviro_medieval_leaves1_7
+    21300016: enviro_medieval_leaves1_8
+    21300018: enviro_medieval_leaves1_9
+    21300020: enviro_medieval_leaves1_10
+    21300022: enviro_medieval_leaves1_11
+    21300024: enviro_medieval_leaves1_12
+    21300026: enviro_medieval_leaves1_13
+    21300028: enviro_medieval_leaves1_14
+    21300030: enviro_medieval_leaves1_15
+    21300032: enviro_medieval_leaves1_16
+    21300034: enviro_medieval_leaves1_17
+    21300036: enviro_medieval_leaves1_18
+    21300038: enviro_medieval_leaves1_19
+    21300040: enviro_medieval_leaves1_20
+    21300042: enviro_medieval_leaves1_21
+    21300044: enviro_medieval_leaves1_22
+    21300046: enviro_medieval_leaves1_23
+    21300048: enviro_medieval_leaves1_24
+    21300050: enviro_medieval_leaves1_25
+    21300052: enviro_medieval_leaves1_26
+    21300054: enviro_medieval_leaves1_27
+    21300056: enviro_medieval_leaves1_28
+    21300058: enviro_medieval_leaves1_29
+    21300060: enviro_medieval_leaves1_30
+    21300062: enviro_medieval_leaves1_31
+    21300064: enviro_medieval_leaves1_32
+    21300066: enviro_medieval_leaves1_33
+    21300068: enviro_medieval_leaves1_34
+    21300070: enviro_medieval_leaves1_35
+    21300072: enviro_medieval_leaves1_36
+    21300074: enviro_medieval_leaves1_37
+    21300076: enviro_medieval_leaves1_38
+    21300078: enviro_medieval_leaves1_39
+    21300080: enviro_medieval_leaves1_40
+    21300082: enviro_medieval_leaves1_41
+    21300084: enviro_medieval_leaves1_42
+    21300086: enviro_medieval_leaves1_43
+    21300088: enviro_medieval_leaves1_44
+    21300090: enviro_medieval_leaves1_45
+    21300092: enviro_medieval_leaves1_46
+    21300094: enviro_medieval_leaves1_47
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 1
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: enviro_medieval_leaves1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 11}
+        - {x: -10, y: 6}
+        - {x: -3, y: -4}
+        - {x: 5, y: -4}
+        - {x: 11, y: 3}
+        - {x: 11, y: 6}
+        - {x: 1, y: 11}
+    - name: enviro_medieval_leaves1_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 11}
+        - {x: -10, y: 6}
+        - {x: -3, y: -4}
+        - {x: 5, y: -4}
+        - {x: 11, y: 3}
+        - {x: 11, y: 6}
+        - {x: 1, y: 11}
+    - name: enviro_medieval_leaves1_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 5}
+        - {x: -5, y: -4}
+        - {x: 4, y: -4}
+        - {x: 11, y: -1}
+        - {x: 11, y: 2}
+        - {x: 7, y: 8}
+        - {x: -1, y: 10}
+        - {x: -11, y: 10}
+    - name: enviro_medieval_leaves1_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 11}
+        - {x: -10, y: 6}
+        - {x: -3, y: -4}
+        - {x: 5, y: -4}
+        - {x: 11, y: 3}
+        - {x: 11, y: 6}
+        - {x: 1, y: 11}
+    - name: enviro_medieval_leaves1_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 11}
+        - {x: -10, y: 6}
+        - {x: -3, y: -4}
+        - {x: 5, y: -4}
+        - {x: 11, y: 3}
+        - {x: 11, y: 6}
+        - {x: 1, y: 11}
+    - name: enviro_medieval_leaves1_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 11}
+        - {x: -7, y: 11}
+        - {x: -8, y: 9}
+        - {x: -8, y: 3}
+        - {x: -2, y: -4}
+        - {x: 2, y: -4}
+        - {x: 10, y: 4}
+        - {x: 10, y: 5}
+        - {x: 6, y: 9}
+    - name: enviro_medieval_leaves1_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 11}
+        - {x: -10, y: 6}
+        - {x: -3, y: -4}
+        - {x: 5, y: -4}
+        - {x: 11, y: 3}
+        - {x: 11, y: 6}
+        - {x: 1, y: 11}
+    - name: enviro_medieval_leaves1_7
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 11}
+        - {x: -10, y: 6}
+        - {x: -3, y: -4}
+        - {x: 5, y: -4}
+        - {x: 11, y: 3}
+        - {x: 11, y: 6}
+        - {x: 1, y: 11}
+    - name: enviro_medieval_leaves1_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 5}
+        - {x: -5, y: -4}
+        - {x: 4, y: -4}
+        - {x: 11, y: -1}
+        - {x: 11, y: 2}
+        - {x: 7, y: 8}
+        - {x: -1, y: 10}
+        - {x: -11, y: 10}
+    - name: enviro_medieval_leaves1_9
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 11}
+        - {x: -10, y: 6}
+        - {x: -3, y: -4}
+        - {x: 5, y: -4}
+        - {x: 11, y: 3}
+        - {x: 11, y: 6}
+        - {x: 1, y: 11}
+    - name: enviro_medieval_leaves1_10
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 11}
+        - {x: -10, y: 6}
+        - {x: -3, y: -4}
+        - {x: 5, y: -4}
+        - {x: 11, y: 3}
+        - {x: 11, y: 6}
+        - {x: 1, y: 11}
+    - name: enviro_medieval_leaves1_11
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 11}
+        - {x: -7, y: 11}
+        - {x: -8, y: 9}
+        - {x: -8, y: 3}
+        - {x: -2, y: -4}
+        - {x: 2, y: -4}
+        - {x: 10, y: 4}
+        - {x: 10, y: 5}
+        - {x: 6, y: 9}
+    - name: enviro_medieval_leaves1_12
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 11}
+        - {x: -10, y: 6}
+        - {x: -3, y: -4}
+        - {x: 5, y: -4}
+        - {x: 11, y: 3}
+        - {x: 11, y: 6}
+        - {x: 1, y: 11}
+    - name: enviro_medieval_leaves1_13
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 11}
+        - {x: -10, y: 6}
+        - {x: -3, y: -4}
+        - {x: 5, y: -4}
+        - {x: 11, y: 3}
+        - {x: 11, y: 6}
+        - {x: 1, y: 11}
+    - name: enviro_medieval_leaves1_14
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 5}
+        - {x: -5, y: -4}
+        - {x: 4, y: -4}
+        - {x: 11, y: -1}
+        - {x: 11, y: 2}
+        - {x: 7, y: 8}
+        - {x: -1, y: 10}
+        - {x: -11, y: 10}
+    - name: enviro_medieval_leaves1_15
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 11}
+        - {x: -10, y: 6}
+        - {x: -3, y: -4}
+        - {x: 5, y: -4}
+        - {x: 11, y: 3}
+        - {x: 11, y: 6}
+        - {x: 1, y: 11}
+    - name: enviro_medieval_leaves1_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 11}
+        - {x: -10, y: 6}
+        - {x: -3, y: -4}
+        - {x: 5, y: -4}
+        - {x: 11, y: 3}
+        - {x: 11, y: 6}
+        - {x: 1, y: 11}
+    - name: enviro_medieval_leaves1_17
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 11}
+        - {x: -7, y: 11}
+        - {x: -8, y: 9}
+        - {x: -8, y: 3}
+        - {x: -2, y: -4}
+        - {x: 2, y: -4}
+        - {x: 10, y: 4}
+        - {x: 10, y: 5}
+        - {x: 6, y: 9}
+    - name: enviro_medieval_leaves1_18
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 11}
+        - {x: -10, y: 6}
+        - {x: -3, y: -4}
+        - {x: 5, y: -4}
+        - {x: 11, y: 3}
+        - {x: 11, y: 6}
+        - {x: 1, y: 11}
+    - name: enviro_medieval_leaves1_19
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 11}
+        - {x: -10, y: 6}
+        - {x: -3, y: -4}
+        - {x: 5, y: -4}
+        - {x: 11, y: 3}
+        - {x: 11, y: 6}
+        - {x: 1, y: 11}
+    - name: enviro_medieval_leaves1_20
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 5}
+        - {x: -5, y: -4}
+        - {x: 4, y: -4}
+        - {x: 11, y: -1}
+        - {x: 11, y: 2}
+        - {x: 7, y: 8}
+        - {x: -1, y: 10}
+        - {x: -11, y: 10}
+    - name: enviro_medieval_leaves1_21
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 11}
+        - {x: -10, y: 6}
+        - {x: -3, y: -4}
+        - {x: 5, y: -4}
+        - {x: 11, y: 3}
+        - {x: 11, y: 6}
+        - {x: 1, y: 11}
+    - name: enviro_medieval_leaves1_22
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 11}
+        - {x: -10, y: 6}
+        - {x: -3, y: -4}
+        - {x: 5, y: -4}
+        - {x: 11, y: 3}
+        - {x: 11, y: 6}
+        - {x: 1, y: 11}
+    - name: enviro_medieval_leaves1_23
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 11}
+        - {x: -7, y: 11}
+        - {x: -8, y: 9}
+        - {x: -8, y: 3}
+        - {x: -2, y: -4}
+        - {x: 2, y: -4}
+        - {x: 10, y: 4}
+        - {x: 10, y: 5}
+        - {x: 6, y: 9}
+    - name: enviro_medieval_leaves1_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 11}
+        - {x: -10, y: 6}
+        - {x: -3, y: -4}
+        - {x: 5, y: -4}
+        - {x: 11, y: 3}
+        - {x: 11, y: 6}
+        - {x: 1, y: 11}
+    - name: enviro_medieval_leaves1_25
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 11}
+        - {x: -10, y: 6}
+        - {x: -3, y: -4}
+        - {x: 5, y: -4}
+        - {x: 11, y: 3}
+        - {x: 11, y: 6}
+        - {x: 1, y: 11}
+    - name: enviro_medieval_leaves1_26
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 5}
+        - {x: -5, y: -4}
+        - {x: 4, y: -4}
+        - {x: 11, y: -1}
+        - {x: 11, y: 2}
+        - {x: 7, y: 8}
+        - {x: -1, y: 10}
+        - {x: -11, y: 10}
+    - name: enviro_medieval_leaves1_27
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 11}
+        - {x: -10, y: 6}
+        - {x: -3, y: -4}
+        - {x: 5, y: -4}
+        - {x: 11, y: 3}
+        - {x: 11, y: 6}
+        - {x: 1, y: 11}
+    - name: enviro_medieval_leaves1_28
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 11}
+        - {x: -10, y: 6}
+        - {x: -3, y: -4}
+        - {x: 5, y: -4}
+        - {x: 11, y: 3}
+        - {x: 11, y: 6}
+        - {x: 1, y: 11}
+    - name: enviro_medieval_leaves1_29
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 11}
+        - {x: -7, y: 11}
+        - {x: -8, y: 9}
+        - {x: -8, y: 3}
+        - {x: -2, y: -4}
+        - {x: 2, y: -4}
+        - {x: 10, y: 4}
+        - {x: 10, y: 5}
+        - {x: 6, y: 9}
+    - name: enviro_medieval_leaves1_30
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 11}
+        - {x: -10, y: 6}
+        - {x: -3, y: -4}
+        - {x: 5, y: -4}
+        - {x: 11, y: 3}
+        - {x: 11, y: 6}
+        - {x: 1, y: 11}
+    - name: enviro_medieval_leaves1_31
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 11}
+        - {x: -10, y: 6}
+        - {x: -3, y: -4}
+        - {x: 5, y: -4}
+        - {x: 11, y: 3}
+        - {x: 11, y: 6}
+        - {x: 1, y: 11}
+    - name: enviro_medieval_leaves1_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 11}
+        - {x: -10, y: 6}
+        - {x: -3, y: -4}
+        - {x: 5, y: -4}
+        - {x: 11, y: 3}
+        - {x: 11, y: 6}
+        - {x: 1, y: 11}
+    - name: enviro_medieval_leaves1_33
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 5}
+        - {x: -5, y: -4}
+        - {x: 4, y: -4}
+        - {x: 11, y: -1}
+        - {x: 11, y: 2}
+        - {x: 7, y: 8}
+        - {x: -1, y: 10}
+        - {x: -11, y: 10}
+    - name: enviro_medieval_leaves1_34
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 11}
+        - {x: -10, y: 6}
+        - {x: -3, y: -4}
+        - {x: 5, y: -4}
+        - {x: 11, y: 3}
+        - {x: 11, y: 6}
+        - {x: 1, y: 11}
+    - name: enviro_medieval_leaves1_35
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 5}
+        - {x: -5, y: -4}
+        - {x: 4, y: -4}
+        - {x: 11, y: -1}
+        - {x: 11, y: 2}
+        - {x: 7, y: 8}
+        - {x: -1, y: 10}
+        - {x: -11, y: 10}
+    - name: enviro_medieval_leaves1_36
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 11}
+        - {x: -10, y: 6}
+        - {x: -3, y: -4}
+        - {x: 5, y: -4}
+        - {x: 11, y: 3}
+        - {x: 11, y: 6}
+        - {x: 1, y: 11}
+    - name: enviro_medieval_leaves1_37
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 5}
+        - {x: -5, y: -4}
+        - {x: 4, y: -4}
+        - {x: 11, y: -1}
+        - {x: 11, y: 2}
+        - {x: 7, y: 8}
+        - {x: -1, y: 10}
+        - {x: -11, y: 10}
+    - name: enviro_medieval_leaves1_38
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 11}
+        - {x: -10, y: 6}
+        - {x: -3, y: -4}
+        - {x: 5, y: -4}
+        - {x: 11, y: 3}
+        - {x: 11, y: 6}
+        - {x: 1, y: 11}
+    - name: enviro_medieval_leaves1_39
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 5}
+        - {x: -5, y: -4}
+        - {x: 4, y: -4}
+        - {x: 11, y: -1}
+        - {x: 11, y: 2}
+        - {x: 7, y: 8}
+        - {x: -1, y: 10}
+        - {x: -11, y: 10}
+    - name: enviro_medieval_leaves1_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 11}
+        - {x: -10, y: 6}
+        - {x: -3, y: -4}
+        - {x: 5, y: -4}
+        - {x: 11, y: 3}
+        - {x: 11, y: 6}
+        - {x: 1, y: 11}
+    - name: enviro_medieval_leaves1_41
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 5}
+        - {x: -5, y: -4}
+        - {x: 4, y: -4}
+        - {x: 11, y: -1}
+        - {x: 11, y: 2}
+        - {x: 7, y: 8}
+        - {x: -1, y: 10}
+        - {x: -11, y: 10}
+    - name: enviro_medieval_leaves1_42
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 11}
+        - {x: -10, y: 6}
+        - {x: -3, y: -4}
+        - {x: 5, y: -4}
+        - {x: 11, y: 3}
+        - {x: 11, y: 6}
+        - {x: 1, y: 11}
+    - name: enviro_medieval_leaves1_43
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 5}
+        - {x: -5, y: -4}
+        - {x: 4, y: -4}
+        - {x: 11, y: -1}
+        - {x: 11, y: 2}
+        - {x: 7, y: 8}
+        - {x: -1, y: 10}
+        - {x: -11, y: 10}
+    - name: enviro_medieval_leaves1_44
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 11}
+        - {x: -10, y: 6}
+        - {x: -3, y: -4}
+        - {x: 5, y: -4}
+        - {x: 11, y: 3}
+        - {x: 11, y: 6}
+        - {x: 1, y: 11}
+    - name: enviro_medieval_leaves1_45
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 5}
+        - {x: -5, y: -4}
+        - {x: 4, y: -4}
+        - {x: 11, y: -1}
+        - {x: 11, y: 2}
+        - {x: 7, y: 8}
+        - {x: -1, y: 10}
+        - {x: -11, y: 10}
+    - name: enviro_medieval_leaves1_46
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 11}
+        - {x: -10, y: 6}
+        - {x: -3, y: -4}
+        - {x: 5, y: -4}
+        - {x: 11, y: 3}
+        - {x: 11, y: 6}
+        - {x: 1, y: 11}
+    - name: enviro_medieval_leaves1_47
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 5}
+        - {x: -5, y: -4}
+        - {x: 4, y: -4}
+        - {x: 11, y: -1}
+        - {x: 11, y: 2}
+        - {x: 7, y: 8}
+        - {x: -1, y: 10}
+        - {x: -11, y: 10}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

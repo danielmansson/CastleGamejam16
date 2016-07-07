@@ -1,0 +1,893 @@
+fileFormatVersion: 2
+guid: d57f2820a4bbbfd47b785fc98455f171
+timeCreated: 1467889378
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: electric_floor 1_0
+    21300002: electric_floor 1_1
+    21300004: electric_floor 1_2
+    21300006: electric_floor 1_3
+    21300008: electric_floor 1_4
+    21300010: electric_floor 1_5
+    21300012: electric_floor 1_6
+    21300014: electric_floor 1_7
+    21300016: electric_floor 1_8
+    21300018: electric_floor 1_9
+    21300020: electric_floor 1_10
+    21300022: electric_floor 1_11
+    21300024: electric_floor 1_12
+    21300026: electric_floor 1_13
+    21300028: electric_floor 1_14
+    21300030: electric_floor 1_15
+    21300032: electric_floor 1_16
+    21300034: electric_floor 1_17
+    21300036: electric_floor 1_18
+    21300038: electric_floor 1_19
+    21300040: electric_floor 1_20
+    21300042: electric_floor 1_21
+    21300044: electric_floor 1_22
+    21300046: electric_floor 1_23
+    21300048: electric_floor 1_24
+    21300050: electric_floor 1_25
+    21300052: electric_floor 1_26
+    21300054: electric_floor 1_27
+    21300056: electric_floor 1_28
+    21300058: electric_floor 1_29
+    21300060: electric_floor 1_30
+    21300062: electric_floor 1_31
+    21300064: electric_floor 1_32
+    21300066: electric_floor 1_33
+    21300068: electric_floor 1_34
+    21300070: electric_floor 1_35
+    21300072: electric_floor 1_36
+    21300074: electric_floor 1_37
+    21300076: electric_floor 1_38
+    21300078: electric_floor 1_39
+    21300080: electric_floor 1_40
+    21300082: electric_floor 1_41
+    21300084: electric_floor 1_42
+    21300086: electric_floor 1_43
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 1
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: electric_floor 1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1376
+        width: 240
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -120, y: 12}
+        - {x: -120, y: -13}
+        - {x: -116, y: -16}
+        - {x: 119, y: -16}
+        - {x: 120, y: -13}
+        - {x: 120, y: 11}
+        - {x: 119, y: 12}
+    - name: electric_floor 1_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1344
+        width: 240
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -120, y: 12}
+        - {x: -120, y: -13}
+        - {x: -116, y: -16}
+        - {x: 119, y: -16}
+        - {x: 120, y: -13}
+        - {x: 120, y: 11}
+        - {x: 119, y: 12}
+    - name: electric_floor 1_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1312
+        width: 240
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -120, y: 12}
+        - {x: -120, y: -13}
+        - {x: -116, y: -16}
+        - {x: 119, y: -16}
+        - {x: 120, y: -13}
+        - {x: 120, y: 11}
+        - {x: 119, y: 12}
+    - name: electric_floor 1_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1280
+        width: 240
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -120, y: 12}
+        - {x: -120, y: -13}
+        - {x: -116, y: -16}
+        - {x: 119, y: -16}
+        - {x: 120, y: -13}
+        - {x: 120, y: 11}
+        - {x: 119, y: 12}
+    - name: electric_floor 1_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1248
+        width: 240
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -120, y: 12}
+        - {x: -120, y: -13}
+        - {x: -116, y: -16}
+        - {x: 119, y: -16}
+        - {x: 120, y: -13}
+        - {x: 120, y: 11}
+        - {x: 119, y: 12}
+    - name: electric_floor 1_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1216
+        width: 240
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -120, y: 12}
+        - {x: -120, y: -13}
+        - {x: -116, y: -16}
+        - {x: 119, y: -16}
+        - {x: 120, y: -13}
+        - {x: 120, y: 11}
+        - {x: 119, y: 12}
+    - name: electric_floor 1_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1184
+        width: 240
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -120, y: 12}
+        - {x: -120, y: -13}
+        - {x: -116, y: -16}
+        - {x: 119, y: -16}
+        - {x: 120, y: -13}
+        - {x: 120, y: 11}
+        - {x: 119, y: 12}
+    - name: electric_floor 1_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1152
+        width: 240
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -120, y: 12}
+        - {x: -120, y: -13}
+        - {x: -116, y: -16}
+        - {x: 119, y: -16}
+        - {x: 120, y: -13}
+        - {x: 120, y: 11}
+        - {x: 119, y: 12}
+    - name: electric_floor 1_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1120
+        width: 240
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -120, y: 12}
+        - {x: -120, y: -13}
+        - {x: -116, y: -16}
+        - {x: 119, y: -16}
+        - {x: 120, y: -13}
+        - {x: 120, y: 11}
+        - {x: 119, y: 12}
+    - name: electric_floor 1_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1088
+        width: 240
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -120, y: 12}
+        - {x: -120, y: -13}
+        - {x: -116, y: -16}
+        - {x: 119, y: -16}
+        - {x: 120, y: -13}
+        - {x: 120, y: 11}
+        - {x: 119, y: 12}
+    - name: electric_floor 1_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1056
+        width: 240
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -120, y: 12}
+        - {x: -120, y: -13}
+        - {x: -116, y: -16}
+        - {x: 119, y: -16}
+        - {x: 120, y: -13}
+        - {x: 120, y: 11}
+        - {x: 119, y: 12}
+    - name: electric_floor 1_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1024
+        width: 240
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -120, y: 12}
+        - {x: -120, y: -13}
+        - {x: -116, y: -16}
+        - {x: 119, y: -16}
+        - {x: 120, y: -13}
+        - {x: 120, y: 11}
+        - {x: 119, y: 12}
+    - name: electric_floor 1_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 992
+        width: 240
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -120, y: 12}
+        - {x: -120, y: -13}
+        - {x: -116, y: -16}
+        - {x: 119, y: -16}
+        - {x: 120, y: -13}
+        - {x: 120, y: 11}
+        - {x: 119, y: 12}
+    - name: electric_floor 1_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 960
+        width: 240
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -120, y: 12}
+        - {x: -120, y: -13}
+        - {x: -116, y: -16}
+        - {x: 119, y: -16}
+        - {x: 120, y: -13}
+        - {x: 120, y: 11}
+        - {x: 119, y: 12}
+    - name: electric_floor 1_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 928
+        width: 240
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -120, y: 12}
+        - {x: -120, y: -13}
+        - {x: -116, y: -16}
+        - {x: 119, y: -16}
+        - {x: 120, y: -13}
+        - {x: 120, y: 11}
+        - {x: 119, y: 12}
+    - name: electric_floor 1_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 896
+        width: 240
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -120, y: 12}
+        - {x: -120, y: -13}
+        - {x: -116, y: -16}
+        - {x: 119, y: -16}
+        - {x: 120, y: -13}
+        - {x: 120, y: 11}
+        - {x: 119, y: 12}
+    - name: electric_floor 1_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 864
+        width: 240
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -120, y: 12}
+        - {x: -120, y: -13}
+        - {x: -116, y: -16}
+        - {x: 119, y: -16}
+        - {x: 120, y: -13}
+        - {x: 120, y: 11}
+        - {x: 119, y: 12}
+    - name: electric_floor 1_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 832
+        width: 240
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -120, y: 12}
+        - {x: -120, y: -13}
+        - {x: -116, y: -16}
+        - {x: 119, y: -16}
+        - {x: 120, y: -13}
+        - {x: 120, y: 11}
+        - {x: 119, y: 12}
+    - name: electric_floor 1_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 800
+        width: 240
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -120, y: 12}
+        - {x: -120, y: -13}
+        - {x: -116, y: -16}
+        - {x: 119, y: -16}
+        - {x: 120, y: -13}
+        - {x: 120, y: 11}
+        - {x: 119, y: 12}
+    - name: electric_floor 1_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 240
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -120, y: 12}
+        - {x: -120, y: -13}
+        - {x: -116, y: -16}
+        - {x: 119, y: -16}
+        - {x: 120, y: -13}
+        - {x: 120, y: 11}
+        - {x: 119, y: 12}
+    - name: electric_floor 1_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 736
+        width: 240
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -120, y: 12}
+        - {x: -120, y: -13}
+        - {x: -116, y: -16}
+        - {x: 119, y: -16}
+        - {x: 120, y: -13}
+        - {x: 120, y: 11}
+        - {x: 119, y: 12}
+    - name: electric_floor 1_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 704
+        width: 240
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -120, y: 12}
+        - {x: -120, y: -13}
+        - {x: -116, y: -16}
+        - {x: 119, y: -16}
+        - {x: 120, y: -13}
+        - {x: 120, y: 11}
+        - {x: 119, y: 12}
+    - name: electric_floor 1_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 672
+        width: 240
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -120, y: 12}
+        - {x: -120, y: -13}
+        - {x: -116, y: -16}
+        - {x: 119, y: -16}
+        - {x: 120, y: -13}
+        - {x: 120, y: 11}
+        - {x: 119, y: 12}
+    - name: electric_floor 1_23
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 240
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -120, y: 12}
+        - {x: -120, y: -13}
+        - {x: -116, y: -16}
+        - {x: 119, y: -16}
+        - {x: 120, y: -13}
+        - {x: 120, y: 11}
+        - {x: 119, y: 12}
+    - name: electric_floor 1_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 608
+        width: 240
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -120, y: 12}
+        - {x: -120, y: -13}
+        - {x: -116, y: -16}
+        - {x: 119, y: -16}
+        - {x: 120, y: -13}
+        - {x: 120, y: 11}
+        - {x: 119, y: 12}
+    - name: electric_floor 1_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 576
+        width: 240
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -120, y: 12}
+        - {x: -120, y: -13}
+        - {x: -116, y: -16}
+        - {x: 119, y: -16}
+        - {x: 120, y: -13}
+        - {x: 120, y: 11}
+        - {x: 119, y: 12}
+    - name: electric_floor 1_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 544
+        width: 240
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -120, y: 12}
+        - {x: -120, y: -13}
+        - {x: -116, y: -16}
+        - {x: 119, y: -16}
+        - {x: 120, y: -13}
+        - {x: 120, y: 11}
+        - {x: 119, y: 12}
+    - name: electric_floor 1_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 240
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -120, y: 12}
+        - {x: -120, y: -13}
+        - {x: -116, y: -16}
+        - {x: 119, y: -16}
+        - {x: 120, y: -13}
+        - {x: 120, y: 11}
+        - {x: 119, y: 12}
+    - name: electric_floor 1_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 240
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -120, y: 12}
+        - {x: -120, y: -13}
+        - {x: -116, y: -16}
+        - {x: 119, y: -16}
+        - {x: 120, y: -13}
+        - {x: 120, y: 11}
+        - {x: 119, y: 12}
+    - name: electric_floor 1_29
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 448
+        width: 240
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -120, y: 12}
+        - {x: -120, y: -13}
+        - {x: -116, y: -16}
+        - {x: 119, y: -16}
+        - {x: 120, y: -13}
+        - {x: 120, y: 11}
+        - {x: 119, y: 12}
+    - name: electric_floor 1_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 416
+        width: 240
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -120, y: 12}
+        - {x: -120, y: -13}
+        - {x: -116, y: -16}
+        - {x: 119, y: -16}
+        - {x: 120, y: -13}
+        - {x: 120, y: 11}
+        - {x: 119, y: 12}
+    - name: electric_floor 1_31
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 240
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -120, y: 12}
+        - {x: -120, y: -13}
+        - {x: -116, y: -16}
+        - {x: 119, y: -16}
+        - {x: 120, y: -13}
+        - {x: 120, y: 11}
+        - {x: 119, y: 12}
+    - name: electric_floor 1_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 352
+        width: 240
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -120, y: 12}
+        - {x: -120, y: -13}
+        - {x: -116, y: -16}
+        - {x: 119, y: -16}
+        - {x: 120, y: -13}
+        - {x: 120, y: 11}
+        - {x: 119, y: 12}
+    - name: electric_floor 1_33
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 240
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -120, y: 12}
+        - {x: -120, y: -13}
+        - {x: -116, y: -16}
+        - {x: 119, y: -16}
+        - {x: 120, y: -13}
+        - {x: 120, y: 11}
+        - {x: 119, y: 12}
+    - name: electric_floor 1_34
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 288
+        width: 240
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -120, y: 12}
+        - {x: -120, y: -13}
+        - {x: -116, y: -16}
+        - {x: 119, y: -16}
+        - {x: 120, y: -13}
+        - {x: 120, y: 11}
+        - {x: 119, y: 12}
+    - name: electric_floor 1_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 240
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -120, y: 12}
+        - {x: -120, y: -13}
+        - {x: -116, y: -16}
+        - {x: 119, y: -16}
+        - {x: 120, y: -13}
+        - {x: 120, y: 11}
+        - {x: 119, y: 12}
+    - name: electric_floor 1_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 224
+        width: 240
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -120, y: 12}
+        - {x: -120, y: -13}
+        - {x: -116, y: -16}
+        - {x: 119, y: -16}
+        - {x: 120, y: -13}
+        - {x: 120, y: 11}
+        - {x: 119, y: 12}
+    - name: electric_floor 1_37
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 240
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -120, y: 12}
+        - {x: -120, y: -13}
+        - {x: -116, y: -16}
+        - {x: 119, y: -16}
+        - {x: 120, y: -13}
+        - {x: 120, y: 11}
+        - {x: 119, y: 12}
+    - name: electric_floor 1_38
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 240
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -120, y: 12}
+        - {x: -120, y: -13}
+        - {x: -116, y: -16}
+        - {x: 119, y: -16}
+        - {x: 120, y: -13}
+        - {x: 120, y: 11}
+        - {x: 119, y: 12}
+    - name: electric_floor 1_39
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 240
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -120, y: 12}
+        - {x: -120, y: -13}
+        - {x: -116, y: -16}
+        - {x: 119, y: -16}
+        - {x: 120, y: -13}
+        - {x: 120, y: 11}
+        - {x: 119, y: 12}
+    - name: electric_floor 1_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 240
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -120, y: 12}
+        - {x: -120, y: -13}
+        - {x: -116, y: -16}
+        - {x: 119, y: -16}
+        - {x: 120, y: -13}
+        - {x: 120, y: 11}
+        - {x: 119, y: 12}
+    - name: electric_floor 1_41
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 240
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -120, y: 12}
+        - {x: -120, y: -13}
+        - {x: -116, y: -16}
+        - {x: 119, y: -16}
+        - {x: 120, y: -13}
+        - {x: 120, y: 11}
+        - {x: 119, y: 12}
+    - name: electric_floor 1_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 240
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -120, y: 12}
+        - {x: -120, y: -13}
+        - {x: -116, y: -16}
+        - {x: 119, y: -16}
+        - {x: 120, y: -13}
+        - {x: 120, y: 11}
+        - {x: 119, y: 12}
+    - name: electric_floor 1_43
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 240
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -120, y: 12}
+        - {x: -120, y: -13}
+        - {x: -116, y: -16}
+        - {x: 119, y: -16}
+        - {x: 120, y: -13}
+        - {x: 120, y: 11}
+        - {x: 119, y: 12}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -9,7 +9,8 @@ public class Stage {
 	public int duration;
 	public int slowFactor;
 	public string song;
-	public int ticksPerSecond;
+	public int ticksPerSecond; //maybe should be float instead
+	public float secondsPerTick;
 
 	public Stage(int id) {
 		this.id = id;
@@ -19,5 +20,6 @@ public class Stage {
 
 		int bpm = songBpm[id % 3];
 		this.ticksPerSecond = (Constants.TICKS_PER_BEAT*bpm)/60; //will be slight rounding error...
+		this.secondsPerTick = 1/ticksPerSecond;
 	}
 }

@@ -4,8 +4,6 @@ using System.Collections.Generic;
 
 public class GameModelConfig
 {
-	public int ticksPerSecond;
-	public float secondsPerTick;
 }
 
 public class GameModel
@@ -96,11 +94,11 @@ public class GameModel
 	public void Update(float timeStep)
 	{
 		m_stepAccumulator += timeStep;
-		m_stepAccumulator = Mathf.Min(m_stepAccumulator, m_config.secondsPerTick * 2);
+		m_stepAccumulator = Mathf.Min(m_stepAccumulator, m_stage.secondsPerTick * 2);
 
-		if (m_stepAccumulator > m_config.secondsPerTick)
+		if (m_stepAccumulator > m_stage.secondsPerTick)
 		{
-			m_stepAccumulator -= m_config.secondsPerTick;
+			m_stepAccumulator -= m_stage.secondsPerTick;
 
 			totalFrame++;
 			//Step logic
@@ -124,12 +122,12 @@ public class GameModel
 	{
 		get
 		{
-			return m_stepAccumulator / m_config.secondsPerTick;
+			return m_stepAccumulator / m_stage.secondsPerTick;
 		}
 	}
 
 	public float ExtrapolateSecondsLeft(int framesLeft)
 	{
-		return ((float)framesLeft - InterpolationT) * m_config.secondsPerTick;
+		return ((float)framesLeft - InterpolationT) * m_stage.secondsPerTick;
 	}
 }
