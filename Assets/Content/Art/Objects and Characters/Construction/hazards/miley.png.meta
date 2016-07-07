@@ -1,0 +1,890 @@
+fileFormatVersion: 2
+guid: 8dcb4b668bbadec4380de57dce72e490
+timeCreated: 1467905918
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: miley_0
+    21300002: miley_1
+    21300004: miley_2
+    21300006: miley_3
+    21300008: miley_4
+    21300010: miley_5
+    21300012: miley_6
+    21300014: miley_7
+    21300016: miley_8
+    21300018: miley_9
+    21300020: miley_10
+    21300022: miley_11
+    21300024: miley_12
+    21300026: miley_13
+    21300028: miley_14
+    21300030: miley_15
+    21300032: miley_16
+    21300034: miley_17
+    21300036: miley_18
+    21300038: miley_19
+    21300040: miley_20
+    21300042: miley_21
+    21300044: miley_22
+    21300046: miley_23
+    21300048: miley_24
+    21300050: miley_25
+    21300052: miley_26
+    21300054: miley_27
+    21300056: miley_28
+    21300058: miley_29
+    21300060: miley_30
+    21300062: miley_31
+    21300064: miley_32
+    21300066: miley_33
+    21300068: miley_34
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 1
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: miley_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 600
+        width: 40
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12, y: 0}
+        - {x: 4, y: 0}
+        - {x: -7, y: -2}
+        - {x: -19, y: -20}
+        - {x: -19, y: -24}
+        - {x: -14, y: -28}
+        - {x: -4, y: -28}
+        - {x: 3, y: -26}
+        - {x: 14, y: -12}
+        - {x: 14, y: -2}
+    - name: miley_1
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 600
+        width: 40
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 0}
+        - {x: -19, y: -18}
+        - {x: -19, y: -26}
+        - {x: -15, y: -28}
+        - {x: -4, y: -28}
+        - {x: 3, y: -26}
+        - {x: 15, y: -10}
+        - {x: 15, y: -5}
+        - {x: 13, y: 0}
+    - name: miley_2
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 600
+        width: 40
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12, y: 0}
+        - {x: 4, y: 0}
+        - {x: -7, y: -2}
+        - {x: -19, y: -20}
+        - {x: -19, y: -24}
+        - {x: -14, y: -28}
+        - {x: -4, y: -28}
+        - {x: 3, y: -26}
+        - {x: 14, y: -12}
+        - {x: 14, y: -2}
+    - name: miley_3
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 600
+        width: 40
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 0}
+        - {x: -19, y: -18}
+        - {x: -19, y: -26}
+        - {x: -15, y: -28}
+        - {x: -4, y: -28}
+        - {x: 3, y: -26}
+        - {x: 15, y: -10}
+        - {x: 15, y: -5}
+        - {x: 13, y: 0}
+    - name: miley_4
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 600
+        width: 40
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12, y: 0}
+        - {x: 4, y: 0}
+        - {x: -7, y: -2}
+        - {x: -19, y: -20}
+        - {x: -19, y: -24}
+        - {x: -14, y: -28}
+        - {x: -4, y: -28}
+        - {x: 3, y: -26}
+        - {x: 14, y: -12}
+        - {x: 14, y: -2}
+    - name: miley_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 500
+        width: 40
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3, y: -1}
+        - {x: -9, y: -4}
+        - {x: -19, y: -20}
+        - {x: -19, y: -24}
+        - {x: -13, y: -28}
+        - {x: -3, y: -28}
+        - {x: 16, y: -14}
+        - {x: 16, y: -3}
+        - {x: 14, y: -1}
+    - name: miley_6
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 500
+        width: 40
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3, y: 0}
+        - {x: -10, y: -4}
+        - {x: -9, y: -9}
+        - {x: -6, y: -12}
+        - {x: -17, y: -18}
+        - {x: -19, y: -20}
+        - {x: -19, y: -24}
+        - {x: -14, y: -28}
+        - {x: 5, y: -28}
+        - {x: 16, y: -15}
+        - {x: 16, y: 0}
+    - name: miley_7
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 500
+        width: 40
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -4}
+        - {x: -8, y: -6}
+        - {x: -9, y: -9}
+        - {x: -6, y: -12}
+        - {x: -17, y: -18}
+        - {x: -19, y: -20}
+        - {x: -19, y: -25}
+        - {x: -17, y: -28}
+        - {x: -1, y: -28}
+        - {x: 17, y: -17}
+        - {x: 17, y: -6}
+        - {x: 12, y: -4}
+    - name: miley_8
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 500
+        width: 40
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3, y: -4}
+        - {x: -8, y: -6}
+        - {x: -9, y: -9}
+        - {x: -6, y: -12}
+        - {x: -17, y: -18}
+        - {x: -19, y: -20}
+        - {x: -19, y: -24}
+        - {x: -16, y: -28}
+        - {x: 1, y: -28}
+        - {x: 18, y: -22}
+        - {x: 19, y: -19}
+        - {x: 19, y: -11}
+        - {x: 13, y: -4}
+    - name: miley_9
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 500
+        width: 40
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2, y: -4}
+        - {x: -8, y: -6}
+        - {x: -9, y: -9}
+        - {x: -6, y: -12}
+        - {x: -17, y: -18}
+        - {x: -19, y: -20}
+        - {x: -19, y: -24}
+        - {x: -14, y: -28}
+        - {x: -5, y: -28}
+        - {x: 2, y: -26}
+        - {x: 19, y: -18}
+        - {x: 19, y: -12}
+        - {x: 13, y: -4}
+    - name: miley_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 400
+        width: 40
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17, y: -6}
+        - {x: 12, y: -4}
+        - {x: -1, y: -4}
+        - {x: -8, y: -6}
+        - {x: -9, y: -9}
+        - {x: -6, y: -12}
+        - {x: -17, y: -18}
+        - {x: -19, y: -20}
+        - {x: -19, y: -24}
+        - {x: -13, y: -28}
+        - {x: -9, y: -28}
+        - {x: 2, y: -24}
+        - {x: 16, y: -14}
+        - {x: 17, y: -12}
+    - name: miley_11
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 400
+        width: 40
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -4}
+        - {x: -8, y: -6}
+        - {x: -9, y: -9}
+        - {x: -6, y: -12}
+        - {x: -17, y: -18}
+        - {x: -19, y: -20}
+        - {x: -19, y: -25}
+        - {x: -17, y: -28}
+        - {x: -1, y: -28}
+        - {x: 17, y: -17}
+        - {x: 17, y: -6}
+        - {x: 12, y: -4}
+    - name: miley_12
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 400
+        width: 40
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3, y: -4}
+        - {x: -8, y: -6}
+        - {x: -9, y: -9}
+        - {x: -6, y: -12}
+        - {x: -17, y: -18}
+        - {x: -19, y: -20}
+        - {x: -19, y: -24}
+        - {x: -16, y: -28}
+        - {x: 1, y: -28}
+        - {x: 18, y: -22}
+        - {x: 19, y: -19}
+        - {x: 19, y: -11}
+        - {x: 13, y: -4}
+    - name: miley_13
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 400
+        width: 40
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2, y: -4}
+        - {x: -8, y: -6}
+        - {x: -9, y: -9}
+        - {x: -6, y: -12}
+        - {x: -17, y: -18}
+        - {x: -19, y: -20}
+        - {x: -19, y: -24}
+        - {x: -14, y: -28}
+        - {x: -5, y: -28}
+        - {x: 2, y: -26}
+        - {x: 19, y: -18}
+        - {x: 19, y: -12}
+        - {x: 13, y: -4}
+    - name: miley_14
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 400
+        width: 40
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17, y: -6}
+        - {x: 12, y: -4}
+        - {x: -1, y: -4}
+        - {x: -8, y: -6}
+        - {x: -9, y: -9}
+        - {x: -6, y: -12}
+        - {x: -17, y: -18}
+        - {x: -19, y: -20}
+        - {x: -19, y: -24}
+        - {x: -13, y: -28}
+        - {x: -9, y: -28}
+        - {x: 2, y: -24}
+        - {x: 16, y: -14}
+        - {x: 17, y: -12}
+    - name: miley_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 300
+        width: 40
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -4}
+        - {x: -8, y: -6}
+        - {x: -9, y: -9}
+        - {x: -6, y: -12}
+        - {x: -17, y: -18}
+        - {x: -19, y: -20}
+        - {x: -19, y: -25}
+        - {x: -17, y: -28}
+        - {x: -1, y: -28}
+        - {x: 17, y: -17}
+        - {x: 17, y: -6}
+        - {x: 12, y: -4}
+    - name: miley_16
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 300
+        width: 40
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3, y: -4}
+        - {x: -8, y: -6}
+        - {x: -9, y: -9}
+        - {x: -6, y: -12}
+        - {x: -17, y: -18}
+        - {x: -19, y: -20}
+        - {x: -19, y: -24}
+        - {x: -16, y: -28}
+        - {x: 1, y: -28}
+        - {x: 18, y: -22}
+        - {x: 19, y: -19}
+        - {x: 19, y: -11}
+        - {x: 13, y: -4}
+    - name: miley_17
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 300
+        width: 40
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: -9}
+        - {x: -6, y: -12}
+        - {x: -17, y: -18}
+        - {x: -19, y: -20}
+        - {x: -19, y: -24}
+        - {x: -14, y: -28}
+        - {x: -2, y: -28}
+        - {x: 17, y: -24}
+        - {x: 17, y: -13}
+        - {x: 15, y: -6}
+        - {x: 13, y: -4}
+        - {x: 3, y: -4}
+        - {x: -8, y: -6}
+    - name: miley_18
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 300
+        width: 40
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: -4}
+        - {x: -8, y: -6}
+        - {x: -9, y: -9}
+        - {x: -17, y: -18}
+        - {x: -19, y: -20}
+        - {x: -19, y: -26}
+        - {x: -16, y: -28}
+        - {x: 10, y: -28}
+        - {x: 15, y: -26}
+        - {x: 15, y: -6}
+        - {x: 14, y: -4}
+    - name: miley_19
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 300
+        width: 40
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8, y: -4}
+        - {x: -8, y: -6}
+        - {x: -9, y: -9}
+        - {x: -6, y: -12}
+        - {x: -17, y: -18}
+        - {x: -19, y: -20}
+        - {x: -19, y: -24}
+        - {x: -14, y: -28}
+        - {x: 9, y: -28}
+        - {x: 16, y: -14}
+        - {x: 16, y: -8}
+        - {x: 12, y: -4}
+    - name: miley_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 200
+        width: 40
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: -4}
+        - {x: -8, y: -6}
+        - {x: -9, y: -9}
+        - {x: -6, y: -12}
+        - {x: -17, y: -18}
+        - {x: -19, y: -20}
+        - {x: -19, y: -24}
+        - {x: -14, y: -28}
+        - {x: 8, y: -28}
+        - {x: 15, y: -19}
+        - {x: 15, y: -7}
+        - {x: 14, y: -4}
+    - name: miley_21
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 200
+        width: 40
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8, y: -4}
+        - {x: -8, y: -6}
+        - {x: -9, y: -9}
+        - {x: -6, y: -12}
+        - {x: -17, y: -18}
+        - {x: -19, y: -20}
+        - {x: -19, y: -24}
+        - {x: -14, y: -28}
+        - {x: 9, y: -28}
+        - {x: 16, y: -14}
+        - {x: 16, y: -8}
+        - {x: 12, y: -4}
+    - name: miley_22
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 200
+        width: 40
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: -4}
+        - {x: -8, y: -6}
+        - {x: -9, y: -9}
+        - {x: -6, y: -12}
+        - {x: -17, y: -18}
+        - {x: -19, y: -20}
+        - {x: -19, y: -24}
+        - {x: -14, y: -28}
+        - {x: 8, y: -28}
+        - {x: 15, y: -19}
+        - {x: 15, y: -7}
+        - {x: 14, y: -4}
+    - name: miley_23
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 200
+        width: 40
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8, y: -4}
+        - {x: -8, y: -6}
+        - {x: -9, y: -9}
+        - {x: -6, y: -12}
+        - {x: -17, y: -18}
+        - {x: -19, y: -20}
+        - {x: -19, y: -24}
+        - {x: -14, y: -28}
+        - {x: 9, y: -28}
+        - {x: 16, y: -14}
+        - {x: 16, y: -8}
+        - {x: 12, y: -4}
+    - name: miley_24
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 200
+        width: 40
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: -4}
+        - {x: -8, y: -6}
+        - {x: -9, y: -9}
+        - {x: -6, y: -12}
+        - {x: -17, y: -18}
+        - {x: -19, y: -20}
+        - {x: -19, y: -24}
+        - {x: -14, y: -28}
+        - {x: 8, y: -28}
+        - {x: 15, y: -19}
+        - {x: 15, y: -7}
+        - {x: 14, y: -4}
+    - name: miley_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 100
+        width: 40
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8, y: -4}
+        - {x: -8, y: -6}
+        - {x: -9, y: -9}
+        - {x: -6, y: -12}
+        - {x: -17, y: -18}
+        - {x: -19, y: -20}
+        - {x: -19, y: -24}
+        - {x: -14, y: -28}
+        - {x: 9, y: -28}
+        - {x: 16, y: -14}
+        - {x: 16, y: -8}
+        - {x: 12, y: -4}
+    - name: miley_26
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 100
+        width: 40
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: -4}
+        - {x: -8, y: -6}
+        - {x: -9, y: -9}
+        - {x: -6, y: -12}
+        - {x: -17, y: -18}
+        - {x: -19, y: -20}
+        - {x: -19, y: -24}
+        - {x: -14, y: -28}
+        - {x: 8, y: -28}
+        - {x: 15, y: -19}
+        - {x: 15, y: -7}
+        - {x: 14, y: -4}
+    - name: miley_27
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 100
+        width: 40
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8, y: -4}
+        - {x: -8, y: -6}
+        - {x: -9, y: -9}
+        - {x: -6, y: -12}
+        - {x: -17, y: -18}
+        - {x: -19, y: -20}
+        - {x: -19, y: -24}
+        - {x: -14, y: -28}
+        - {x: 9, y: -28}
+        - {x: 16, y: -14}
+        - {x: 16, y: -8}
+        - {x: 12, y: -4}
+    - name: miley_28
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 100
+        width: 40
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: -4}
+        - {x: -8, y: -6}
+        - {x: -9, y: -9}
+        - {x: -6, y: -12}
+        - {x: -17, y: -18}
+        - {x: -19, y: -20}
+        - {x: -19, y: -24}
+        - {x: -14, y: -28}
+        - {x: 8, y: -28}
+        - {x: 15, y: -19}
+        - {x: 15, y: -7}
+        - {x: 14, y: -4}
+    - name: miley_29
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 100
+        width: 40
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8, y: -4}
+        - {x: -8, y: -6}
+        - {x: -9, y: -9}
+        - {x: -6, y: -12}
+        - {x: -17, y: -18}
+        - {x: -19, y: -20}
+        - {x: -19, y: -24}
+        - {x: -14, y: -28}
+        - {x: 9, y: -28}
+        - {x: 16, y: -14}
+        - {x: 16, y: -8}
+        - {x: 12, y: -4}
+    - name: miley_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 40
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: -4}
+        - {x: -8, y: -6}
+        - {x: -9, y: -9}
+        - {x: -6, y: -12}
+        - {x: -17, y: -18}
+        - {x: -19, y: -20}
+        - {x: -19, y: -24}
+        - {x: -14, y: -28}
+        - {x: 8, y: -28}
+        - {x: 15, y: -19}
+        - {x: 15, y: -7}
+        - {x: 14, y: -4}
+    - name: miley_31
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 0
+        width: 40
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8, y: -4}
+        - {x: -8, y: -6}
+        - {x: -9, y: -9}
+        - {x: -6, y: -12}
+        - {x: -17, y: -18}
+        - {x: -19, y: -20}
+        - {x: -19, y: -24}
+        - {x: -14, y: -28}
+        - {x: 9, y: -28}
+        - {x: 16, y: -14}
+        - {x: 16, y: -8}
+        - {x: 12, y: -4}
+    - name: miley_32
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 40
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: -4}
+        - {x: -8, y: -6}
+        - {x: -9, y: -9}
+        - {x: -6, y: -12}
+        - {x: -17, y: -18}
+        - {x: -19, y: -20}
+        - {x: -19, y: -24}
+        - {x: -14, y: -28}
+        - {x: 8, y: -28}
+        - {x: 15, y: -19}
+        - {x: 15, y: -7}
+        - {x: 14, y: -4}
+    - name: miley_33
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 0
+        width: 40
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8, y: -4}
+        - {x: -8, y: -6}
+        - {x: -9, y: -9}
+        - {x: -6, y: -12}
+        - {x: -17, y: -18}
+        - {x: -19, y: -20}
+        - {x: -19, y: -24}
+        - {x: -14, y: -28}
+        - {x: 9, y: -28}
+        - {x: 16, y: -14}
+        - {x: 16, y: -8}
+        - {x: 12, y: -4}
+    - name: miley_34
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 40
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: -4}
+        - {x: -8, y: -6}
+        - {x: -9, y: -9}
+        - {x: -6, y: -12}
+        - {x: -17, y: -18}
+        - {x: -19, y: -20}
+        - {x: -19, y: -24}
+        - {x: -14, y: -28}
+        - {x: 8, y: -28}
+        - {x: 15, y: -19}
+        - {x: 15, y: -7}
+        - {x: 14, y: -4}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
