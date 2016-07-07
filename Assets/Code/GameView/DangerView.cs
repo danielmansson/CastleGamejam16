@@ -49,7 +49,6 @@ public class DangerView : MonoBehaviour
 
 		var go = (GameObject)Instantiate(prefab, transform.position, transform.rotation);
 		go.transform.parent = transform;
-		go.transform.position = Vector3.zero;
 
 		m_visual = go.GetComponent<DangerVisualController>();
 		m_visual.Init(this);

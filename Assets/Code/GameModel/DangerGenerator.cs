@@ -10,19 +10,19 @@ public class DangerGenerator {
 		for(int i = 0; i < ticksPerSecond*seconds; i++){
 			//written out because might be different later
 			if(i % (slowingFactor * timelines[0].m_config.totalPlayerActionDuration) == 0){
-				Danger newDanger = new Danger((Danger.Type)0, (Player.Action)Random.Range(0,2), 1, ClosestEight(startTick+i));
+				Danger newDanger = new Danger((Danger.Type.Shot), (Player.Action)Random.Range(0,2), 1, ClosestEight(startTick+i));
 				if(DangerDoesntBreakStuff(timelines, newDanger)){
 					timelines[0].AddDangerToTimeline(newDanger);
 				}
 			}
 			if(i % (slowingFactor * timelines[1].m_config.totalPlayerActionDuration) == 0){
-				Danger newDanger = new Danger((Danger.Type)1, (Player.Action)Random.Range(0,2), 1, ClosestEight(startTick+i));
+				Danger newDanger = new Danger((Danger.Type.Block), (Player.Action)Random.Range(0,2), 1, ClosestEight(startTick+i));
 				if(DangerDoesntBreakStuff(timelines, newDanger)){
 					timelines[1].AddDangerToTimeline(newDanger);
 				}
 			}
 			if(i % (slowingFactor * timelines[2].m_config.totalPlayerActionDuration) == 0){
-				Danger newDanger = new Danger((Danger.Type)2, (Player.Action)Random.Range(0,2), 1, ClosestEight(startTick+i));
+				Danger newDanger = new Danger((Danger.Type.Monster), (Player.Action)Random.Range(0,2), 1, ClosestEight(startTick+i));
 				if(DangerDoesntBreakStuff(timelines, newDanger)){
 					timelines[2].AddDangerToTimeline(newDanger);
 				}
