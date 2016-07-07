@@ -20,6 +20,9 @@ public class Player {
 	public Player.State state;
 	public Player.Action m_action;
 
+	public System.Action<int> OnPerformAction;
+	public System.Action OnEndAction;
+
 	int m_actionDuration = 4;
 	int m_timer;
 
@@ -38,6 +41,11 @@ public class Player {
 			m_action = action;
 			state = Player.State.Safe;
 			m_timer = 0;
+
+			if (OnPerformAction != null)
+			{
+				OnPerformAction(m_actionDuration);
+			}
 		}
 	}
 
@@ -53,6 +61,11 @@ public class Player {
 			{
 				m_timer = 0;
 				state = Player.State.Idle;
+
+				if (OnEndAction != null)
+				{
+					OnEndAction();
+				}
 			}
 			else
 			{

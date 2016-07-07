@@ -20,11 +20,28 @@ public class VisualPrefabLoader : MonoBehaviour
 		public GameObject prefab;
 	}
 
+	[System.Serializable]
+	public class PlayerEntry
+	{
+		public Timeline.Type type;
+		public GameObject prefab;
+	}
+
 	[SerializeField]
 	List<Entry> m_prefabs;
 
 	[SerializeField]
 	List<EnvironmentEntry> m_environmentPrefabs;
+
+	[SerializeField]
+	List<PlayerEntry> m_playerPrefabs;
+
+	public GameObject GetPlayerPrefab(Timeline.Type type)
+	{
+		var entry = m_playerPrefabs.FirstOrDefault(p => p.type == type);
+
+		return entry != null ? entry.prefab : null;
+	}
 
 	public GameObject GetEnvironmentPrefab(Timeline.Type type)
 	{

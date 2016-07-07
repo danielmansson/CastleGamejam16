@@ -19,6 +19,8 @@ public class ArrowVisualController : DangerVisualController
 		{
 			m_arrow.transform.localScale = new Vector3(-1f, 1f, 1f);
 		}
+
+		RefreshTransform();
 	}
 
 	void Start()
@@ -28,8 +30,12 @@ public class ArrowVisualController : DangerVisualController
 
 	void Update()
 	{
-		float t = m_dangerView.GetExtrapolatedSecondsToImpact();
+		RefreshTransform();
+	}
 
+	void RefreshTransform()
+	{
+		float t = m_dangerView.GetExtrapolatedSecondsToImpact();
 		m_arrow.transform.localPosition = Vector3.right * t * (m_dangerView.Danger.requiredAction == Player.Action.Left ? -1f : 1f) * 120f;
 	}
 

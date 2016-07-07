@@ -112,6 +112,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_dangerPrefab: {fileID: 11496234, guid: 56fc0aeae48e5464884b2f47e1ca9b47, type: 2}
+  m_playerViewPrefab: {fileID: 11437824, guid: 17858b9344aae904e8720db2c3d82df1, type: 2}
 --- !u!124 &12440658
 Behaviour:
   m_ObjectHideFlags: 1
@@ -139,6 +140,11 @@ Prefab:
       propertyPath: orthographic size
       value: 67.5
       objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_playerViewPrefab
+      value: 
+      objectReference: {fileID: 11437824, guid: 17858b9344aae904e8720db2c3d82df1,
+        type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 165372}

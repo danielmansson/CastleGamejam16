@@ -8,6 +8,7 @@ public class DangerView : MonoBehaviour
 		public GameModel model;
 		public Timeline timeline;
 		public Danger danger;
+		public Transform playerTransform;
 		public VisualPrefabLoader loader;
 	}
 

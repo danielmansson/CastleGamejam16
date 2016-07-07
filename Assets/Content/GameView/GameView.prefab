@@ -26,7 +26,6 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.04681362, y: 1.2458645, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -89,6 +88,13 @@ MonoBehaviour:
     prefab: {fileID: 178502, guid: 068fe8d8ad32864449fa4f4bd3425eef, type: 2}
   - type: 2
     prefab: {fileID: 153868, guid: 101ebd1acf28f3b488b11b72f8d0d2eb, type: 2}
+  m_playerPrefabs:
+  - type: 2
+    prefab: {fileID: 173462, guid: ec8f0d1f3b88ec840a24195b4c081037, type: 2}
+  - type: 1
+    prefab: {fileID: 173462, guid: 95853b57684585f43839d2935fd52af1, type: 2}
+  - type: 0
+    prefab: {fileID: 194020, guid: 8bb0767c3a29f50418ec9e164e61d6ed, type: 2}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

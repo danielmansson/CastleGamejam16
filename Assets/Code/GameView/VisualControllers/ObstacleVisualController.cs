@@ -18,8 +18,10 @@ public class ObstacleVisualController : DangerVisualController
 		m_dangerView = dangerView;
 		dangerView.OnDestroy += OnModelDangerDestroyed;
 
-		m_truck.SetActive(m_dangerView.Danger.requiredAction == Player.Action.Left);
-		m_ball.SetActive(m_dangerView.Danger.requiredAction == Player.Action.Right);
+		m_truck.SetActive(m_dangerView.Danger.requiredAction == Player.Action.Right);
+		m_ball.SetActive(m_dangerView.Danger.requiredAction == Player.Action.Left);
+
+		RefreshTransform();
 	}
 
 	void Start()
@@ -29,8 +31,12 @@ public class ObstacleVisualController : DangerVisualController
 
 	void Update()
 	{
-		float t = m_dangerView.GetExtrapolatedSecondsToImpact();
+		RefreshTransform();
+	}
 
+	void RefreshTransform()
+	{
+		float t = m_dangerView.GetExtrapolatedSecondsToImpact();
 		m_root.transform.localPosition = Vector3.right * t * (m_dangerView.Danger.requiredAction == Player.Action.Left ? -1f : 1f) * 80f;
 	}
 

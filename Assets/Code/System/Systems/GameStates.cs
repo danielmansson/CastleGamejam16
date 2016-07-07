@@ -105,6 +105,8 @@ public class FancyGameState : GameStateBase
 		{
 			SceneManager.LoadScene("fancygame");
 		}
+
+		Time.timeScale = 1f;
 	}
 
 	public override void Update()
