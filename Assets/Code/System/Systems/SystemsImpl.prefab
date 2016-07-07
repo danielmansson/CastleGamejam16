@@ -10,6 +10,7 @@ GameObject:
   - 4: {fileID: 450200}
   - 114: {fileID: 11418724}
   - 114: {fileID: 11407474}
+  - 114: {fileID: 11401262}
   m_Layer: 0
   m_Name: SystemsImpl
   m_TagString: Untagged
@@ -29,6 +30,22 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
+--- !u!114 &11401262
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 118780}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37bd6aa7f9748cb489c8cb6bf484c30c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_entries:
+  - name: PressedA
+    fmodName: RandomSound
+  - name: PressedD
+    fmodName: Sound2
 --- !u!114 &11407474
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -60,7 +77,47 @@ Prefab:
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
-    m_Modifications: []
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: m_entry.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_entries.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_entry.Array.data[0].name
+      value: PressedA
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_entry.Array.data[0].fmodName
+      value: TheSoundInFMOD1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_entry.Array.data[1].name
+      value: dfgsdfg
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_entry.Array.data[2].name
+      value: sdfg
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_entries.Array.data[0].name
+      value: PressedA
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_entries.Array.data[0].fmodName
+      value: RandomSound
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_entries.Array.data[1].name
+      value: PressedD
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_entries.Array.data[1].fmodName
+      value: Sound2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 118780}

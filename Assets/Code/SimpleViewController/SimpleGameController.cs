@@ -27,11 +27,19 @@ public class SimpleGameController : MonoBehaviour
 			if (Input.GetKeyDown(KeyCode.A))
 			{
 				m_model.PerformAction(Player.Action.Left);
+
+                AudioEvent.Play("PressedA");
 			}
 			else if(Input.GetKeyDown(KeyCode.D))
 			{
 				m_model.PerformAction(Player.Action.Right);
-			}
-		}
+
+                AudioEvent.Play("PressedD");
+            }
+            if (Input.GetKeyDown(KeyCode.P))
+            {
+                AudioEvent.ChangeParameter("PressedA", "LVL", 1.5f);
+            }
+           }
 	}
 }
