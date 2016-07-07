@@ -67,7 +67,7 @@ MonoBehaviour:
     fmodName: Event:/FX/Player/Shoot
   - name: EnemyHit
     fmodName: Event:/FX/Enemy/Hit
-  - name: Music100
+  - name: Music
     fmodName: Event:/Music
   - name: VoiceReadyGo
     fmodName: Event:/VO/ReadyGo

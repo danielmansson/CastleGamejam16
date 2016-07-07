@@ -15,8 +15,8 @@ public class GameModel
 
 	public GameModel()
 	{
-		m_stage = new Stage(0);
-		AudioEvent.Play(m_stage.song);
+		m_stage = new Stage(0, 0f);
+		AudioEvent.Play("Music");
 		AudioEvent.Play("VoiceReadyGo");
 
 		timelines.Add(new Timeline(new TimelineConfig()
@@ -95,7 +95,6 @@ public class GameModel
 		if (m_stepAccumulator > m_stage.secondsPerTick)
 		{
 			m_stepAccumulator -= m_stage.secondsPerTick;
-
 			totalFrame++;
 			//Step logic
 			foreach (var timeline in timelines)
@@ -108,10 +107,15 @@ public class GameModel
 				&& timelines[2].StageComplete()
 				&& !GameOver)
 			{
-				m_stage = new Stage(m_stage.id+1);
+				m_stage = new Stage(m_stage.id+1, m_stage.musicParameter+1);
 				DangerGenerator.GenerateDangers(timelines, totalFrame+50, m_stage);
-				AudioEvent.Play("VoiceLevelUp");
-				AudioEvent.Play(m_stage.song);
+
+				if(m_stage.musicParameter < 0.9f){
+					AudioEvent.Play("VoiceSpeedUp");
+				} else {
+					AudioEvent.Play("VoiceLevelUp");
+				}
+				AudioEvent.ChangeParameter("Music", "LVL", m_stage.musicParameter);
 			}
 		}
 	}
