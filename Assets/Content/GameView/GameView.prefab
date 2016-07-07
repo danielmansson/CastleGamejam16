@@ -26,6 +26,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.04681362, y: 1.2458645, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -47,10 +48,10 @@ MonoBehaviour:
     offset: {x: 0, y: 0, z: 0}
   - type: 1
     prefab: {fileID: 148574, guid: 4f22d25825a47a441ace0f2f15265f44, type: 2}
-    offset: {x: 270, y: 0, z: 0}
+    offset: {x: 0, y: 140, z: 0}
   - type: 2
     prefab: {fileID: 165372, guid: 87895f3ffd7f7ac4693e843016b4e0e5, type: 2}
-    offset: {x: 540, y: 0, z: 0}
+    offset: {x: 0, y: 280, z: 0}
 --- !u!114 &11443332
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -63,16 +64,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_prefabs:
-  - type: 0
+  - type: 1
     action: 0
     prefab: {fileID: 109750, guid: 6fa0ba6ae5ff2344bbf4f61992757615, type: 2}
-  - type: 0
+  - type: 1
     action: 1
     prefab: {fileID: 109750, guid: 6fa0ba6ae5ff2344bbf4f61992757615, type: 2}
-  - type: 1
+  - type: 0
     action: 0
     prefab: {fileID: 147350, guid: ef54ecb19f1c2eb43a8676c7cc9cc5a6, type: 2}
-  - type: 1
+  - type: 0
     action: 1
     prefab: {fileID: 147350, guid: ef54ecb19f1c2eb43a8676c7cc9cc5a6, type: 2}
   - type: 2

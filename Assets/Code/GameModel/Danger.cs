@@ -5,9 +5,9 @@ public class Danger : System.IComparable<Danger>
 {
 	public enum Type
 	{
-		Monster,
 		Shot,
-		Block
+		Block,
+		Monster
 	}
 	public enum State
 	{
