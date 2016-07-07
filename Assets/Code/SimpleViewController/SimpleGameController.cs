@@ -8,6 +8,9 @@ public class SimpleGameController : MonoBehaviour
 
 	GameModel m_model;
 
+    public float musicParameter = 0;
+
+
 	void Awake ()
 	{
 		m_modelMgr.OnModelInitialized += Init;
@@ -17,8 +20,8 @@ public class SimpleGameController : MonoBehaviour
 	{
 		m_model = m_modelMgr.Model;
 
-		//Set up controller
-	}
+        //Set up controller
+    }
 
 	void Update()
 	{
@@ -36,10 +39,31 @@ public class SimpleGameController : MonoBehaviour
 
                 AudioEvent.Play("PressedD");
             }
+
+            //Change this to whenever the speed/level is going up
             if (Input.GetKeyDown(KeyCode.P))
             {
-                AudioEvent.ChangeParameter("PressedA", "LVL", 1.5f);
+                if (musicParameter < 2.0)
+                {
+                    musicParameter++;
+                }
+                else if (musicParameter == 2.0)
+                {
+                    musicParameter = 0.5f;
+                }
+                else if (musicParameter == 2.5)
+                {
+                    musicParameter = 0.0f;
+                }
+                print(musicParameter);
+                AudioEvent.ChangeParameter("PressedA", "LVL", musicParameter);
             }
+
+            if (Input.GetKeyDown(KeyCode.S))
+            {
+                AudioEvent.Play("PlayerHit");
+            }
+
            }
 	}
 }
