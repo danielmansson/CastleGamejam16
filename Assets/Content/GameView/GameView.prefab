@@ -47,10 +47,10 @@ MonoBehaviour:
     offset: {x: 0, y: 0, z: 0}
   - type: 1
     prefab: {fileID: 148574, guid: 4f22d25825a47a441ace0f2f15265f44, type: 2}
-    offset: {x: 0, y: 0, z: 0}
+    offset: {x: 270, y: 0, z: 0}
   - type: 2
     prefab: {fileID: 165372, guid: 87895f3ffd7f7ac4693e843016b4e0e5, type: 2}
-    offset: {x: 0, y: 0, z: 0}
+    offset: {x: 540, y: 0, z: 0}
 --- !u!114 &11443332
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -81,6 +81,13 @@ MonoBehaviour:
   - type: 2
     action: 1
     prefab: {fileID: 169212, guid: 91c120f8b837d8b4e96d762bb333f132, type: 2}
+  m_environmentPrefabs:
+  - type: 0
+    prefab: {fileID: 157468, guid: aa33b9a1cdee16840a6b679a4c7bcaec, type: 2}
+  - type: 1
+    prefab: {fileID: 178502, guid: 068fe8d8ad32864449fa4f4bd3425eef, type: 2}
+  - type: 2
+    prefab: {fileID: 153868, guid: 101ebd1acf28f3b488b11b72f8d0d2eb, type: 2}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

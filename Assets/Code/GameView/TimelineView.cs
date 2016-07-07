@@ -16,6 +16,7 @@ public class TimelineView : MonoBehaviour
 
 	public Timeline Timeline { get { return m_context.timeline; } }
 	public GameModel Model { get { return m_context.model; } }
+	public Environment Environment { get; private set; }
 
 	List<DangerView> m_activeDangers = new List<DangerView>();
 	Context m_context;
@@ -23,6 +24,12 @@ public class TimelineView : MonoBehaviour
 	public void Init(Context context)
 	{
 		m_context = context;
+
+		var environmentPrefab = m_context.loader.GetEnvironmentPrefab(Timeline.TimelineType);
+
+		var environment = (GameObject)Instantiate(environmentPrefab, transform.position, transform.rotation);
+		environment.transform.parent = transform;
+		Environment = environment.GetComponent<Environment>();
 
 		foreach (var danger in Timeline.m_dangers)
 		{

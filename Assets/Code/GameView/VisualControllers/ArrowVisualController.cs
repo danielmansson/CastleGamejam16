@@ -4,8 +4,15 @@ using System.Collections.Generic;
 
 public class ArrowVisualController : DangerVisualController
 {
+	[SerializeField]
+	GameObject m_arrow;
+
+	DangerView m_dangerView;
+
 	public override void Init(DangerView dangerView)
 	{
+		m_dangerView = dangerView;
+
 		dangerView.OnDestroy += OnModelDangerDestroyed;
 	}
 
@@ -16,6 +23,8 @@ public class ArrowVisualController : DangerVisualController
 
 	void Update()
 	{
+		float t = m_dangerView.GetExtrapolatedSecondsToImpact();
+
 
 	}
 
