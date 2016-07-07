@@ -1,14 +1,13 @@
 fileFormatVersion: 2
-guid: 5dbbc49d826011d4697401df0f6baaa0
-timeCreated: 1467834385
+guid: d5896b2e2f2c9fe41929009033214c89
+timeCreated: 1467846718
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Test_0
-    21300002: Test_1
-    21300004: Test_2
-    21300006: Test_3
-    21300008: Test_4
+    21300000: Block_BlockIdle_0
+    21300002: Block_BlockIdle_1
+    21300004: Block_BlockIdle_2
+    21300006: Block_BlockIdle_3
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -55,7 +54,7 @@ TextureImporter:
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: Test_0
+    - name: Block_BlockIdle_0
       rect:
         serializedVersion: 2
         x: 0
@@ -63,14 +62,26 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -16, y: 16}
-        - {x: -16, y: -16}
-        - {x: 16, y: -16}
+      - - {x: -7, y: -16}
+        - {x: -1, y: -16}
+        - {x: 1, y: -14}
+        - {x: 3, y: -16}
+        - {x: 10, y: -16}
+        - {x: 13, y: -15}
+        - {x: 16, y: -10}
         - {x: 16, y: 16}
-    - name: Test_2
+        - {x: -2, y: 16}
+        - {x: -16, y: 11}
+        - {x: -16, y: -14}
+        - {x: -15, y: -16}
+        - {x: -11, y: -16}
+        - {x: -9, y: -14}
+        - {x: -9, y: -5}
+        - {x: -9, y: -14}
+    - name: Block_BlockIdle_1
       rect:
         serializedVersion: 2
         x: 32
@@ -78,14 +89,15 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -16, y: 16}
+      - - {x: -5, y: 16}
+        - {x: -16, y: 14}
         - {x: -16, y: -16}
         - {x: 16, y: -16}
         - {x: 16, y: 16}
-    - name: Test_3
+    - name: Block_BlockIdle_2
       rect:
         serializedVersion: 2
         x: 64
@@ -93,14 +105,26 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -16, y: 16}
-        - {x: -16, y: -16}
-        - {x: 16, y: -16}
+      - - {x: -7, y: -16}
+        - {x: -1, y: -16}
+        - {x: 1, y: -14}
+        - {x: 3, y: -16}
+        - {x: 10, y: -16}
+        - {x: 13, y: -15}
+        - {x: 16, y: -10}
         - {x: 16, y: 16}
-    - name: Test_4
+        - {x: -2, y: 16}
+        - {x: -16, y: 11}
+        - {x: -16, y: -14}
+        - {x: -15, y: -16}
+        - {x: -11, y: -16}
+        - {x: -9, y: -14}
+        - {x: -9, y: -5}
+        - {x: -9, y: -14}
+    - name: Block_BlockIdle_3
       rect:
         serializedVersion: 2
         x: 96
@@ -108,13 +132,15 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -16, y: 16}
-        - {x: -16, y: -16}
-        - {x: 16, y: -16}
+      - - {x: -16, y: -16}
+        - {x: 14, y: -16}
+        - {x: 16, y: -15}
         - {x: 16, y: 16}
+        - {x: -8, y: 16}
+        - {x: -16, y: 15}
     outline: []
   spritePackingTag: 
   userData: 

@@ -1,0 +1,297 @@
+fileFormatVersion: 2
+guid: fc59333d8bd825f4085288986951ac0a
+timeCreated: 1467840830
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: electric_floor_0
+    21300002: electric_floor_1
+    21300004: electric_floor_2
+    21300006: electric_floor_3
+    21300008: electric_floor_4
+    21300010: electric_floor_5
+    21300012: electric_floor_6
+    21300014: electric_floor_7
+    21300016: electric_floor_8
+    21300018: electric_floor_9
+    21300020: electric_floor_10
+    21300022: electric_floor_11
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 1
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: electric_floor_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 352
+        width: 240
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -103, y: 1}
+        - {x: -104, y: -4}
+        - {x: -104, y: -12}
+        - {x: -102, y: -16}
+        - {x: 103, y: -16}
+        - {x: 104, y: -12}
+        - {x: 104, y: 0}
+        - {x: 101, y: 1}
+    - name: electric_floor_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 240
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -103, y: 1}
+        - {x: -104, y: -4}
+        - {x: -104, y: -12}
+        - {x: -102, y: -16}
+        - {x: 103, y: -16}
+        - {x: 104, y: -12}
+        - {x: 104, y: 0}
+        - {x: 101, y: 1}
+    - name: electric_floor_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 288
+        width: 240
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -103, y: 1}
+        - {x: -104, y: -4}
+        - {x: -104, y: -12}
+        - {x: -102, y: -16}
+        - {x: 103, y: -16}
+        - {x: 104, y: -12}
+        - {x: 104, y: 0}
+        - {x: 101, y: 1}
+    - name: electric_floor_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 240
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -103, y: 1}
+        - {x: -104, y: -4}
+        - {x: -104, y: -12}
+        - {x: -102, y: -16}
+        - {x: 103, y: -16}
+        - {x: 104, y: -12}
+        - {x: 104, y: 0}
+        - {x: 101, y: 1}
+    - name: electric_floor_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 224
+        width: 240
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -103, y: 1}
+        - {x: -104, y: -4}
+        - {x: -104, y: -12}
+        - {x: -102, y: -16}
+        - {x: 103, y: -16}
+        - {x: 104, y: -12}
+        - {x: 104, y: 0}
+        - {x: 101, y: 1}
+    - name: electric_floor_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 240
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -103, y: 1}
+        - {x: -104, y: -4}
+        - {x: -104, y: -12}
+        - {x: -102, y: -16}
+        - {x: 103, y: -16}
+        - {x: 104, y: -12}
+        - {x: 104, y: 0}
+        - {x: 101, y: 1}
+    - name: electric_floor_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 240
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -103, y: 1}
+        - {x: -104, y: -4}
+        - {x: -104, y: -12}
+        - {x: -102, y: -16}
+        - {x: 103, y: -16}
+        - {x: 104, y: -12}
+        - {x: 104, y: 0}
+        - {x: 101, y: 1}
+    - name: electric_floor_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 240
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -103, y: 1}
+        - {x: -104, y: -4}
+        - {x: -104, y: -12}
+        - {x: -102, y: -16}
+        - {x: 103, y: -16}
+        - {x: 104, y: -12}
+        - {x: 104, y: 0}
+        - {x: 101, y: 1}
+    - name: electric_floor_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 240
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -103, y: 1}
+        - {x: -104, y: -4}
+        - {x: -104, y: -12}
+        - {x: -102, y: -16}
+        - {x: 103, y: -16}
+        - {x: 104, y: -12}
+        - {x: 104, y: 0}
+        - {x: 101, y: 1}
+    - name: electric_floor_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 240
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -103, y: 1}
+        - {x: -104, y: -4}
+        - {x: -104, y: -12}
+        - {x: -102, y: -16}
+        - {x: 103, y: -16}
+        - {x: 104, y: -12}
+        - {x: 104, y: 0}
+        - {x: 101, y: 1}
+    - name: electric_floor_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 240
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -103, y: 1}
+        - {x: -104, y: -4}
+        - {x: -104, y: -12}
+        - {x: -102, y: -16}
+        - {x: 103, y: -16}
+        - {x: 104, y: -12}
+        - {x: 104, y: 0}
+        - {x: 101, y: 1}
+    - name: electric_floor_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 240
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -103, y: 1}
+        - {x: -104, y: -4}
+        - {x: -104, y: -12}
+        - {x: -102, y: -16}
+        - {x: 103, y: -16}
+        - {x: 104, y: -12}
+        - {x: 104, y: 0}
+        - {x: 101, y: 1}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

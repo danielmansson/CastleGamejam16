@@ -1,14 +1,13 @@
 fileFormatVersion: 2
-guid: 5dbbc49d826011d4697401df0f6baaa0
-timeCreated: 1467834385
+guid: b323f8a9f2f90c84897d9d4d7ed9a059
+timeCreated: 1467840736
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Test_0
-    21300002: Test_1
-    21300004: Test_2
-    21300006: Test_3
-    21300008: Test_4
+    21300000: Fire_Idle_0
+    21300002: Fire_Idle_1
+    21300004: Fire_Idle_2
+    21300006: Fire_Idle_3
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -55,7 +54,7 @@ TextureImporter:
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: Test_0
+    - name: Fire_Idle_0
       rect:
         serializedVersion: 2
         x: 0
@@ -63,14 +62,17 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -16, y: 16}
-        - {x: -16, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: 16}
-    - name: Test_2
+      - - {x: -7, y: 15}
+        - {x: -10, y: 12}
+        - {x: -10, y: -11}
+        - {x: -9, y: -16}
+        - {x: 10, y: -16}
+        - {x: 10, y: 12}
+        - {x: 4, y: 15}
+    - name: Fire_Idle_1
       rect:
         serializedVersion: 2
         x: 32
@@ -78,14 +80,18 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -16, y: 16}
-        - {x: -16, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: 16}
-    - name: Test_3
+      - - {x: 3, y: 15}
+        - {x: -3, y: 15}
+        - {x: -11, y: 5}
+        - {x: -11, y: -8}
+        - {x: -8, y: -16}
+        - {x: 10, y: -16}
+        - {x: 11, y: -13}
+        - {x: 11, y: 3}
+    - name: Fire_Idle_2
       rect:
         serializedVersion: 2
         x: 64
@@ -93,14 +99,19 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -16, y: 16}
-        - {x: -16, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: 16}
-    - name: Test_4
+      - - {x: 5, y: 14}
+        - {x: -8, y: 14}
+        - {x: -12, y: 1}
+        - {x: -12, y: -12}
+        - {x: -7, y: -16}
+        - {x: 7, y: -16}
+        - {x: 12, y: -11}
+        - {x: 12, y: -2}
+        - {x: 8, y: 13}
+    - name: Fire_Idle_3
       rect:
         serializedVersion: 2
         x: 96
@@ -108,13 +119,17 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -16, y: 16}
-        - {x: -16, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: 16}
+      - - {x: 3, y: 15}
+        - {x: -3, y: 15}
+        - {x: -11, y: 5}
+        - {x: -11, y: -8}
+        - {x: -8, y: -16}
+        - {x: 10, y: -16}
+        - {x: 11, y: -13}
+        - {x: 11, y: 3}
     outline: []
   spritePackingTag: 
   userData: 
