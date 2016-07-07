@@ -27,6 +27,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0.25, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -42,25 +43,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_entries:
-  - name: PressedA
-    fmodName: Event:/Music
-  - name: TitleScreen
+  - name: VoicePlaceTimeContinuum
     fmodName: Event:/VO/PlaceTime
-  - name: LevelUp
+  - name: VoiceLevelUp
     fmodName: Event:/VO/LevelUp
-  - name: SpeedUp
+  - name: VoiceSpeedUp
     fmodName: Event:/VO/SpeedUp
   - name: GameOver
     fmodName: Event:/VO/GameOver
-  - name: Combo1
+  - name: VoiceGreat
     fmodName: Event:/VO/Great
-  - name: Combo2
+  - name: VoicePerfect
     fmodName: Event:/VO/Perfect
-  - name: Combo3
+  - name: VoiceMarvelous
     fmodName: Event:/VO/Marvelous
-  - name: PlayerHit
+  - name: PlayerDamage
     fmodName: Event:/FX/Player/Hit
-  - name: ArrowBlock
+  - name: PlayerArrow
     fmodName: Event:/FX/Player/ArrowBlock
   - name: PlayerJump
     fmodName: Event:/FX/Player/Jump
@@ -68,9 +67,9 @@ MonoBehaviour:
     fmodName: Event:/FX/Player/Shoot
   - name: EnemyHit
     fmodName: Event:/FX/Enemy/Hit
-  - name: GameStart
+  - name: Music100
     fmodName: Event:/Music
-  - name: ReadyGo
+  - name: VoiceReadyGo
     fmodName: Event:/VO/ReadyGo
   - name: JumpPoint
     fmodName: Event:/FX/JumpPoint

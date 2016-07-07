@@ -9,7 +9,8 @@ public class SimpleGameController : MonoBehaviour
 	GameModel m_model;
 
     //Float for Parameters in FMOD
-    public float musicParameter = 0;
+	public float musicParameter = 0;
+	bool flag = false;
 
 
 	void Awake ()
@@ -33,19 +34,33 @@ public class SimpleGameController : MonoBehaviour
 			if (Input.GetKeyDown(KeyCode.A))
 			{
 				m_model.PerformAction(Player.Action.Left);
-
-                AudioEvent.Play("PressedA");
             }
 
 			else if(Input.GetKeyDown(KeyCode.D))
 			{
 				m_model.PerformAction(Player.Action.Right);
-
-                AudioEvent.Play("PressedD");
 			}
-			else if(Input.GetKeyDown(KeyCode.Keypad1))
+			else if(Input.GetKeyDown(KeyCode.Alpha1))
 			{
-				AudioEvent.Play("ReadyGo");
+				AudioEvent.Play("Music100");
+				if(!flag){
+					flag = true;
+					AudioEvent.Play("VoiceReadyGo");
+				} else {
+					AudioEvent.Play("VoiceLevelUp");
+				}
+					
+				
+			}
+			else if(Input.GetKeyDown(KeyCode.Alpha2))
+			{
+				AudioEvent.Play("Music120");
+				AudioEvent.Play("VoiceLevelUp");
+			}
+			else if(Input.GetKeyDown(KeyCode.Alpha3))
+			{
+				AudioEvent.Play("Music150");
+				AudioEvent.Play("VoiceLevelUp");
 			}
 
             //Change this to whenever the speed/level is going up

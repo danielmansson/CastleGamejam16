@@ -16,7 +16,8 @@ public class GameModel
 	public GameModel()
 	{
 		m_stage = new Stage(0);
-
+		AudioEvent.Play("VoiceReadyGo");
+		AudioEvent.Play(m_stage.song);
 
 		timelines.Add(new Timeline(new TimelineConfig()
 		{
@@ -109,6 +110,8 @@ public class GameModel
 			{
 				m_stage = new Stage(m_stage.id+1);
 				DangerGenerator.GenerateDangers(timelines, totalFrame+50, m_stage);
+				AudioEvent.Play("VoiceLevelUp");
+				AudioEvent.Play(m_stage.song);
 			}
 		}
 	}
