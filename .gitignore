@@ -4,8 +4,10 @@ obj
 builds
 Assets/UnityVS
 Assets/UnityVS.meta
-ProjectSettings/ProjectVersion.txt
-ProjectSettings/ProjectSettings.asset
+/ProjectSettings/ProjectVersion.txt
+/ProjectSettings/ProjectSettings.asset
+Assets/FMODStudioCache.asset
+Assets/Resources/FMODStudioSettings.asset
 
 *.unityproj
 *.userprefs
@@ -17,3 +19,5 @@ ProjectSettings/ProjectSettings.asset
 .mayaSwatches
 /fmod_editor.log
 /fmod.log
+Assets/StreamingAssets/Master Bank.bank.meta
+Assets/StreamingAssets/Master Bank.strings.bank.meta
