@@ -126,10 +126,10 @@ public class GameModel
 
 				if(m_stage.musicParameter < 0.9f){
 					AudioEvent.Play("VoiceLevelUp");
-
+					EventManager.Instance.SendEvent<EventChangeText>(new EventChangeText("LevelUp"));
 				} else {
 					AudioEvent.Play("VoiceSpeedUp");
-
+					EventManager.Instance.SendEvent<EventChangeText>(new EventChangeText("SpeedUp"));
 				}
 				AudioEvent.ChangeParameter("Music", "LVL", m_stage.musicParameter);
 			}

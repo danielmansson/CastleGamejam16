@@ -26,12 +26,22 @@ public class EventLevelLoad : EventArgs
 
 public class EventPlayAudio : EventArgs
 {
-    public string Name;
+	public string Name;
 
-    public EventPlayAudio(string name)
-    {
-        Name = name;
-    }
+	public EventPlayAudio(string name)
+	{
+		Name = name;
+	}
+}
+
+public class EventChangeText : EventArgs
+{
+	public string Name;
+
+	public EventChangeText(string name)
+	{
+		Name = name;
+	}
 }
 
 

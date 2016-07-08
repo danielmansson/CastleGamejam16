@@ -46,23 +46,11 @@ public class SimpleGameController : MonoBehaviour
 				}
 			}
 
-            /*
-            //Change to when player makes short combo
-            if (Input.GetKeyDown(KeyCode.E))
-            {
-                AudioEvent.Play("Combo1");
-            }
-            //Change to when player makes medium combo
-            if (Input.GetKeyDown(KeyCode.R))
-            {
-                AudioEvent.Play("Combo2");
-            }
-            //Change to when player makes long combo
-            if (Input.GetKeyDown(KeyCode.T))
-            {
-                AudioEvent.Play("Combo3");
-            }
-            */
+			else if(Input.GetKeyDown(KeyCode.Alpha1))
+			{
+				Debug.Log("Trying to show speedup text");
+				EventManager.Instance.SendEvent<EventChangeText>(new EventChangeText("SpeedUp"));
+			}
 
 
         }
