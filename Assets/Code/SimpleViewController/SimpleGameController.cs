@@ -39,9 +39,11 @@ public class SimpleGameController : MonoBehaviour
 				m_model.PerformAction(Player.Action.Right);
 			}
 
-			else if(Input.GetKeyDown(KeyCode.Alpha1))
+			else if(Input.GetKeyDown(KeyCode.Space))
 			{
-				AudioEvent.Play("EnemyHit");
+				if(m_model.GameOver){
+					Systems.Instance.State.QueueState(State.Start);
+				}
 			}
 
             /*
@@ -61,13 +63,6 @@ public class SimpleGameController : MonoBehaviour
                 AudioEvent.Play("Combo3");
             }
             */
-
-            //Change to when player successfully jumps over/slides under obstacle
-            if (Input.GetKeyDown(KeyCode.Alpha4))
-            {
-                AudioEvent.Play("JumpPoint");
-            }
-
 
 
         }

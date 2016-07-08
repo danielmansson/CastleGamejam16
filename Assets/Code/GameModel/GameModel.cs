@@ -19,6 +19,7 @@ public class GameModel
 
 		//AudioEvent.Play("Music"); already playing
 		AudioEvent.Play("VoiceReadyGo");
+		AudioEvent.ChangeParameter("Music", "GameOver", 0);
 
 		timelines.Add(new Timeline(new TimelineConfig()
 		{
@@ -62,6 +63,7 @@ public class GameModel
 		{
 			GameOver = true;
 			Debug.Log("Death");
+			AudioEvent.ChangeParameter("Music", "GameOver", 1);
 
 
 			if (OnDeath != null)

@@ -5,7 +5,8 @@ using System.Collections.Generic;
 
 public class TitleView : MonoBehaviour
 {
-	private bool firstTime = true;
+	private static bool firstTime = true;
+	private bool firstIteration = true;
 
 	void Start ()
 	{
@@ -14,15 +15,19 @@ public class TitleView : MonoBehaviour
 
 	void Update ()
 	{
-		if(firstTime){
-			firstTime = false;
+		if(firstIteration){
+			firstIteration = false;
 			StartCoroutine(TitleSounds());
 		}	
 	}
 
 	IEnumerator TitleSounds()
 	{
-		AudioEvent.Play("Music");
+		if(firstTime) {
+			firstTime = false;
+			AudioEvent.Play("Music");
+		}
+		AudioEvent.ChangeParameter("Music", "GameOver", 0);
 		yield return new WaitForSeconds(1f);
 		AudioEvent.Play("VoicePlaceTimeContinuum");
 	}
