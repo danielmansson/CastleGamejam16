@@ -27,6 +27,8 @@ public class SimpleTimeline : MonoBehaviour
 			var dangerView = CreateDangerView(danger);
 			m_activeDangers.Add(dangerView);
 		}
+
+		m_timeline.OnDangerAdded += HandleDangerAdded;
 	}
 
 	private void HandleDangerAdded(Danger danger)
