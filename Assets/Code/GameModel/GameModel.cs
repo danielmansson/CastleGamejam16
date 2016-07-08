@@ -47,6 +47,7 @@ public class GameModel
 		}));
 
 		DangerGenerator.GenerateDangers(timelines, 50, m_stage);
+		//generate dangers at fix positions until duration ends
 
 		foreach (var timeline in timelines)
 		{
@@ -125,8 +126,10 @@ public class GameModel
 
 				if(m_stage.musicParameter < 0.9f){
 					AudioEvent.Play("VoiceLevelUp");
+
 				} else {
 					AudioEvent.Play("VoiceSpeedUp");
+
 				}
 				AudioEvent.ChangeParameter("Music", "LVL", m_stage.musicParameter);
 			}
