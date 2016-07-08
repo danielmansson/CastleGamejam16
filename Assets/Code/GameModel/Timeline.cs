@@ -132,7 +132,12 @@ public class Timeline
 			var dangerToDestroy = HandleShooterFireBehaviour();
 			if (dangerToDestroy != null)
 			{
-				DestroyDanger(dangerToDestroy, dangersToRemove);
+				if(dangerToDestroy.hp <= 1){
+					DestroyDanger(dangerToDestroy, dangersToRemove);
+				}
+				else {
+					dangerToDestroy.hp--;
+				}
 			}
 		}
 
