@@ -25,6 +25,7 @@ public class Timeline
 	public Player m_player;
 	public List<Danger> m_dangers = new List<Danger>();
 	public int m_tick;
+	public int score = 0;
 
 	public Type TimelineType
 	{
@@ -182,6 +183,7 @@ public class Timeline
 
 	void DestroyDanger(Danger danger, List<Danger> dangersToRemove)
 	{
+		score += danger.hp;
 		danger.Destroy();
 		dangersToRemove.Add(danger);
 	}

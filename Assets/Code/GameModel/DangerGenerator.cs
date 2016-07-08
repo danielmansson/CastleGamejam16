@@ -5,26 +5,20 @@ using System.Collections.Generic;
 public class DangerGenerator {
 	public static void GenerateDangers(List<Timeline> timelines, int startTick, Stage stage)
 	{
-		//timelines[0].m_dangers.Clear();
-		//timelines[1].m_dangers.Clear();
-		//timelines[2].m_dangers.Clear();
-
 		for(int i = 0; i < stage.ticksPerSecond*stage.duration; i++){
-			//written out because might be different later
 			int dangerTimestamp = ClosestEight(startTick+i);
 			if(i % (stage.slowFactor * timelines[0].m_config.totalPlayerActionDuration) == 0){
 				Danger newDanger = new Danger((Danger.Type)0, (Player.Action)Random.Range(0,2), 1, dangerTimestamp);
 				if(DangerDoesntBreakStuff(timelines, newDanger)
 					&& (timelines[0].m_dangers.Count == 0 
 						|| timelines[0].m_dangers[timelines[0].m_dangers.Count-1].requiredAction == newDanger.requiredAction
-						|| Random.Range(0,1) == 0))
-					//if not same direction as previous one, 50% chance not to spawn
+						|| Random.Range(0,1) == 0)) //doesn't do anything atm 
 				{
 					timelines[0].AddDangerToTimeline(newDanger);
 				}
 			}
 			if(i % (stage.slowFactor * timelines[1].m_config.totalPlayerActionDuration) == 0){
-				Danger newDanger = new Danger((Danger.Type)1, (Player.Action)Random.Range(0,2), 1, dangerTimestamp);
+				Danger newDanger = new Danger((Danger.Type)1, (Player.Action)Random.Range(0,2), 3, dangerTimestamp);
 				if(DangerDoesntBreakStuff(timelines, newDanger)){
 					timelines[1].AddDangerToTimeline(newDanger);
 				}
