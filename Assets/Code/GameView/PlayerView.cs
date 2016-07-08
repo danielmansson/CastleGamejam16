@@ -21,7 +21,7 @@ public class PlayerView : MonoBehaviour
 		m_context = context;
 	}
 
-	void Start ()
+	void Start()
 	{
 		var prefab = m_context.loader.GetPlayerPrefab(Timeline.TimelineType);
 
@@ -31,7 +31,7 @@ public class PlayerView : MonoBehaviour
 		m_visual = go.GetComponent<PlayerVisualController>();
 		m_visual.Init(this);
 	}
-	
+
 	void Update ()
 	{
 	

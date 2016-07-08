@@ -31,6 +31,13 @@ public class ShieldPlayerVisualController : PlayerVisualController
 			m_animation.transform.localScale = new Vector3(1f, 1f, 1f);
 
 		EventManager.Instance.RegisterEvent<BlockedArrowEventArgs>(OnBlockedArrowHandler);
+
+		m_playerView.Model.OnDeath += OnDeath;
+	}
+
+	private void OnDeath(Timeline timeline, Danger danger)
+	{
+		m_animation.SetTrigger("death");
 	}
 
 	private void OnBlockedArrowHandler(BlockedArrowEventArgs obj)

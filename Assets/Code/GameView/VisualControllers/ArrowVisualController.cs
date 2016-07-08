@@ -47,19 +47,26 @@ public class ArrowVisualController : DangerVisualController
 
 	void RefreshTransform()
 	{
-		float t = m_dangerView.GetExtrapolatedSecondsToImpact(); 
+		float t = m_dangerView.GetExtrapolatedSecondsToImpact();
 		if (!m_playingDestroy)
 		{
-			m_arrow.transform.localPosition = Vector3.right * t * (m_dangerView.Danger.requiredAction == Player.Action.Left ? -1f : 1f) * 120f;
+			m_arrow.transform.localPosition = Vector3.right * t * (m_dangerView.Danger.requiredAction == Player.Action.Left ? -1f : 1f) * 80f;
+		}
+		else if (t < -10)
+		{
+			m_dangerView.DestroyView();
 		}
 	}
 
 	void OnModelDangerDestroyed(DangerView dangerView)
 	{
-		m_playingDestroy = true;
-		AudioEvent.Play("PlayerShield");
-		StartCoroutine(DestroySequence());
-		EventManager.Instance.SendEvent(new BlockedArrowEventArgs());
+		if (!dangerView.Model.GameOver)
+		{
+			m_playingDestroy = true;
+			AudioEvent.Play("PlayerShield");
+			StartCoroutine(DestroySequence());
+			EventManager.Instance.SendEvent(new BlockedArrowEventArgs());
+		}
 	}
 
 	IEnumerator DestroySequence()

@@ -15,6 +15,13 @@ public class ShooterPlayerVisualController : PlayerVisualController
 
 		m_playerView.Timeline.m_player.OnPerformAction += OnPlayerActionStarted;
 		m_playerView.Timeline.m_player.OnEndAction += OnPlayerActionEnded;
+
+		m_playerView.Model.OnDeath += OnDeath;
+	}
+
+	private void OnDeath(Timeline timeline, Danger danger)
+	{
+		m_animation.SetTrigger("death");
 	}
 
 	void OnPlayerActionStarted(int actionDuration)

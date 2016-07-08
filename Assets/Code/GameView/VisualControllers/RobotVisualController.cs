@@ -35,7 +35,7 @@ public class RobotVisualController : DangerVisualController
 	{
 		float t = m_timer;
 
-		m_root.transform.localPosition = Vector3.right * t * (m_dangerView.Danger.requiredAction == Player.Action.Left ? -1f : 1f) * 50f;
+		m_root.transform.localPosition = Vector3.right * t * (m_dangerView.Danger.requiredAction == Player.Action.Left ? -1f : 1f) * 30f;
 	}
 	
 	void Update ()

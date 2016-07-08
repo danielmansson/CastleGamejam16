@@ -144,7 +144,7 @@ Material:
       data:
         first:
           name: _Threshold1
-        second: 4.72
+        second: 1.6
       data:
         first:
           name: _Threshold2
