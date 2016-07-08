@@ -71,10 +71,10 @@ public class PortalController : MonoBehaviour
 	{
 		float timer = 0f;
 
-		while (timer < m_openTime)
+		while (timer < m_closeTime)
 		{
 			timer += Time.deltaTime;
-			float t = timer / m_openTime;
+			float t = timer / m_closeTime;
 			renderer.sharedMaterials[0].SetFloat("_Threshold2", Mathf.Lerp(m_openEnd, m_closeEnd, t));
 			yield return null;
 		}
@@ -126,7 +126,7 @@ public class PortalController : MonoBehaviour
 	[ContextMenu("CloseAllSeq")]
 	void CloseAllSeq()
 	{
-		StartCoroutine(CloseAllSequence(1.0f));
+		StartCoroutine(CloseAllSequence(2.0f));
 	}
 
 	IEnumerator CloseAllSequence(float t)

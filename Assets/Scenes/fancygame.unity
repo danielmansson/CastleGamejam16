@@ -796,8 +796,8 @@ MonoBehaviour:
   m_openTime: 5
   m_openStart: 3
   m_openEnd: 0.1
-  m_closeTime: 5
-  m_closeEnd: 3
+  m_closeTime: 15
+  m_closeEnd: 1.53
 --- !u!4 &1745891413
 Transform:
   m_ObjectHideFlags: 0
