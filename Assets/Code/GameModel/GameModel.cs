@@ -83,7 +83,7 @@ public class GameModel
 		if (GameOver)
 			return;
 
-		Debug.Log("I wanna perform an action: " + action);
+		//Debug.Log("I wanna perform an action: " + action);
 
 		foreach (var timeline in timelines)
 		{

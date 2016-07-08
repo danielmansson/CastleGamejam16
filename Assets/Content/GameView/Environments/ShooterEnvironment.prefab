@@ -128,7 +128,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 188222}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: -22, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 467072}
@@ -154,7 +154,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 119242}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: -22, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 497958}
@@ -222,6 +222,8 @@ MonoBehaviour:
   m_foreground: {fileID: 119242}
   m_background: {fileID: 188222}
   m_playerTransform: {fileID: 497958}
+  m_foregroundMaterial: {fileID: 0}
+  m_backgroundMaterial: {fileID: 0}
 --- !u!212 &21260314
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -292,6 +294,10 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: m_layer
       value: Shooter
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_LocalPosition.y
+      value: -22
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}

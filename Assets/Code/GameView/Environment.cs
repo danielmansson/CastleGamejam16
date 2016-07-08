@@ -13,6 +13,10 @@ public class Environment : MonoBehaviour
 	GameObject m_background;
 	[SerializeField]
 	Transform m_playerTransform;
+	[SerializeField]
+	Material m_foregroundMaterial;
+	[SerializeField]
+	Material m_backgroundMaterial;
 
 	public Transform PlayerTransform { get { return m_playerTransform; } }
 
