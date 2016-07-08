@@ -29,138 +29,15 @@ public class SimpleGameController : MonoBehaviour
 	{
 		if (m_model != null)
 		{
-
-            //Test
-			if (Input.GetKeyDown(KeyCode.A))
+			if (Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.LeftArrow))
 			{
 				m_model.PerformAction(Player.Action.Left);
             }
 
-			else if(Input.GetKeyDown(KeyCode.D))
+			else if(Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.RightArrow))
 			{
 				m_model.PerformAction(Player.Action.Right);
 			}
-			else if(Input.GetKeyDown(KeyCode.Alpha1))
-			{
-				AudioEvent.Play("Music100");
-				if(!flag){
-					flag = true;
-					AudioEvent.Play("VoiceReadyGo");
-				} else {
-					AudioEvent.Play("VoiceLevelUp");
-				}
-					
-				
-			}
-			else if(Input.GetKeyDown(KeyCode.Alpha2))
-			{
-				AudioEvent.Play("Music120");
-				AudioEvent.Play("VoiceLevelUp");
-			}
-			else if(Input.GetKeyDown(KeyCode.Alpha3))
-			{
-				AudioEvent.Play("Music150");
-				AudioEvent.Play("VoiceLevelUp");
-			}
-
-            //Change this to whenever the speed/level is going up
-            if (Input.GetKeyDown(KeyCode.P))
-            {
-                if (musicParameter < 2.0)
-                {
-                    musicParameter++;
-                    AudioEvent.Play("SpeedUp");
-                }
-                else if (musicParameter == 2.0)
-                {
-                    musicParameter = 0.5f;
-                    AudioEvent.Play("LevelUp");
-                }
-                else if (musicParameter == 2.5)
-                {
-                    musicParameter = 0.0f;
-                    AudioEvent.Play("LevelUp");
-                }
-                print(musicParameter);
-                AudioEvent.ChangeParameter("PressedA", "LVL", musicParameter);
-            }
-
-
-            //Implement all this stuff plzz <3
-            /*
-            
-            
-            //Change to when player is hit (if the player will have health)
-            if (Input.GetKeyDown(KeyCode.S))
-            {
-                AudioEvent.Play("PlayerHit");
-            }
-
-            //Change to when player blocks an arrow
-            if (Input.GetKeyDown(KeyCode.F))
-            {
-                AudioEvent.Play("ArrowBlock");
-            }
-
-            //Change to when player jumps
-            if (Input.GetKeyDown(KeyCode.F))
-            {
-                AudioEvent.Play("PlayerJump");
-            }
-
-            //Change to when player shoots. Pew pew.
-            if (Input.GetKeyDown(KeyCode.F))
-            {
-                AudioEvent.Play("PlayerShoot");
-            }
-
-            //Change to when player hits an enemy with projectile.
-            if (Input.GetKeyDown(KeyCode.F))
-            {
-                AudioEvent.Play("EnemyHit");
-            }
-
-            //Change to when game starts (After title screen(?)!)
-            if (Input.GetKeyDown(KeyCode.S))
-            {
-                AudioEvent.Play("GameStart");
-                AudioEvent.Play("ReadyGo");
-            }
-
-            //Change to when title screen(?) appears
-            if (Input.GetKeyDown(KeyCode.S))
-            {
-                AudioEvent.Play("TitleScreen");
-            }
-
-            //Change to when player dies
-            if (Input.GetKeyDown(KeyCode.S))
-            {
-                AudioEvent.Play("GameOver");
-                AudioEvent.ChangeParameter("PressedA", "GameOver", 1);
-            }
-
-            //Change to when player dies
-            if (Input.GetKeyDown(KeyCode.G))
-            {
-                AudioEvent.ChangeParameter("PressedA", "GameOver", 0);
-            }
-            */
-            //Change to when player dies
-            if (Input.GetKeyDown(KeyCode.S))
-            {
-                AudioEvent.Play("GameOver");
-                AudioEvent.ChangeParameter("PressedA", "GameOver", 1);
-            }
-
-            //Change to when player restarts from GameOverScreen
-            if (Input.GetKeyDown(KeyCode.G))
-            {
-                musicParameter = 0.0f;
-                AudioEvent.ChangeParameter("PressedA", "GameOver", 0);
-                AudioEvent.ChangeParameter("PressedA", "LVL", musicParameter);
-                AudioEvent.Play("ReadyGo");
-            }
 
             /*
             //Change to when player makes short combo
@@ -181,7 +58,7 @@ public class SimpleGameController : MonoBehaviour
             */
 
             //Change to when player successfully jumps over/slides under obstacle
-            if (Input.GetKeyDown(KeyCode.E))
+            if (Input.GetKeyDown(KeyCode.Alpha4))
             {
                 AudioEvent.Play("JumpPoint");
             }

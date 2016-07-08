@@ -63,12 +63,11 @@ public class GameView : MonoBehaviour
 	void deathHandler(Timeline timeline, Danger danger){
 		AudioEvent.Play("PlayerDeath");
 		StartCoroutine(deathSequence());
-
 	}
 
 	IEnumerator deathSequence(){
-		yield return new WaitForSeconds(1.5f);
-		AudioEvent.Play("VoiceMarvelous");
+		yield return new WaitForSeconds(1.0f);
+		AudioEvent.Play("GameOver");
 	}
 
 

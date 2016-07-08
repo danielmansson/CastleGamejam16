@@ -69,7 +69,7 @@ public class GameModel
 				OnDeath(timeline, danger);
 			}
 
-			Time.timeScale = 0f;
+			//Time.timeScale = 0f;
 
 		}
 	}
