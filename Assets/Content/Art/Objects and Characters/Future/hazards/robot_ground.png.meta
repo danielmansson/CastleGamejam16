@@ -1,0 +1,856 @@
+fileFormatVersion: 2
+guid: c39926714db75774e8c91a8b9d6bf6e7
+timeCreated: 1467929714
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: robot_ground_0
+    21300002: robot_ground_1
+    21300004: robot_ground_2
+    21300006: robot_ground_3
+    21300008: robot_ground_4
+    21300010: robot_ground_5
+    21300012: robot_ground_6
+    21300014: robot_ground_7
+    21300016: robot_ground_8
+    21300018: robot_ground_9
+    21300020: robot_ground_10
+    21300022: robot_ground_11
+    21300024: robot_ground_12
+    21300026: robot_ground_13
+    21300028: robot_ground_14
+    21300030: robot_ground_15
+    21300032: robot_ground_16
+    21300034: robot_ground_17
+    21300036: robot_ground_18
+    21300038: robot_ground_19
+    21300040: robot_ground_20
+    21300042: robot_ground_21
+    21300044: robot_ground_22
+    21300046: robot_ground_23
+    21300048: robot_ground_24
+    21300050: robot_ground_25
+    21300052: robot_ground_26
+    21300054: robot_ground_27
+    21300056: robot_ground_28
+    21300058: robot_ground_29
+    21300060: robot_ground_30
+    21300062: robot_ground_31
+    21300064: robot_ground_32
+    21300066: robot_ground_33
+    21300068: robot_ground_34
+    21300070: robot_ground_35
+    21300072: robot_ground_36
+    21300074: robot_ground_37
+    21300076: robot_ground_38
+    21300078: robot_ground_39
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 1
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: robot_ground_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 13}
+        - {x: -12, y: 11}
+        - {x: -12, y: -13}
+        - {x: 13, y: -13}
+        - {x: 15, y: -11}
+        - {x: 15, y: 1}
+        - {x: 6, y: 13}
+    - name: robot_ground_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 13}
+        - {x: -12, y: 11}
+        - {x: -12, y: -13}
+        - {x: 13, y: -13}
+        - {x: 15, y: -11}
+        - {x: 15, y: 1}
+        - {x: 6, y: 13}
+    - name: robot_ground_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5, y: 12}
+        - {x: -5, y: 12}
+        - {x: -11, y: 8}
+        - {x: -13, y: 1}
+        - {x: -13, y: -8}
+        - {x: -12, y: -10}
+        - {x: -5, y: -12}
+        - {x: 13, y: -12}
+        - {x: 15, y: -10}
+        - {x: 15, y: 2}
+        - {x: 13, y: 6}
+    - name: robot_ground_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5, y: 12}
+        - {x: -5, y: 12}
+        - {x: -11, y: 8}
+        - {x: -13, y: 1}
+        - {x: -13, y: -8}
+        - {x: -12, y: -10}
+        - {x: -5, y: -12}
+        - {x: 13, y: -12}
+        - {x: 15, y: -10}
+        - {x: 15, y: 2}
+        - {x: 13, y: 6}
+    - name: robot_ground_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 13}
+        - {x: -12, y: 11}
+        - {x: -12, y: -13}
+        - {x: 13, y: -13}
+        - {x: 15, y: -11}
+        - {x: 15, y: 1}
+        - {x: 6, y: 13}
+    - name: robot_ground_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 13}
+        - {x: -12, y: 11}
+        - {x: -12, y: -13}
+        - {x: 13, y: -13}
+        - {x: 15, y: -11}
+        - {x: 15, y: 1}
+        - {x: 6, y: 13}
+    - name: robot_ground_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 14}
+        - {x: -10, y: 11}
+        - {x: -10, y: -9}
+        - {x: -9, y: -13}
+        - {x: 16, y: -13}
+        - {x: 16, y: -2}
+        - {x: 5, y: 14}
+    - name: robot_ground_7
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 14}
+        - {x: -10, y: 11}
+        - {x: -10, y: -9}
+        - {x: -9, y: -13}
+        - {x: 16, y: -13}
+        - {x: 16, y: -2}
+        - {x: 5, y: 14}
+    - name: robot_ground_8
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 13}
+        - {x: -12, y: 11}
+        - {x: -12, y: -13}
+        - {x: 13, y: -13}
+        - {x: 15, y: -11}
+        - {x: 15, y: 1}
+        - {x: 6, y: 13}
+    - name: robot_ground_9
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 13}
+        - {x: -12, y: 11}
+        - {x: -12, y: -13}
+        - {x: 13, y: -13}
+        - {x: 15, y: -11}
+        - {x: 15, y: 1}
+        - {x: 6, y: 13}
+    - name: robot_ground_10
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5, y: 12}
+        - {x: -5, y: 12}
+        - {x: -11, y: 8}
+        - {x: -13, y: 1}
+        - {x: -13, y: -8}
+        - {x: -12, y: -10}
+        - {x: -5, y: -12}
+        - {x: 13, y: -12}
+        - {x: 15, y: -10}
+        - {x: 15, y: 2}
+        - {x: 13, y: 6}
+    - name: robot_ground_11
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5, y: 12}
+        - {x: -5, y: 12}
+        - {x: -11, y: 8}
+        - {x: -13, y: 1}
+        - {x: -13, y: -8}
+        - {x: -12, y: -10}
+        - {x: -5, y: -12}
+        - {x: 13, y: -12}
+        - {x: 15, y: -10}
+        - {x: 15, y: 2}
+        - {x: 13, y: 6}
+    - name: robot_ground_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 13}
+        - {x: -12, y: 11}
+        - {x: -12, y: -13}
+        - {x: 13, y: -13}
+        - {x: 15, y: -11}
+        - {x: 15, y: 1}
+        - {x: 6, y: 13}
+    - name: robot_ground_13
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 13}
+        - {x: -12, y: 11}
+        - {x: -12, y: -13}
+        - {x: 13, y: -13}
+        - {x: 15, y: -11}
+        - {x: 15, y: 1}
+        - {x: 6, y: 13}
+    - name: robot_ground_14
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 14}
+        - {x: -10, y: 11}
+        - {x: -10, y: -9}
+        - {x: -9, y: -13}
+        - {x: 16, y: -13}
+        - {x: 16, y: -2}
+        - {x: 5, y: 14}
+    - name: robot_ground_15
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 14}
+        - {x: -10, y: 11}
+        - {x: -10, y: -9}
+        - {x: -9, y: -13}
+        - {x: 16, y: -13}
+        - {x: 16, y: -2}
+        - {x: 5, y: 14}
+    - name: robot_ground_16
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 13}
+        - {x: -12, y: 11}
+        - {x: -12, y: -13}
+        - {x: 13, y: -13}
+        - {x: 15, y: -11}
+        - {x: 15, y: 1}
+        - {x: 6, y: 13}
+    - name: robot_ground_17
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 13}
+        - {x: -12, y: 11}
+        - {x: -12, y: -13}
+        - {x: 13, y: -13}
+        - {x: 15, y: -11}
+        - {x: 15, y: 1}
+        - {x: 6, y: 13}
+    - name: robot_ground_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5, y: 12}
+        - {x: -5, y: 12}
+        - {x: -11, y: 8}
+        - {x: -13, y: 1}
+        - {x: -13, y: -8}
+        - {x: -12, y: -10}
+        - {x: -5, y: -12}
+        - {x: 13, y: -12}
+        - {x: 15, y: -10}
+        - {x: 15, y: 2}
+        - {x: 13, y: 6}
+    - name: robot_ground_19
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5, y: 12}
+        - {x: -5, y: 12}
+        - {x: -11, y: 8}
+        - {x: -13, y: 1}
+        - {x: -13, y: -8}
+        - {x: -12, y: -10}
+        - {x: -5, y: -12}
+        - {x: 13, y: -12}
+        - {x: 15, y: -10}
+        - {x: 15, y: 2}
+        - {x: 13, y: 6}
+    - name: robot_ground_20
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 13}
+        - {x: -12, y: 11}
+        - {x: -12, y: -13}
+        - {x: 13, y: -13}
+        - {x: 15, y: -11}
+        - {x: 15, y: 1}
+        - {x: 6, y: 13}
+    - name: robot_ground_21
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 13}
+        - {x: -12, y: 11}
+        - {x: -12, y: -13}
+        - {x: 13, y: -13}
+        - {x: 15, y: -11}
+        - {x: 15, y: 1}
+        - {x: 6, y: 13}
+    - name: robot_ground_22
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 14}
+        - {x: -10, y: 11}
+        - {x: -10, y: -9}
+        - {x: -9, y: -13}
+        - {x: 16, y: -13}
+        - {x: 16, y: -2}
+        - {x: 5, y: 14}
+    - name: robot_ground_23
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 14}
+        - {x: -10, y: 11}
+        - {x: -10, y: -9}
+        - {x: -9, y: -13}
+        - {x: 16, y: -13}
+        - {x: 16, y: -2}
+        - {x: 5, y: 14}
+    - name: robot_ground_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 13}
+        - {x: -12, y: 11}
+        - {x: -12, y: -13}
+        - {x: 13, y: -13}
+        - {x: 15, y: -11}
+        - {x: 15, y: 1}
+        - {x: 6, y: 13}
+    - name: robot_ground_25
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 13}
+        - {x: -12, y: 11}
+        - {x: -12, y: -13}
+        - {x: 13, y: -13}
+        - {x: 15, y: -11}
+        - {x: 15, y: 1}
+        - {x: 6, y: 13}
+    - name: robot_ground_26
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5, y: 12}
+        - {x: -5, y: 12}
+        - {x: -11, y: 8}
+        - {x: -13, y: 1}
+        - {x: -13, y: -8}
+        - {x: -12, y: -10}
+        - {x: -5, y: -12}
+        - {x: 13, y: -12}
+        - {x: 15, y: -10}
+        - {x: 15, y: 2}
+        - {x: 13, y: 6}
+    - name: robot_ground_27
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5, y: 12}
+        - {x: -5, y: 12}
+        - {x: -11, y: 8}
+        - {x: -13, y: 1}
+        - {x: -13, y: -8}
+        - {x: -12, y: -10}
+        - {x: -5, y: -12}
+        - {x: 13, y: -12}
+        - {x: 15, y: -10}
+        - {x: 15, y: 2}
+        - {x: 13, y: 6}
+    - name: robot_ground_28
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 13}
+        - {x: -12, y: 11}
+        - {x: -12, y: -13}
+        - {x: 13, y: -13}
+        - {x: 15, y: -11}
+        - {x: 15, y: 1}
+        - {x: 6, y: 13}
+    - name: robot_ground_29
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 13}
+        - {x: -12, y: 11}
+        - {x: -12, y: -13}
+        - {x: 13, y: -13}
+        - {x: 15, y: -11}
+        - {x: 15, y: 1}
+        - {x: 6, y: 13}
+    - name: robot_ground_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 14}
+        - {x: -10, y: 11}
+        - {x: -10, y: -9}
+        - {x: -9, y: -13}
+        - {x: 16, y: -13}
+        - {x: 16, y: -2}
+        - {x: 5, y: 14}
+    - name: robot_ground_31
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 14}
+        - {x: -10, y: 11}
+        - {x: -10, y: -9}
+        - {x: -9, y: -13}
+        - {x: 16, y: -13}
+        - {x: 16, y: -2}
+        - {x: 5, y: 14}
+    - name: robot_ground_32
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 13}
+        - {x: -12, y: 11}
+        - {x: -12, y: -13}
+        - {x: 13, y: -13}
+        - {x: 15, y: -11}
+        - {x: 15, y: 1}
+        - {x: 6, y: 13}
+    - name: robot_ground_33
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 13}
+        - {x: -12, y: 11}
+        - {x: -12, y: -13}
+        - {x: 13, y: -13}
+        - {x: 15, y: -11}
+        - {x: 15, y: 1}
+        - {x: 6, y: 13}
+    - name: robot_ground_34
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5, y: 12}
+        - {x: -5, y: 12}
+        - {x: -11, y: 8}
+        - {x: -13, y: 1}
+        - {x: -13, y: -8}
+        - {x: -12, y: -10}
+        - {x: -5, y: -12}
+        - {x: 13, y: -12}
+        - {x: 15, y: -10}
+        - {x: 15, y: 2}
+        - {x: 13, y: 6}
+    - name: robot_ground_35
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 3}
+        - {x: -13, y: -7}
+        - {x: -12, y: -9}
+        - {x: -6, y: -13}
+        - {x: 10, y: -13}
+        - {x: 15, y: -11}
+        - {x: 15, y: -2}
+        - {x: 8, y: 12}
+        - {x: -4, y: 12}
+        - {x: -11, y: 9}
+    - name: robot_ground_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 13}
+        - {x: -12, y: 11}
+        - {x: -12, y: -13}
+        - {x: 13, y: -13}
+        - {x: 15, y: -11}
+        - {x: 15, y: 1}
+        - {x: 6, y: 13}
+    - name: robot_ground_37
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 13}
+        - {x: -12, y: 11}
+        - {x: -12, y: -13}
+        - {x: 13, y: -13}
+        - {x: 15, y: -11}
+        - {x: 15, y: 1}
+        - {x: 6, y: 13}
+    - name: robot_ground_38
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 14}
+        - {x: -10, y: 11}
+        - {x: -10, y: -9}
+        - {x: -9, y: -13}
+        - {x: 16, y: -13}
+        - {x: 16, y: -2}
+        - {x: 5, y: 14}
+    - name: robot_ground_39
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 14}
+        - {x: -10, y: 11}
+        - {x: -10, y: -9}
+        - {x: -9, y: -13}
+        - {x: 16, y: -13}
+        - {x: 16, y: -2}
+        - {x: 5, y: 14}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
