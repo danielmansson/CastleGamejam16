@@ -1,0 +1,894 @@
+fileFormatVersion: 2
+guid: da91118a870da824199e57209d35341d
+timeCreated: 1468013274
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: electric_small_conduit_0
+    21300002: electric_small_conduit_1
+    21300004: electric_small_conduit_2
+    21300006: electric_small_conduit_3
+    21300008: electric_small_conduit_4
+    21300010: electric_small_conduit_5
+    21300012: electric_small_conduit_6
+    21300014: electric_small_conduit_7
+    21300016: electric_small_conduit_8
+    21300018: electric_small_conduit_9
+    21300020: electric_small_conduit_10
+    21300022: electric_small_conduit_11
+    21300024: electric_small_conduit_12
+    21300026: electric_small_conduit_13
+    21300028: electric_small_conduit_14
+    21300030: electric_small_conduit_15
+    21300032: electric_small_conduit_16
+    21300034: electric_small_conduit_17
+    21300036: electric_small_conduit_18
+    21300038: electric_small_conduit_19
+    21300040: electric_small_conduit_20
+    21300042: electric_small_conduit_21
+    21300044: electric_small_conduit_22
+    21300046: electric_small_conduit_23
+    21300048: electric_small_conduit_24
+    21300050: electric_small_conduit_25
+    21300052: electric_small_conduit_26
+    21300054: electric_small_conduit_27
+    21300056: electric_small_conduit_28
+    21300058: electric_small_conduit_29
+    21300060: electric_small_conduit_30
+    21300062: electric_small_conduit_31
+    21300064: electric_small_conduit_32
+    21300066: electric_small_conduit_33
+    21300068: electric_small_conduit_34
+    21300070: electric_small_conduit_35
+    21300072: electric_small_conduit_36
+    21300074: electric_small_conduit_37
+    21300076: electric_small_conduit_38
+    21300078: electric_small_conduit_39
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 1
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: electric_small_conduit_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: 2}
+        - {x: -5, y: 2}
+        - {x: -9, y: -1}
+        - {x: -9, y: -8}
+        - {x: -6, y: -16}
+        - {x: 7, y: -16}
+        - {x: 10, y: -12}
+        - {x: 11, y: -4}
+        - {x: 11, y: 0}
+    - name: electric_small_conduit_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: 2}
+        - {x: -5, y: 2}
+        - {x: -9, y: -1}
+        - {x: -9, y: -8}
+        - {x: -6, y: -16}
+        - {x: 7, y: -16}
+        - {x: 10, y: -12}
+        - {x: 11, y: -4}
+        - {x: 11, y: 0}
+    - name: electric_small_conduit_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: 2}
+        - {x: -5, y: 2}
+        - {x: -9, y: -1}
+        - {x: -9, y: -8}
+        - {x: -6, y: -16}
+        - {x: 7, y: -16}
+        - {x: 10, y: -12}
+        - {x: 11, y: -4}
+        - {x: 11, y: 0}
+    - name: electric_small_conduit_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: 2}
+        - {x: -5, y: 2}
+        - {x: -9, y: -1}
+        - {x: -9, y: -8}
+        - {x: -6, y: -16}
+        - {x: 7, y: -16}
+        - {x: 10, y: -12}
+        - {x: 11, y: -4}
+        - {x: 11, y: 0}
+    - name: electric_small_conduit_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: 2}
+        - {x: -5, y: 2}
+        - {x: -9, y: -1}
+        - {x: -9, y: -8}
+        - {x: -6, y: -16}
+        - {x: 7, y: -16}
+        - {x: 10, y: -12}
+        - {x: 11, y: -4}
+        - {x: 11, y: 0}
+    - name: electric_small_conduit_5
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: 2}
+        - {x: -5, y: 2}
+        - {x: -9, y: -1}
+        - {x: -9, y: -8}
+        - {x: -6, y: -16}
+        - {x: 7, y: -16}
+        - {x: 10, y: -12}
+        - {x: 11, y: -4}
+        - {x: 11, y: 0}
+    - name: electric_small_conduit_6
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: 2}
+        - {x: -5, y: 2}
+        - {x: -9, y: -1}
+        - {x: -9, y: -8}
+        - {x: -6, y: -16}
+        - {x: 7, y: -16}
+        - {x: 10, y: -12}
+        - {x: 11, y: -4}
+        - {x: 11, y: 0}
+    - name: electric_small_conduit_7
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: 2}
+        - {x: -5, y: 2}
+        - {x: -9, y: -1}
+        - {x: -9, y: -8}
+        - {x: -6, y: -16}
+        - {x: 7, y: -16}
+        - {x: 10, y: -12}
+        - {x: 11, y: -4}
+        - {x: 11, y: 0}
+    - name: electric_small_conduit_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: 2}
+        - {x: -5, y: 2}
+        - {x: -9, y: -1}
+        - {x: -9, y: -8}
+        - {x: -6, y: -16}
+        - {x: 7, y: -16}
+        - {x: 10, y: -12}
+        - {x: 11, y: -4}
+        - {x: 11, y: 0}
+    - name: electric_small_conduit_9
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: 2}
+        - {x: -5, y: 2}
+        - {x: -9, y: -1}
+        - {x: -9, y: -8}
+        - {x: -6, y: -16}
+        - {x: 7, y: -16}
+        - {x: 10, y: -12}
+        - {x: 11, y: -4}
+        - {x: 11, y: 0}
+    - name: electric_small_conduit_10
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: 2}
+        - {x: -5, y: 2}
+        - {x: -9, y: -1}
+        - {x: -9, y: -8}
+        - {x: -6, y: -16}
+        - {x: 7, y: -16}
+        - {x: 10, y: -12}
+        - {x: 11, y: -4}
+        - {x: 11, y: 0}
+    - name: electric_small_conduit_11
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: 2}
+        - {x: -5, y: 2}
+        - {x: -9, y: -1}
+        - {x: -9, y: -8}
+        - {x: -6, y: -16}
+        - {x: 7, y: -16}
+        - {x: 10, y: -12}
+        - {x: 11, y: -4}
+        - {x: 11, y: 0}
+    - name: electric_small_conduit_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: 2}
+        - {x: -5, y: 2}
+        - {x: -9, y: -1}
+        - {x: -9, y: -8}
+        - {x: -6, y: -16}
+        - {x: 7, y: -16}
+        - {x: 10, y: -12}
+        - {x: 11, y: -4}
+        - {x: 11, y: 0}
+    - name: electric_small_conduit_13
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: 2}
+        - {x: -5, y: 2}
+        - {x: -9, y: -1}
+        - {x: -9, y: -8}
+        - {x: -6, y: -16}
+        - {x: 7, y: -16}
+        - {x: 10, y: -12}
+        - {x: 11, y: -4}
+        - {x: 11, y: 0}
+    - name: electric_small_conduit_14
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: 2}
+        - {x: -5, y: 2}
+        - {x: -9, y: -1}
+        - {x: -9, y: -8}
+        - {x: -6, y: -16}
+        - {x: 7, y: -16}
+        - {x: 10, y: -12}
+        - {x: 11, y: -4}
+        - {x: 11, y: 0}
+    - name: electric_small_conduit_15
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: 2}
+        - {x: -5, y: 2}
+        - {x: -9, y: -1}
+        - {x: -9, y: -8}
+        - {x: -6, y: -16}
+        - {x: 7, y: -16}
+        - {x: 10, y: -12}
+        - {x: 11, y: -4}
+        - {x: 11, y: 0}
+    - name: electric_small_conduit_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: 2}
+        - {x: -5, y: 2}
+        - {x: -9, y: -1}
+        - {x: -9, y: -8}
+        - {x: -6, y: -16}
+        - {x: 7, y: -16}
+        - {x: 10, y: -12}
+        - {x: 11, y: -4}
+        - {x: 11, y: 0}
+    - name: electric_small_conduit_17
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: 2}
+        - {x: -5, y: 2}
+        - {x: -9, y: -1}
+        - {x: -9, y: -8}
+        - {x: -6, y: -16}
+        - {x: 7, y: -16}
+        - {x: 10, y: -12}
+        - {x: 11, y: -4}
+        - {x: 11, y: 0}
+    - name: electric_small_conduit_18
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: 2}
+        - {x: -5, y: 2}
+        - {x: -9, y: -1}
+        - {x: -9, y: -8}
+        - {x: -6, y: -16}
+        - {x: 7, y: -16}
+        - {x: 10, y: -12}
+        - {x: 11, y: -4}
+        - {x: 11, y: 0}
+    - name: electric_small_conduit_19
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: 2}
+        - {x: -5, y: 2}
+        - {x: -9, y: -1}
+        - {x: -9, y: -8}
+        - {x: -6, y: -16}
+        - {x: 7, y: -16}
+        - {x: 10, y: -12}
+        - {x: 11, y: -4}
+        - {x: 11, y: 0}
+    - name: electric_small_conduit_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: 2}
+        - {x: -5, y: 2}
+        - {x: -9, y: -1}
+        - {x: -9, y: -8}
+        - {x: -6, y: -16}
+        - {x: 7, y: -16}
+        - {x: 10, y: -12}
+        - {x: 11, y: -4}
+        - {x: 11, y: 0}
+    - name: electric_small_conduit_21
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: 2}
+        - {x: -5, y: 2}
+        - {x: -9, y: -1}
+        - {x: -9, y: -8}
+        - {x: -6, y: -16}
+        - {x: 7, y: -16}
+        - {x: 10, y: -12}
+        - {x: 11, y: -4}
+        - {x: 11, y: 0}
+    - name: electric_small_conduit_22
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: 2}
+        - {x: -5, y: 2}
+        - {x: -9, y: -1}
+        - {x: -9, y: -8}
+        - {x: -6, y: -16}
+        - {x: 7, y: -16}
+        - {x: 10, y: -12}
+        - {x: 11, y: -4}
+        - {x: 11, y: 0}
+    - name: electric_small_conduit_23
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: 2}
+        - {x: -5, y: 2}
+        - {x: -9, y: -1}
+        - {x: -9, y: -8}
+        - {x: -6, y: -16}
+        - {x: 7, y: -16}
+        - {x: 10, y: -12}
+        - {x: 11, y: -4}
+        - {x: 11, y: 0}
+    - name: electric_small_conduit_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: 2}
+        - {x: -5, y: 2}
+        - {x: -9, y: -1}
+        - {x: -9, y: -8}
+        - {x: -6, y: -16}
+        - {x: 7, y: -16}
+        - {x: 10, y: -12}
+        - {x: 11, y: -4}
+        - {x: 11, y: 0}
+    - name: electric_small_conduit_25
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: 2}
+        - {x: -5, y: 2}
+        - {x: -9, y: -1}
+        - {x: -9, y: -8}
+        - {x: -6, y: -16}
+        - {x: 7, y: -16}
+        - {x: 10, y: -12}
+        - {x: 11, y: -4}
+        - {x: 11, y: 0}
+    - name: electric_small_conduit_26
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: 2}
+        - {x: -5, y: 2}
+        - {x: -9, y: -1}
+        - {x: -9, y: -8}
+        - {x: -6, y: -16}
+        - {x: 7, y: -16}
+        - {x: 10, y: -12}
+        - {x: 11, y: -4}
+        - {x: 11, y: 0}
+    - name: electric_small_conduit_27
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: 2}
+        - {x: -5, y: 2}
+        - {x: -9, y: -1}
+        - {x: -9, y: -8}
+        - {x: -6, y: -16}
+        - {x: 7, y: -16}
+        - {x: 10, y: -12}
+        - {x: 11, y: -4}
+        - {x: 11, y: 0}
+    - name: electric_small_conduit_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: 2}
+        - {x: -5, y: 2}
+        - {x: -9, y: -1}
+        - {x: -9, y: -8}
+        - {x: -6, y: -16}
+        - {x: 7, y: -16}
+        - {x: 10, y: -12}
+        - {x: 11, y: -4}
+        - {x: 11, y: 0}
+    - name: electric_small_conduit_29
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: 2}
+        - {x: -5, y: 2}
+        - {x: -9, y: -1}
+        - {x: -9, y: -8}
+        - {x: -6, y: -16}
+        - {x: 7, y: -16}
+        - {x: 10, y: -12}
+        - {x: 11, y: -4}
+        - {x: 11, y: 0}
+    - name: electric_small_conduit_30
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: 2}
+        - {x: -5, y: 2}
+        - {x: -9, y: -1}
+        - {x: -9, y: -8}
+        - {x: -6, y: -16}
+        - {x: 7, y: -16}
+        - {x: 10, y: -12}
+        - {x: 11, y: -4}
+        - {x: 11, y: 0}
+    - name: electric_small_conduit_31
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: 2}
+        - {x: -5, y: 2}
+        - {x: -9, y: -1}
+        - {x: -9, y: -8}
+        - {x: -6, y: -16}
+        - {x: 7, y: -16}
+        - {x: 10, y: -12}
+        - {x: 11, y: -4}
+        - {x: 11, y: 0}
+    - name: electric_small_conduit_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: 2}
+        - {x: -5, y: 2}
+        - {x: -9, y: -1}
+        - {x: -9, y: -8}
+        - {x: -6, y: -16}
+        - {x: 7, y: -16}
+        - {x: 10, y: -12}
+        - {x: 11, y: -4}
+        - {x: 11, y: 0}
+    - name: electric_small_conduit_33
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: 2}
+        - {x: -5, y: 2}
+        - {x: -9, y: -1}
+        - {x: -9, y: -8}
+        - {x: -6, y: -16}
+        - {x: 7, y: -16}
+        - {x: 10, y: -12}
+        - {x: 11, y: -4}
+        - {x: 11, y: 0}
+    - name: electric_small_conduit_34
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: 2}
+        - {x: -5, y: 2}
+        - {x: -9, y: -1}
+        - {x: -9, y: -8}
+        - {x: -6, y: -16}
+        - {x: 7, y: -16}
+        - {x: 10, y: -12}
+        - {x: 11, y: -4}
+        - {x: 11, y: 0}
+    - name: electric_small_conduit_35
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: 2}
+        - {x: -5, y: 2}
+        - {x: -9, y: -1}
+        - {x: -9, y: -8}
+        - {x: -6, y: -16}
+        - {x: 7, y: -16}
+        - {x: 10, y: -12}
+        - {x: 11, y: -4}
+        - {x: 11, y: 0}
+    - name: electric_small_conduit_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8, y: 2}
+        - {x: -4, y: 2}
+        - {x: -10, y: -1}
+        - {x: -10, y: -9}
+        - {x: -9, y: -11}
+        - {x: -6, y: -16}
+        - {x: 8, y: -16}
+        - {x: 11, y: -11}
+        - {x: 12, y: -8}
+        - {x: 12, y: -2}
+    - name: electric_small_conduit_37
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: -2}
+        - {x: -7, y: -16}
+        - {x: 8, y: -16}
+        - {x: 11, y: -9}
+        - {x: 11, y: 14}
+        - {x: 0, y: 14}
+        - {x: -11, y: 13}
+    - name: electric_small_conduit_38
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: 2}
+        - {x: -5, y: 2}
+        - {x: -9, y: -1}
+        - {x: -9, y: -8}
+        - {x: -6, y: -16}
+        - {x: 7, y: -16}
+        - {x: 10, y: -12}
+        - {x: 11, y: -4}
+        - {x: 11, y: 0}
+    - name: electric_small_conduit_39
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 16}
+        - {x: -8, y: 11}
+        - {x: -9, y: 6}
+        - {x: -9, y: -9}
+        - {x: -7, y: -16}
+        - {x: 12, y: -16}
+        - {x: 12, y: 16}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
