@@ -17,4 +17,9 @@ public class PlayerAnimationController : MonoBehaviour
 	{
 		m_animator.SetBool("duringAction", false);
 	}
+
+	public void SetTrigger(string trigger)
+	{
+		m_animator.SetTrigger(trigger);
+	}
 }

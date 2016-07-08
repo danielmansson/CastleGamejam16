@@ -1,5 +1,11 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System;
+
+public class BlockedArrowEventArgs : EventArgs
+{
+	
+}
 
 public class ShieldPlayerVisualController : PlayerVisualController
 {
@@ -23,6 +29,13 @@ public class ShieldPlayerVisualController : PlayerVisualController
 			m_animation.transform.localScale = new Vector3(-1f, 1f, 1f);
 		else
 			m_animation.transform.localScale = new Vector3(1f, 1f, 1f);
+
+		EventManager.Instance.RegisterEvent<BlockedArrowEventArgs>(OnBlockedArrowHandler);
+	}
+
+	private void OnBlockedArrowHandler(BlockedArrowEventArgs obj)
+	{
+		m_animation.SetTrigger("block");
 	}
 
 	void OnPlayerActionStarted(int actionDuration)

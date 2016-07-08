@@ -54,7 +54,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 109140}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 8, y: 0, z: 0}
+  m_LocalPosition: {x: 16, y: 4, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 497680}
@@ -66,7 +66,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 147350}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.0089622, y: -2.7591681, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 497680}
@@ -97,6 +97,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_arrow: {fileID: 153688}
+  m_arrowSprite: {fileID: 109140}
+  m_bounceY:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 6.8832684
+      outSlope: 6.8832684
+      tangentMode: 0
+    - time: 0.49320608
+      value: -4.065957
+      inSlope: -36.29832
+      outSlope: -36.29832
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  m_bounceSpeedX: 30
+  m_bounceHeightY: 20
 --- !u!212 &21215296
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -137,6 +156,26 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: m_Layer
       value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_bounceHeightY
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_bounceY.m_Curve.Array.data[1].value
+      value: -4.065957
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_bounceY.m_Curve.Array.data[1].time
+      value: 0.49320608
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_bounceY.m_Curve.Array.data[1].inSlope
+      value: -36.29832
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_bounceY.m_Curve.Array.data[1].outSlope
+      value: -36.29832
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
