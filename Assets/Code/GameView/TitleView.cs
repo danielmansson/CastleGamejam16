@@ -17,10 +17,6 @@ public class TitleView : MonoBehaviour
 		if(firstTime){
 			firstTime = false;
 			StartCoroutine(TitleSounds());
-			if (Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.LeftArrow))
-			{
-				//switch screens
-			}
 		}	
 	}
 
