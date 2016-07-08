@@ -15,6 +15,7 @@ public class Transition : MonoBehaviour
 
 	public IEnumerator In()
 	{
+		AudioEvent.Play("MenuStart");
 		m_art.SetActive(true);
 		float t = 0;
 		while (t < 1)

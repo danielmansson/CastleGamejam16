@@ -18,7 +18,6 @@ public class GameModel
 		m_stage = new Stage(0);
 
 		//AudioEvent.Play("Music"); already playing
-		AudioEvent.Play("MenuStart");
 		AudioEvent.Play("VoiceReadyGo");
 		AudioEvent.ChangeParameter("Music", "GameOver", 0);
 
