@@ -56,6 +56,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 411636}
   - 212: {fileID: 21216430}
+  - 95: {fileID: 9543950}
   m_Layer: 8
   m_Name: Truck
   m_TagString: Untagged
@@ -82,7 +83,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 158260}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -16, y: 24, z: 0}
+  m_LocalPosition: {x: -16, y: 16, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 499350}
@@ -114,6 +115,23 @@ Transform:
   - {fileID: 470426}
   m_Father: {fileID: 498190}
   m_RootOrder: 0
+--- !u!95 &9543950
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 197392}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 3bf01a48af52b8a49814ad8cae413f23, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!114 &11427266
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -154,7 +172,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 5dbbc49d826011d4697401df0f6baaa0, type: 3}
+  m_Sprite: {fileID: 21300000, guid: fc3938f792a98ba458b9e3f300c7f9d3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -184,7 +202,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300004, guid: 5dbbc49d826011d4697401df0f6baaa0, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a8e237077e17c35468541bf1fb026c3a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
