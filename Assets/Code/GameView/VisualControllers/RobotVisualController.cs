@@ -2,6 +2,20 @@
 using System.Collections;
 using System.Collections.Generic;
 
+public class RobotRequestingShotEventArgs : EventArgs
+{
+	public RobotVisualController Robot { get; private set; }
+	public float Time { get; private set; }
+	public Player.Action ReqAction { get; private set; }
+
+	public RobotRequestingShotEventArgs(RobotVisualController robot, Player.Action reqAction, float time)
+	{
+		Robot = robot;
+		Time = time;
+		ReqAction = reqAction;
+	}
+}
+
 public class RobotVisualController : DangerVisualController
 {
 	[SerializeField]
@@ -10,9 +24,12 @@ public class RobotVisualController : DangerVisualController
 	GameObject m_right;
 	[SerializeField]
 	GameObject m_left;
+	float m_shotSpeed = 7;
 
 	DangerView m_dangerView;
 	float m_timer;
+
+	public GameObject Root { get { return m_root; } }
 
 	public override void Init(DangerView dangerView)
 	{
@@ -46,7 +63,10 @@ public class RobotVisualController : DangerVisualController
 
 	void OnModelDangerDestroyed(DangerView dangerView)
 	{
-		StartCoroutine(DestroySoon(0f));
+		float time = Mathf.Abs(m_timer) / m_shotSpeed;
+		StartCoroutine(DestroySoon(time));
+
+		EventManager.Instance.SendEvent(new RobotRequestingShotEventArgs(this, m_dangerView.Danger.requiredAction, time));
 	}
 
 	IEnumerator DestroySoon(float t)

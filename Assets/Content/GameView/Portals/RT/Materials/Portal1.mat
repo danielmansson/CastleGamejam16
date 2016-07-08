@@ -148,7 +148,7 @@ Material:
       data:
         first:
           name: _Threshold2
-        second: 0.1
+        second: 0.7847935
       data:
         first:
           name: _TimeOffset

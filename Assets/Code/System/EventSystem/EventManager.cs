@@ -40,7 +40,12 @@ public class EventManager
         m_eventHandlers = new Dictionary<Type, Dictionary<int, Action<EventArgs>>>();
         m_delayedEvents = new Dictionary<EventDelayCategory, List<EventArgs>>();
 	}
-	
+
+	internal void RegisterEvent<T>()
+	{
+		throw new NotImplementedException();
+	}
+
 	public void RegisterEvent<T> (Action<T> eventHandler) where T : EventArgs
 	{
         Type type = typeof(T);
