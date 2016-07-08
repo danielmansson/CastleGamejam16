@@ -39,6 +39,11 @@ public class SimpleGameController : MonoBehaviour
 				m_model.PerformAction(Player.Action.Right);
 			}
 
+			else if(Input.GetKeyDown(KeyCode.Alpha1))
+			{
+				AudioEvent.Play("EnemyHit");
+			}
+
             /*
             //Change to when player makes short combo
             if (Input.GetKeyDown(KeyCode.E))

@@ -68,6 +68,7 @@ public class GameView : MonoBehaviour
 	IEnumerator deathSequence(){
 		yield return new WaitForSeconds(1.0f);
 		AudioEvent.Play("GameOver");
+		//show game over text + maybe score
 	}
 
 
