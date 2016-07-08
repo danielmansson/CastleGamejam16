@@ -17,7 +17,7 @@ public class GameModel
 	{
 		m_stage = new Stage(0);
 
-		AudioEvent.Play("Music");
+		//AudioEvent.Play("Music"); already playing
 		AudioEvent.Play("VoiceReadyGo");
 
 		timelines.Add(new Timeline(new TimelineConfig()
