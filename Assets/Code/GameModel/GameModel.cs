@@ -15,7 +15,12 @@ public class GameModel
 
 	public GameModel()
 	{
-		m_stage = new Stage(0, 0f);
+		m_stage = new Stage(0);
+		for(int i = 0; i < 15; i++){
+			new Stage(i);
+		}
+
+
 		AudioEvent.Play("Music");
 		AudioEvent.Play("VoiceReadyGo");
 
@@ -110,7 +115,7 @@ public class GameModel
 				&& timelines[2].StageComplete()
 				&& !GameOver)
 			{
-				m_stage = new Stage(m_stage.id+1, m_stage.musicParameter+1);
+				m_stage = new Stage(m_stage.id+1);
 				DangerGenerator.GenerateDangers(timelines, totalFrame+50, m_stage);
 
 				if(m_stage.musicParameter < 0.9f){
