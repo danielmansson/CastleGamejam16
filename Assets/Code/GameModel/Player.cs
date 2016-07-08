@@ -41,6 +41,12 @@ public class Player {
 			m_action = action;
 			state = Player.State.Safe;
 			m_timer = 0;
+			if(id == 2){
+				AudioEvent.Play("PlayerShoot");
+			}
+			if(id == 1){
+				AudioEvent.Play("PlayerJump");
+			}
 
 			if (OnPerformAction != null)
 			{

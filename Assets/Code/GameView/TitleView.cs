@@ -26,6 +26,8 @@ public class TitleView : MonoBehaviour
 		if(firstTime) {
 			firstTime = false;
 			AudioEvent.Play("Music");
+		} else {
+			AudioEvent.ChangeParameter("Music", "LVL", 0);
 		}
 		AudioEvent.ChangeParameter("Music", "GameOver", 0);
 		yield return new WaitForSeconds(1f);

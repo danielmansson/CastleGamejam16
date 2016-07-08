@@ -53,6 +53,5 @@ public class RobotVisualController : DangerVisualController
 	{
 		yield return new WaitForSeconds(t);
 		m_dangerView.DestroyView();
-		AudioEvent.Play("EnemyHit");
 	}
 }

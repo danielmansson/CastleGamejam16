@@ -133,6 +133,7 @@ public class Timeline
 			var dangerToDestroy = HandleShooterFireBehaviour();
 			if (dangerToDestroy != null)
 			{
+				AudioEvent.Play("EnemyHit");
 				if(dangerToDestroy.hp <= 1){
 					DestroyDanger(dangerToDestroy, dangersToRemove);
 				}
