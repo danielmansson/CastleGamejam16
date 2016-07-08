@@ -6,18 +6,15 @@ public class PlayerAnimationController : MonoBehaviour
 	[SerializeField]
 	Animator m_animator;
 
-	bool m_actionLastFrame = false;
-
 	public void TriggerAction(bool dirIsLeft)
 	{
 		m_animator.SetBool("dirIsLeft", dirIsLeft);
-		m_animator.SetBool("action", true);
-		m_actionLastFrame = true;
+		m_animator.SetBool("duringAction", true);
+		m_animator.SetTrigger("action");
 	}
 
-	void LateUpdate()
+	public void EndAction()
 	{
-		m_animator.SetBool("action", m_actionLastFrame);
-		m_actionLastFrame = false;
+		m_animator.SetBool("duringAction", false);
 	}
 }

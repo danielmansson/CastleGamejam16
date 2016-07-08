@@ -8,7 +8,7 @@ public class ShieldPlayerVisualController : PlayerVisualController
 
 	PlayerView m_playerView;
 	float m_totalDuration;
-	Player.Action m_lastAction;
+	Player.Action m_lastAction = Player.Action.Left;
 
 	public override void Init(PlayerView playerView)
 	{
@@ -18,6 +18,11 @@ public class ShieldPlayerVisualController : PlayerVisualController
 		m_playerView.Timeline.m_player.OnEndAction += OnPlayerActionEnded;
 
 		m_lastAction = m_playerView.Timeline.m_player.m_action;
+
+		if (m_lastAction == Player.Action.Left)
+			m_animation.transform.localScale = new Vector3(-1f, 1f, 1f);
+		else
+			m_animation.transform.localScale = new Vector3(1f, 1f, 1f);
 	}
 
 	void OnPlayerActionStarted(int actionDuration)

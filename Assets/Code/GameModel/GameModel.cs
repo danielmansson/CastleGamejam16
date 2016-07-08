@@ -37,7 +37,7 @@ public class GameModel
 			id = 1,
 			type = Timeline.Type.Jumper,
 			totalPlayerActionDuration = 17,
-			playerActionDuration = 4
+			playerActionDuration = 9
 		}));
 
 		timelines.Add(new Timeline(new TimelineConfig()
@@ -46,7 +46,7 @@ public class GameModel
 			type = Timeline.Type.Shooter,
 			totalPlayerActionDuration = 5,
 			playerActionDuration = 1,
-			range = 100
+			range = 32
 		}));
 
 		DangerGenerator.GenerateDangers(timelines, 50, m_stage);
@@ -139,5 +139,10 @@ public class GameModel
 	public float ExtrapolateSecondsLeft(int framesLeft)
 	{
 		return ((float)framesLeft - InterpolationT) * m_stage.secondsPerTick;
+	}
+
+	public float ExtrapolateActionSecondsLeft(int framesLeft)
+	{
+		return ((float)framesLeft + (1f - InterpolationT)) * m_stage.secondsPerTick;
 	}
 }
