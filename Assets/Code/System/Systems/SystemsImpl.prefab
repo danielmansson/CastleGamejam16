@@ -57,9 +57,9 @@ MonoBehaviour:
     fmodName: Event:/VO/Perfect
   - name: VoiceMarvelous
     fmodName: Event:/VO/Marvelous
-  - name: PlayerDamage
+  - name: PlayerDeath
     fmodName: Event:/FX/Player/Hit
-  - name: PlayerArrow
+  - name: PlayerShield
     fmodName: Event:/FX/Player/ArrowBlock
   - name: PlayerJump
     fmodName: Event:/FX/Player/Jump

@@ -32,6 +32,7 @@ public class GameView : MonoBehaviour
 	void Init()
 	{
 		m_model = m_modelMgr.Model;
+		m_model.OnDeath += deathHandler;
 
 		foreach (var timeline in m_model.GetTimelines())
 		{
@@ -58,6 +59,18 @@ public class GameView : MonoBehaviour
 			}
 		}
 	}
+
+	void deathHandler(Timeline timeline, Danger danger){
+		AudioEvent.Play("PlayerDeath");
+		StartCoroutine(deathSequence());
+
+	}
+
+	IEnumerator deathSequence(){
+		yield return new WaitForSeconds(1.5f);
+		AudioEvent.Play("VoiceMarvelous");
+	}
+
 
 	void Update ()
 	{

@@ -42,5 +42,7 @@ public class ArrowVisualController : DangerVisualController
 	void OnModelDangerDestroyed(DangerView dangerView)
 	{
 		dangerView.DestroyView();
+		//hits shield
+		AudioEvent.Play("PlayerShield");
 	}
 }

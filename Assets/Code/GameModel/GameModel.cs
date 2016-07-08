@@ -63,6 +63,7 @@ public class GameModel
 			GameOver = true;
 			Debug.Log("Death");
 
+
 			if (OnDeath != null)
 			{
 				OnDeath(timeline, danger);
@@ -72,7 +73,6 @@ public class GameModel
 
 		}
 	}
-
 	public List<Timeline> GetTimelines()
 	{
 		return timelines;
@@ -122,9 +122,9 @@ public class GameModel
 				}
 
 				if(m_stage.musicParameter < 0.9f){
-					AudioEvent.Play("VoiceSpeedUp");
-				} else {
 					AudioEvent.Play("VoiceLevelUp");
+				} else {
+					AudioEvent.Play("VoiceSpeedUp");
 				}
 				AudioEvent.ChangeParameter("Music", "LVL", m_stage.musicParameter);
 			}
