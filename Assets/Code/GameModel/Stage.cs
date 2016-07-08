@@ -14,9 +14,8 @@ public class Stage {
 	public Stage(int id) {
 		this.id = id;
 		this.slowFactor = Mathf.Max(1, 8 - id/3); //8->1
-		this.musicParameter = (id % 3) + ((id % 6)/3)/2f; //adds 0.5 every other 3-loop
+		this.musicParameter = (id % 3) + ((id % 6)/3)/2f; //i=0 -> i= 8 => 0, 1, 2, 0.5, 1.5, 2.5, 0, 1, 2...
 
-		Debug.Log(musicParameter);
 		int bpm = songBpm[id % 3];
 		this.ticksPerSecond = (Constants.TICKS_PER_BEAT*bpm)/60; //will be slight rounding error...
 		this.secondsPerTick = 1f/ticksPerSecond;

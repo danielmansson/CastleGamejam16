@@ -14,7 +14,12 @@ public class DangerGenerator {
 			int dangerTimestamp = ClosestEight(startTick+i);
 			if(i % (stage.slowFactor * timelines[0].m_config.totalPlayerActionDuration) == 0){
 				Danger newDanger = new Danger((Danger.Type)0, (Player.Action)Random.Range(0,2), 1, dangerTimestamp);
-				if(DangerDoesntBreakStuff(timelines, newDanger)){
+				if(DangerDoesntBreakStuff(timelines, newDanger)
+					&& (timelines[0].m_dangers.Count == 0 
+						|| timelines[0].m_dangers[timelines[0].m_dangers.Count-1].requiredAction == newDanger.requiredAction
+						|| Random.Range(0,1) == 0))
+					//if not same direction as previous one, 50% chance not to spawn
+				{
 					timelines[0].AddDangerToTimeline(newDanger);
 				}
 			}

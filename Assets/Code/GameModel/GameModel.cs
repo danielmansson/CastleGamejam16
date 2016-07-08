@@ -16,10 +16,6 @@ public class GameModel
 	public GameModel()
 	{
 		m_stage = new Stage(0);
-		for(int i = 0; i < 15; i++){
-			new Stage(i);
-		}
-
 
 		AudioEvent.Play("Music");
 		AudioEvent.Play("VoiceReadyGo");
@@ -117,6 +113,13 @@ public class GameModel
 			{
 				m_stage = new Stage(m_stage.id+1);
 				DangerGenerator.GenerateDangers(timelines, totalFrame+50, m_stage);
+				foreach (var timeline in timelines)
+				{
+					timeline.OnPlayerDeath += (danger) => 
+					{
+						OnAnyDeathHandler(timeline, danger);
+					};
+				}
 
 				if(m_stage.musicParameter < 0.9f){
 					AudioEvent.Play("VoiceSpeedUp");
