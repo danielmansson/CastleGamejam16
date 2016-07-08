@@ -89,13 +89,15 @@ public class PortalController : MonoBehaviour
 	[ContextMenu("Open2")]
 	void Open2()
 	{
+        AudioEvent.Play("PortalOpen");
 		OpenPortal(Timeline.Type.Jumper);
 	}
 
 	[ContextMenu("Open3")]
 	void Open3()
 	{
-		OpenPortal(Timeline.Type.Shield);
+        AudioEvent.Play("PortalOpen");
+        OpenPortal(Timeline.Type.Shield);
 	}
 
 	[ContextMenu("Close1")]
