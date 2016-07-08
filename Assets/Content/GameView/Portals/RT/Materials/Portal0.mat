@@ -149,6 +149,10 @@ Material:
         first:
           name: _Threshold2
         second: 0.1
+      data:
+        first:
+          name: _TimeOffset
+        second: 1
     m_Colors:
       data:
         first:
