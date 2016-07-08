@@ -1,0 +1,431 @@
+fileFormatVersion: 2
+guid: 077fe69ca97e5004d9a1eff461e48034
+timeCreated: 1468011484
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: robot_damaged_0
+    21300002: robot_damaged_1
+    21300004: robot_damaged_2
+    21300006: robot_damaged_3
+    21300008: robot_damaged_4
+    21300010: robot_damaged_5
+    21300012: robot_damaged_6
+    21300014: robot_damaged_7
+    21300016: robot_damaged_8
+    21300018: robot_damaged_9
+    21300020: robot_damaged_10
+    21300022: robot_damaged_11
+    21300024: robot_damaged_12
+    21300026: robot_damaged_13
+    21300028: robot_damaged_14
+    21300030: robot_damaged_15
+    21300032: robot_damaged_16
+    21300034: robot_damaged_17
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 1
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: robot_damaged_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 13}
+        - {x: -12, y: 11}
+        - {x: -12, y: -13}
+        - {x: 13, y: -13}
+        - {x: 15, y: -11}
+        - {x: 15, y: 1}
+        - {x: 6, y: 13}
+    - name: robot_damaged_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 13}
+        - {x: -12, y: 11}
+        - {x: -12, y: -13}
+        - {x: 13, y: -13}
+        - {x: 15, y: -11}
+        - {x: 15, y: 1}
+        - {x: 6, y: 13}
+    - name: robot_damaged_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 13}
+        - {x: -4, y: 13}
+        - {x: -16, y: 9}
+        - {x: -16, y: -10}
+        - {x: -11, y: -12}
+        - {x: 15, y: -12}
+        - {x: 15, y: -2}
+        - {x: 11, y: 9}
+    - name: robot_damaged_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2, y: 13}
+        - {x: -4, y: 13}
+        - {x: -10, y: 9}
+        - {x: -12, y: 3}
+        - {x: -12, y: -11}
+        - {x: -8, y: -12}
+        - {x: 13, y: -12}
+        - {x: 15, y: -10}
+        - {x: 15, y: -4}
+        - {x: 12, y: 5}
+    - name: robot_damaged_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: 16}
+        - {x: -5, y: 16}
+        - {x: -12, y: 4}
+        - {x: -12, y: -10}
+        - {x: -11, y: -11}
+        - {x: 2, y: -11}
+        - {x: 7, y: -12}
+        - {x: 16, y: -12}
+        - {x: 16, y: -1}
+        - {x: 10, y: 15}
+    - name: robot_damaged_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2, y: 13}
+        - {x: -4, y: 13}
+        - {x: -9, y: 8}
+        - {x: -12, y: -1}
+        - {x: -12, y: -10}
+        - {x: -2, y: -12}
+        - {x: 16, y: -12}
+        - {x: 16, y: -3}
+        - {x: 12, y: 5}
+    - name: robot_damaged_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 13}
+        - {x: -12, y: 11}
+        - {x: -12, y: -13}
+        - {x: 13, y: -13}
+        - {x: 15, y: -11}
+        - {x: 15, y: 1}
+        - {x: 6, y: 13}
+    - name: robot_damaged_7
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 13}
+        - {x: -12, y: 3}
+        - {x: -12, y: -11}
+        - {x: -11, y: -12}
+        - {x: -5, y: -13}
+        - {x: 12, y: -13}
+        - {x: 15, y: -11}
+        - {x: 15, y: 3}
+        - {x: 5, y: 13}
+    - name: robot_damaged_8
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2, y: 13}
+        - {x: -4, y: 13}
+        - {x: -10, y: 9}
+        - {x: -12, y: 3}
+        - {x: -12, y: -11}
+        - {x: -8, y: -12}
+        - {x: 13, y: -12}
+        - {x: 15, y: -10}
+        - {x: 15, y: -4}
+        - {x: 12, y: 5}
+    - name: robot_damaged_9
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2, y: 15}
+        - {x: -11, y: 15}
+        - {x: -15, y: 13}
+        - {x: -15, y: -5}
+        - {x: -13, y: -12}
+        - {x: 14, y: -12}
+        - {x: 15, y: -8}
+        - {x: 16, y: -7}
+        - {x: 16, y: 2}
+    - name: robot_damaged_10
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: 13}
+        - {x: -5, y: 13}
+        - {x: -12, y: 10}
+        - {x: -12, y: -9}
+        - {x: -11, y: -11}
+        - {x: 2, y: -12}
+        - {x: 15, y: -12}
+        - {x: 16, y: -11}
+        - {x: 16, y: -3}
+        - {x: 11, y: 4}
+    - name: robot_damaged_11
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: 13}
+        - {x: -5, y: 13}
+        - {x: -12, y: 10}
+        - {x: -12, y: -9}
+        - {x: -11, y: -11}
+        - {x: 2, y: -12}
+        - {x: 15, y: -12}
+        - {x: 16, y: -11}
+        - {x: 16, y: -3}
+        - {x: 11, y: 4}
+    - name: robot_damaged_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8, y: 16}
+        - {x: -1, y: 16}
+        - {x: -9, y: 9}
+        - {x: -12, y: -1}
+        - {x: -12, y: -9}
+        - {x: -11, y: -11}
+        - {x: 0, y: -13}
+        - {x: 13, y: -13}
+        - {x: 15, y: -12}
+        - {x: 15, y: -1}
+        - {x: 11, y: 15}
+    - name: robot_damaged_13
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 13}
+        - {x: -12, y: 11}
+        - {x: -12, y: -13}
+        - {x: 13, y: -13}
+        - {x: 15, y: -11}
+        - {x: 15, y: 1}
+        - {x: 6, y: 13}
+    - name: robot_damaged_14
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 13}
+        - {x: -4, y: 13}
+        - {x: -16, y: 9}
+        - {x: -16, y: -10}
+        - {x: -11, y: -12}
+        - {x: 15, y: -12}
+        - {x: 15, y: -2}
+        - {x: 11, y: 9}
+    - name: robot_damaged_15
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2, y: 13}
+        - {x: -4, y: 13}
+        - {x: -10, y: 9}
+        - {x: -12, y: 3}
+        - {x: -12, y: -11}
+        - {x: -8, y: -12}
+        - {x: 13, y: -12}
+        - {x: 15, y: -10}
+        - {x: 15, y: -4}
+        - {x: 12, y: 5}
+    - name: robot_damaged_16
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 15}
+        - {x: -15, y: -9}
+        - {x: -14, y: -12}
+        - {x: 16, y: -12}
+        - {x: 16, y: 2}
+        - {x: 0, y: 15}
+    - name: robot_damaged_17
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: 13}
+        - {x: -5, y: 13}
+        - {x: -12, y: 10}
+        - {x: -12, y: -9}
+        - {x: -11, y: -11}
+        - {x: 2, y: -12}
+        - {x: 15, y: -12}
+        - {x: 16, y: -11}
+        - {x: 16, y: -3}
+        - {x: 11, y: 4}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

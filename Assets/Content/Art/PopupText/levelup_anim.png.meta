@@ -1,0 +1,1029 @@
+fileFormatVersion: 2
+guid: 9cf7920d18d9efa418b54307d8ae8c5a
+timeCreated: 1468011588
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: levelup_anim_0
+    21300002: levelup_anim_1
+    21300004: levelup_anim_2
+    21300006: levelup_anim_3
+    21300008: levelup_anim_4
+    21300010: levelup_anim_5
+    21300012: levelup_anim_6
+    21300014: levelup_anim_7
+    21300016: levelup_anim_8
+    21300018: levelup_anim_9
+    21300020: levelup_anim_10
+    21300022: levelup_anim_11
+    21300024: levelup_anim_12
+    21300026: levelup_anim_13
+    21300028: levelup_anim_14
+    21300030: levelup_anim_15
+    21300032: levelup_anim_16
+    21300034: levelup_anim_17
+    21300036: levelup_anim_18
+    21300038: levelup_anim_19
+    21300040: levelup_anim_20
+    21300042: levelup_anim_21
+    21300044: levelup_anim_22
+    21300046: levelup_anim_23
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 1
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: levelup_anim_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 896
+        width: 240
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 29, y: 14}
+        - {x: 29, y: -8}
+        - {x: 38, y: -16}
+        - {x: 61, y: -16}
+        - {x: 71, y: -1}
+        - {x: 71, y: 9}
+        - {x: 67, y: 14}
+      - - {x: -28, y: -3}
+        - {x: -26, y: -8}
+        - {x: -20, y: -15}
+        - {x: 27, y: -15}
+        - {x: 27, y: 2}
+        - {x: 23, y: 13}
+        - {x: 14, y: 13}
+        - {x: 10, y: 12}
+        - {x: 9, y: 9}
+        - {x: 8, y: -5}
+        - {x: 8, y: 1}
+        - {x: 7, y: 2}
+        - {x: 9, y: 4}
+        - {x: 9, y: 8}
+        - {x: 7, y: 10}
+        - {x: 0, y: 11}
+        - {x: -9, y: 13}
+        - {x: -63, y: 13}
+        - {x: -63, y: -15}
+        - {x: -37, y: -15}
+        - {x: -25, y: -12}
+        - {x: -27, y: -7}
+        - {x: -29, y: -5}
+    - name: levelup_anim_1
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 896
+        width: 240
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 68, y: -18}
+        - {x: 74, y: -7}
+        - {x: 74, y: 5}
+        - {x: 69, y: 15}
+        - {x: 28, y: 15}
+        - {x: 28, y: -21}
+        - {x: 37, y: -30}
+        - {x: 72, y: -30}
+        - {x: 74, y: -29}
+        - {x: 74, y: -19}
+        - {x: 71, y: -17}
+        - {x: 70, y: -17}
+        - {x: 66, y: -22}
+      - - {x: -27, y: -7}
+        - {x: -29, y: -3}
+        - {x: -29, y: 1}
+        - {x: -29, y: -2}
+        - {x: -27, y: -4}
+        - {x: -27, y: -12}
+        - {x: -15, y: -18}
+        - {x: 27, y: -17}
+        - {x: 27, y: 23}
+        - {x: 17, y: 27}
+        - {x: 5, y: 28}
+        - {x: -56, y: 28}
+        - {x: -58, y: 22}
+        - {x: -58, y: 21}
+        - {x: -64, y: 12}
+        - {x: -82, y: -7}
+        - {x: -82, y: -14}
+        - {x: -81, y: -17}
+        - {x: -76, y: -23}
+        - {x: -63, y: -28}
+        - {x: -60, y: -28}
+        - {x: -58, y: -26}
+        - {x: -29, y: -13}
+        - {x: -27, y: -11}
+    - name: levelup_anim_2
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 896
+        width: 240
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 30, y: 14}
+        - {x: 29, y: 13}
+        - {x: 29, y: -5}
+        - {x: 33, y: -17}
+        - {x: 63, y: -17}
+        - {x: 72, y: -9}
+        - {x: 72, y: 10}
+        - {x: 70, y: 14}
+      - - {x: -28, y: -4}
+        - {x: -28, y: 0}
+        - {x: -28, y: -3}
+        - {x: -26, y: -5}
+        - {x: -26, y: -13}
+        - {x: -19, y: -16}
+        - {x: 15, y: -16}
+        - {x: 26, y: -15}
+        - {x: 28, y: -15}
+        - {x: 28, y: 7}
+        - {x: 12, y: 13}
+        - {x: -43, y: 13}
+        - {x: -45, y: 12}
+        - {x: -46, y: 9}
+        - {x: -50, y: 13}
+        - {x: -63, y: 13}
+        - {x: -63, y: -15}
+        - {x: -60, y: -16}
+        - {x: -45, y: -16}
+        - {x: -28, y: -14}
+        - {x: -26, y: -12}
+        - {x: -26, y: -8}
+    - name: levelup_anim_3
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 896
+        width: 240
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 73, y: 7}
+        - {x: 67, y: 10}
+        - {x: 58, y: 14}
+        - {x: 29, y: 14}
+        - {x: 29, y: -12}
+        - {x: 38, y: -17}
+        - {x: 63, y: -17}
+        - {x: 64, y: -14}
+        - {x: 73, y: -4}
+      - - {x: -63, y: 13}
+        - {x: -63, y: -16}
+        - {x: 29, y: -16}
+        - {x: 29, y: -4}
+        - {x: 28, y: -2}
+        - {x: 17, y: 13}
+    - name: levelup_anim_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 832
+        width: 240
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 65, y: 12}
+        - {x: 57, y: 15}
+        - {x: 26, y: 15}
+        - {x: 26, y: -8}
+        - {x: 34, y: -15}
+        - {x: 59, y: -15}
+        - {x: 69, y: -2}
+        - {x: 69, y: 8}
+      - - {x: -29, y: -4}
+        - {x: -29, y: -7}
+        - {x: -23, y: -14}
+        - {x: -1, y: -14}
+        - {x: 25, y: -13}
+        - {x: 25, y: -5}
+        - {x: 24, y: -4}
+        - {x: 17, y: 12}
+        - {x: -17, y: 14}
+        - {x: -66, y: 14}
+        - {x: -66, y: -14}
+        - {x: -30, y: -14}
+        - {x: -29, y: -10}
+        - {x: -29, y: -6}
+        - {x: -31, y: -4}
+    - name: levelup_anim_5
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 832
+        width: 240
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 30, y: 14}
+        - {x: 29, y: 13}
+        - {x: 29, y: -5}
+        - {x: 33, y: -17}
+        - {x: 63, y: -17}
+        - {x: 72, y: -9}
+        - {x: 72, y: 10}
+        - {x: 70, y: 14}
+      - - {x: -28, y: -4}
+        - {x: -28, y: 0}
+        - {x: -28, y: -3}
+        - {x: -26, y: -5}
+        - {x: -26, y: -13}
+        - {x: -19, y: -16}
+        - {x: 15, y: -16}
+        - {x: 26, y: -15}
+        - {x: 28, y: -15}
+        - {x: 28, y: 7}
+        - {x: 12, y: 13}
+        - {x: -43, y: 13}
+        - {x: -45, y: 12}
+        - {x: -46, y: 9}
+        - {x: -50, y: 13}
+        - {x: -63, y: 13}
+        - {x: -63, y: -15}
+        - {x: -60, y: -16}
+        - {x: -45, y: -16}
+        - {x: -28, y: -14}
+        - {x: -26, y: -12}
+        - {x: -26, y: -8}
+    - name: levelup_anim_6
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 832
+        width: 240
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27, y: 15}
+        - {x: 26, y: 14}
+        - {x: 26, y: -4}
+        - {x: 30, y: -16}
+        - {x: 60, y: -16}
+        - {x: 69, y: -8}
+        - {x: 69, y: 11}
+        - {x: 67, y: 15}
+      - - {x: -31, y: -3}
+        - {x: -31, y: 1}
+        - {x: -31, y: -2}
+        - {x: -29, y: -4}
+        - {x: -29, y: -12}
+        - {x: -22, y: -15}
+        - {x: 25, y: -15}
+        - {x: 25, y: 14}
+        - {x: -66, y: 14}
+        - {x: -66, y: -14}
+        - {x: -63, y: -15}
+        - {x: -48, y: -15}
+        - {x: -31, y: -13}
+        - {x: -29, y: -11}
+        - {x: -29, y: -7}
+    - name: levelup_anim_7
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 832
+        width: 240
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 29, y: 14}
+        - {x: 29, y: -8}
+        - {x: 38, y: -16}
+        - {x: 61, y: -16}
+        - {x: 71, y: -1}
+        - {x: 71, y: 9}
+        - {x: 67, y: 14}
+      - - {x: -28, y: -3}
+        - {x: -26, y: -8}
+        - {x: -20, y: -15}
+        - {x: 27, y: -15}
+        - {x: 27, y: 2}
+        - {x: 23, y: 13}
+        - {x: 14, y: 13}
+        - {x: 10, y: 12}
+        - {x: 9, y: 9}
+        - {x: 8, y: -5}
+        - {x: 8, y: 1}
+        - {x: 7, y: 2}
+        - {x: 9, y: 4}
+        - {x: 9, y: 8}
+        - {x: 7, y: 10}
+        - {x: 0, y: 11}
+        - {x: -9, y: 13}
+        - {x: -63, y: 13}
+        - {x: -63, y: -15}
+        - {x: -37, y: -15}
+        - {x: -25, y: -12}
+        - {x: -27, y: -7}
+        - {x: -29, y: -5}
+    - name: levelup_anim_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 240
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 72, y: 7}
+        - {x: 66, y: 10}
+        - {x: 57, y: 14}
+        - {x: 28, y: 14}
+        - {x: 28, y: -12}
+        - {x: 37, y: -17}
+        - {x: 62, y: -17}
+        - {x: 63, y: -14}
+        - {x: 72, y: -4}
+      - - {x: -64, y: 13}
+        - {x: -64, y: -16}
+        - {x: 28, y: -16}
+        - {x: 28, y: -4}
+        - {x: 27, y: -2}
+        - {x: 16, y: 13}
+    - name: levelup_anim_9
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 768
+        width: 240
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 65, y: 12}
+        - {x: 57, y: 15}
+        - {x: 26, y: 15}
+        - {x: 26, y: -8}
+        - {x: 34, y: -15}
+        - {x: 59, y: -15}
+        - {x: 69, y: -2}
+        - {x: 69, y: 8}
+      - - {x: -29, y: -4}
+        - {x: -29, y: -7}
+        - {x: -23, y: -14}
+        - {x: -1, y: -14}
+        - {x: 25, y: -13}
+        - {x: 25, y: -5}
+        - {x: 24, y: -4}
+        - {x: 17, y: 12}
+        - {x: -17, y: 14}
+        - {x: -66, y: 14}
+        - {x: -66, y: -14}
+        - {x: -30, y: -14}
+        - {x: -29, y: -10}
+        - {x: -29, y: -6}
+        - {x: -31, y: -4}
+    - name: levelup_anim_10
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 768
+        width: 240
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 73, y: 7}
+        - {x: 67, y: 10}
+        - {x: 58, y: 14}
+        - {x: 29, y: 14}
+        - {x: 29, y: -12}
+        - {x: 38, y: -17}
+        - {x: 63, y: -17}
+        - {x: 64, y: -14}
+        - {x: 73, y: -4}
+      - - {x: -63, y: 13}
+        - {x: -63, y: -16}
+        - {x: 29, y: -16}
+        - {x: 29, y: -4}
+        - {x: 28, y: -2}
+        - {x: 17, y: 13}
+    - name: levelup_anim_11
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 768
+        width: 240
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 30, y: 14}
+        - {x: 29, y: 13}
+        - {x: 29, y: -5}
+        - {x: 33, y: -17}
+        - {x: 63, y: -17}
+        - {x: 72, y: -9}
+        - {x: 72, y: 10}
+        - {x: 70, y: 14}
+      - - {x: -28, y: -4}
+        - {x: -28, y: 0}
+        - {x: -28, y: -3}
+        - {x: -26, y: -5}
+        - {x: -26, y: -13}
+        - {x: -19, y: -16}
+        - {x: 15, y: -16}
+        - {x: 26, y: -15}
+        - {x: 28, y: -15}
+        - {x: 28, y: 7}
+        - {x: 12, y: 13}
+        - {x: -43, y: 13}
+        - {x: -45, y: 12}
+        - {x: -46, y: 9}
+        - {x: -50, y: 13}
+        - {x: -63, y: 13}
+        - {x: -63, y: -15}
+        - {x: -60, y: -16}
+        - {x: -45, y: -16}
+        - {x: -28, y: -14}
+        - {x: -26, y: -12}
+        - {x: -26, y: -8}
+    - name: levelup_anim_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 704
+        width: 240
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 29, y: 14}
+        - {x: 29, y: -8}
+        - {x: 38, y: -16}
+        - {x: 61, y: -16}
+        - {x: 71, y: -1}
+        - {x: 71, y: 9}
+        - {x: 67, y: 14}
+      - - {x: -28, y: -3}
+        - {x: -26, y: -8}
+        - {x: -20, y: -15}
+        - {x: 27, y: -15}
+        - {x: 27, y: 2}
+        - {x: 23, y: 13}
+        - {x: 14, y: 13}
+        - {x: 10, y: 12}
+        - {x: 9, y: 9}
+        - {x: 8, y: -5}
+        - {x: 8, y: 1}
+        - {x: 7, y: 2}
+        - {x: 9, y: 4}
+        - {x: 9, y: 8}
+        - {x: 7, y: 10}
+        - {x: 0, y: 11}
+        - {x: -9, y: 13}
+        - {x: -63, y: 13}
+        - {x: -63, y: -15}
+        - {x: -37, y: -15}
+        - {x: -25, y: -12}
+        - {x: -27, y: -7}
+        - {x: -29, y: -5}
+    - name: levelup_anim_13
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 704
+        width: 240
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 66, y: 12}
+        - {x: 58, y: 15}
+        - {x: 27, y: 15}
+        - {x: 27, y: -8}
+        - {x: 35, y: -15}
+        - {x: 60, y: -15}
+        - {x: 70, y: -2}
+        - {x: 70, y: 8}
+      - - {x: -28, y: -4}
+        - {x: -28, y: -7}
+        - {x: -22, y: -14}
+        - {x: 26, y: -14}
+        - {x: 26, y: 4}
+        - {x: 22, y: 14}
+        - {x: -65, y: 14}
+        - {x: -65, y: -14}
+        - {x: -29, y: -14}
+        - {x: -28, y: -10}
+        - {x: -28, y: -6}
+        - {x: -30, y: -4}
+    - name: levelup_anim_14
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 704
+        width: 240
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 30, y: 14}
+        - {x: 29, y: 13}
+        - {x: 29, y: -5}
+        - {x: 33, y: -17}
+        - {x: 63, y: -17}
+        - {x: 72, y: -9}
+        - {x: 72, y: 10}
+        - {x: 70, y: 14}
+      - - {x: -28, y: -4}
+        - {x: -28, y: 0}
+        - {x: -28, y: -3}
+        - {x: -26, y: -5}
+        - {x: -26, y: -13}
+        - {x: -19, y: -16}
+        - {x: 15, y: -16}
+        - {x: 26, y: -15}
+        - {x: 28, y: -15}
+        - {x: 28, y: 7}
+        - {x: 12, y: 13}
+        - {x: -43, y: 13}
+        - {x: -45, y: 12}
+        - {x: -46, y: 9}
+        - {x: -50, y: 13}
+        - {x: -63, y: 13}
+        - {x: -63, y: -15}
+        - {x: -60, y: -16}
+        - {x: -45, y: -16}
+        - {x: -28, y: -14}
+        - {x: -26, y: -12}
+        - {x: -26, y: -8}
+    - name: levelup_anim_15
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 704
+        width: 240
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 73, y: 7}
+        - {x: 67, y: 10}
+        - {x: 58, y: 14}
+        - {x: 29, y: 14}
+        - {x: 29, y: -12}
+        - {x: 38, y: -17}
+        - {x: 63, y: -17}
+        - {x: 64, y: -14}
+        - {x: 73, y: -4}
+      - - {x: -63, y: 13}
+        - {x: -63, y: -16}
+        - {x: 29, y: -16}
+        - {x: 29, y: -4}
+        - {x: 28, y: -2}
+        - {x: 17, y: 13}
+    - name: levelup_anim_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 240
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26, y: 16}
+        - {x: 26, y: -8}
+        - {x: 34, y: -15}
+        - {x: 59, y: -15}
+        - {x: 69, y: -2}
+        - {x: 69, y: 11}
+        - {x: 60, y: 16}
+      - - {x: -31, y: -3}
+        - {x: -33, y: -3}
+        - {x: -31, y: -1}
+        - {x: -31, y: -2}
+        - {x: -29, y: -4}
+        - {x: -29, y: -7}
+        - {x: -23, y: -14}
+        - {x: 20, y: -14}
+        - {x: 25, y: -13}
+        - {x: 25, y: -1}
+        - {x: 14, y: 15}
+        - {x: -65, y: 15}
+        - {x: -66, y: 14}
+        - {x: -66, y: -14}
+        - {x: -40, y: -14}
+        - {x: -32, y: -12}
+        - {x: -29, y: -9}
+        - {x: -29, y: -5}
+    - name: levelup_anim_17
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 640
+        width: 240
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 30, y: 14}
+        - {x: 29, y: 13}
+        - {x: 29, y: -5}
+        - {x: 33, y: -17}
+        - {x: 63, y: -17}
+        - {x: 72, y: -9}
+        - {x: 72, y: 10}
+        - {x: 70, y: 14}
+      - - {x: -28, y: -4}
+        - {x: -28, y: 0}
+        - {x: -28, y: -3}
+        - {x: -26, y: -5}
+        - {x: -26, y: -13}
+        - {x: -19, y: -16}
+        - {x: 15, y: -16}
+        - {x: 26, y: -15}
+        - {x: 28, y: -15}
+        - {x: 28, y: 7}
+        - {x: 12, y: 13}
+        - {x: -43, y: 13}
+        - {x: -45, y: 12}
+        - {x: -46, y: 9}
+        - {x: -50, y: 13}
+        - {x: -63, y: 13}
+        - {x: -63, y: -15}
+        - {x: -60, y: -16}
+        - {x: -45, y: -16}
+        - {x: -28, y: -14}
+        - {x: -26, y: -12}
+        - {x: -26, y: -8}
+    - name: levelup_anim_18
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 640
+        width: 240
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 48, y: -13}
+        - {x: 51, y: -14}
+        - {x: 59, y: -15}
+        - {x: 87, y: -11}
+        - {x: 87, y: 29}
+        - {x: 9, y: 29}
+        - {x: 9, y: 6}
+        - {x: 17, y: -11}
+        - {x: 47, y: -29}
+        - {x: 62, y: -29}
+        - {x: 67, y: -21}
+        - {x: 58, y: -16}
+        - {x: 50, y: -15}
+      - - {x: -24, y: 25}
+        - {x: -62, y: 25}
+        - {x: -60, y: 20}
+        - {x: -59, y: 17}
+        - {x: -65, y: 17}
+        - {x: -66, y: 12}
+        - {x: -66, y: -14}
+        - {x: -48, y: -14}
+        - {x: -31, y: -12}
+        - {x: -29, y: -10}
+        - {x: -29, y: -6}
+        - {x: -31, y: -4}
+        - {x: -29, y: -4}
+        - {x: -29, y: -7}
+        - {x: -23, y: -14}
+        - {x: -10, y: -23}
+        - {x: 25, y: -23}
+        - {x: 25, y: 5}
+        - {x: 18, y: 21}
+    - name: levelup_anim_19
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 640
+        width: 240
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 29, y: 14}
+        - {x: 29, y: -8}
+        - {x: 38, y: -16}
+        - {x: 61, y: -16}
+        - {x: 71, y: -1}
+        - {x: 71, y: 9}
+        - {x: 67, y: 14}
+      - - {x: -28, y: -3}
+        - {x: -26, y: -8}
+        - {x: -20, y: -15}
+        - {x: 27, y: -15}
+        - {x: 27, y: 2}
+        - {x: 23, y: 13}
+        - {x: 14, y: 13}
+        - {x: 10, y: 12}
+        - {x: 9, y: 9}
+        - {x: 8, y: -5}
+        - {x: 8, y: 1}
+        - {x: 7, y: 2}
+        - {x: 9, y: 4}
+        - {x: 9, y: 8}
+        - {x: 7, y: 10}
+        - {x: 0, y: 11}
+        - {x: -9, y: 13}
+        - {x: -63, y: 13}
+        - {x: -63, y: -15}
+        - {x: -37, y: -15}
+        - {x: -25, y: -12}
+        - {x: -27, y: -7}
+        - {x: -29, y: -5}
+    - name: levelup_anim_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 576
+        width: 240
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 40, y: -19}
+        - {x: 63, y: -19}
+        - {x: 77, y: -3}
+        - {x: 83, y: 5}
+        - {x: 82, y: 11}
+        - {x: 79, y: 14}
+        - {x: 83, y: 12}
+        - {x: 86, y: 12}
+        - {x: 87, y: 14}
+        - {x: 87, y: 16}
+        - {x: 79, y: 24}
+        - {x: 65, y: 26}
+        - {x: 60, y: 23}
+        - {x: 60, y: 21}
+        - {x: 62, y: 17}
+        - {x: 46, y: 14}
+        - {x: 45, y: 11}
+        - {x: 39, y: 13}
+        - {x: 32, y: 13}
+        - {x: 29, y: 12}
+        - {x: 30, y: -4}
+        - {x: 22, y: 7}
+        - {x: 31, y: 13}
+        - {x: 29, y: 18}
+        - {x: 36, y: 13}
+        - {x: 43, y: 24}
+        - {x: 36, y: 27}
+        - {x: 23, y: 27}
+        - {x: 15, y: 26}
+        - {x: 14, y: 23}
+        - {x: 15, y: 20}
+        - {x: 4, y: 19}
+        - {x: -12, y: 10}
+        - {x: -15, y: 6}
+        - {x: -22, y: 11}
+        - {x: -44, y: 11}
+        - {x: -33, y: 11}
+        - {x: -24, y: 20}
+        - {x: -40, y: 27}
+        - {x: -48, y: 27}
+        - {x: -50, y: 23}
+        - {x: -49, y: 20}
+        - {x: -50, y: 23}
+        - {x: -54, y: 27}
+        - {x: -60, y: 27}
+        - {x: -88, y: -11}
+        - {x: -83, y: -23}
+        - {x: -64, y: -24}
+        - {x: -27, y: -15}
+        - {x: -25, y: -13}
+        - {x: -25, y: -9}
+        - {x: -27, y: -5}
+        - {x: -27, y: -1}
+        - {x: -27, y: -4}
+        - {x: -25, y: -6}
+        - {x: -25, y: -9}
+        - {x: -22, y: -13}
+        - {x: -26, y: -15}
+        - {x: -29, y: -18}
+        - {x: -35, y: -19}
+        - {x: -39, y: -21}
+        - {x: -38, y: -27}
+        - {x: -15, y: -28}
+        - {x: 0, y: -26}
+        - {x: 19, y: -29}
+        - {x: 30, y: -29}
+        - {x: 40, y: -21}
+        - {x: 39, y: -18}
+        - {x: 36, y: -15}
+    - name: levelup_anim_21
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 576
+        width: 240
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26, y: 16}
+        - {x: 26, y: -8}
+        - {x: 34, y: -15}
+        - {x: 59, y: -15}
+        - {x: 69, y: -2}
+        - {x: 69, y: 11}
+        - {x: 60, y: 16}
+      - - {x: -31, y: -3}
+        - {x: -33, y: -3}
+        - {x: -31, y: -1}
+        - {x: -31, y: -2}
+        - {x: -29, y: -4}
+        - {x: -29, y: -7}
+        - {x: -23, y: -14}
+        - {x: 20, y: -14}
+        - {x: 25, y: -13}
+        - {x: 25, y: -1}
+        - {x: 14, y: 15}
+        - {x: -65, y: 15}
+        - {x: -66, y: 14}
+        - {x: -66, y: -14}
+        - {x: -40, y: -14}
+        - {x: -32, y: -12}
+        - {x: -29, y: -9}
+        - {x: -29, y: -5}
+    - name: levelup_anim_22
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 576
+        width: 240
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -78, y: 27}
+        - {x: -78, y: -6}
+        - {x: -75, y: -7}
+        - {x: -72, y: -7}
+        - {x: -67, y: -5}
+        - {x: -63, y: -3}
+        - {x: -63, y: -1}
+        - {x: -62, y: -15}
+        - {x: -61, y: -18}
+        - {x: -36, y: -29}
+        - {x: -13, y: -29}
+        - {x: -14, y: -24}
+        - {x: -21, y: -15}
+        - {x: -25, y: -12}
+        - {x: -25, y: -8}
+        - {x: -27, y: -6}
+        - {x: -29, y: -6}
+        - {x: -27, y: -4}
+        - {x: -27, y: -5}
+        - {x: -25, y: -7}
+        - {x: -25, y: -10}
+        - {x: -19, y: -17}
+        - {x: -15, y: -17}
+        - {x: -10, y: -12}
+        - {x: -7, y: -17}
+        - {x: -4, y: -16}
+        - {x: -11, y: -17}
+        - {x: -14, y: -20}
+        - {x: -14, y: -22}
+        - {x: -4, y: -28}
+        - {x: 4, y: -26}
+        - {x: 13, y: -29}
+        - {x: 21, y: -29}
+        - {x: 29, y: -25}
+        - {x: 29, y: 12}
+        - {x: 22, y: 27}
+      - - {x: 65, y: 11}
+        - {x: 73, y: 11}
+        - {x: 85, y: 14}
+        - {x: 75, y: 27}
+        - {x: 70, y: 30}
+        - {x: 30, y: 30}
+        - {x: 30, y: -20}
+        - {x: 87, y: -20}
+        - {x: 88, y: -18}
+        - {x: 88, y: -6}
+        - {x: 74, y: 7}
+    - name: levelup_anim_23
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 576
+        width: 240
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 30, y: 14}
+        - {x: 29, y: 13}
+        - {x: 29, y: -5}
+        - {x: 33, y: -17}
+        - {x: 63, y: -17}
+        - {x: 72, y: -9}
+        - {x: 72, y: 10}
+        - {x: 70, y: 14}
+      - - {x: -28, y: -4}
+        - {x: -28, y: 0}
+        - {x: -28, y: -3}
+        - {x: -26, y: -5}
+        - {x: -26, y: -13}
+        - {x: -19, y: -16}
+        - {x: 15, y: -16}
+        - {x: 26, y: -15}
+        - {x: 28, y: -15}
+        - {x: 28, y: 7}
+        - {x: 12, y: 13}
+        - {x: -43, y: 13}
+        - {x: -45, y: 12}
+        - {x: -46, y: 9}
+        - {x: -50, y: 13}
+        - {x: -63, y: 13}
+        - {x: -63, y: -15}
+        - {x: -60, y: -16}
+        - {x: -45, y: -16}
+        - {x: -28, y: -14}
+        - {x: -26, y: -12}
+        - {x: -26, y: -8}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
