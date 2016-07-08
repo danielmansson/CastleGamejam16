@@ -1,0 +1,857 @@
+fileFormatVersion: 2
+guid: ba7d2cbe45e82be4a91cf94deff5f457
+timeCreated: 1467998351
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: electric_enviro_miscbackground_0
+    21300002: electric_enviro_miscbackground_1
+    21300004: electric_enviro_miscbackground_2
+    21300006: electric_enviro_miscbackground_3
+    21300008: electric_enviro_miscbackground_4
+    21300010: electric_enviro_miscbackground_5
+    21300012: electric_enviro_miscbackground_6
+    21300014: electric_enviro_miscbackground_7
+    21300016: electric_enviro_miscbackground_8
+    21300018: electric_enviro_miscbackground_9
+    21300020: electric_enviro_miscbackground_10
+    21300022: electric_enviro_miscbackground_11
+    21300024: electric_enviro_miscbackground_12
+    21300026: electric_enviro_miscbackground_13
+    21300028: electric_enviro_miscbackground_14
+    21300030: electric_enviro_miscbackground_15
+    21300032: electric_enviro_miscbackground_16
+    21300034: electric_enviro_miscbackground_17
+    21300036: electric_enviro_miscbackground_18
+    21300038: electric_enviro_miscbackground_19
+    21300040: electric_enviro_miscbackground_20
+    21300042: electric_enviro_miscbackground_21
+    21300044: electric_enviro_miscbackground_22
+    21300046: electric_enviro_miscbackground_23
+    21300048: electric_enviro_miscbackground_24
+    21300050: electric_enviro_miscbackground_25
+    21300052: electric_enviro_miscbackground_26
+    21300054: electric_enviro_miscbackground_27
+    21300056: electric_enviro_miscbackground_28
+    21300058: electric_enviro_miscbackground_29
+    21300060: electric_enviro_miscbackground_30
+    21300062: electric_enviro_miscbackground_31
+    21300064: electric_enviro_miscbackground_32
+    21300066: electric_enviro_miscbackground_33
+    21300068: electric_enviro_miscbackground_34
+    21300070: electric_enviro_miscbackground_35
+    21300072: electric_enviro_miscbackground_36
+    21300074: electric_enviro_miscbackground_37
+    21300076: electric_enviro_miscbackground_38
+    21300078: electric_enviro_miscbackground_39
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 1
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: electric_enviro_miscbackground_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 864
+        width: 32
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 48}
+        - {x: -13, y: 35}
+        - {x: -13, y: -40}
+        - {x: -10, y: -48}
+        - {x: 12, y: -48}
+        - {x: 13, y: -34}
+        - {x: 13, y: 41}
+        - {x: 10, y: 48}
+    - name: electric_enviro_miscbackground_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 864
+        width: 32
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 48}
+        - {x: -13, y: 35}
+        - {x: -13, y: -40}
+        - {x: -10, y: -48}
+        - {x: 12, y: -48}
+        - {x: 13, y: -34}
+        - {x: 13, y: 41}
+        - {x: 10, y: 48}
+    - name: electric_enviro_miscbackground_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 864
+        width: 32
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 48}
+        - {x: -13, y: 35}
+        - {x: -13, y: -40}
+        - {x: -10, y: -48}
+        - {x: 12, y: -48}
+        - {x: 13, y: -34}
+        - {x: 13, y: 41}
+        - {x: 10, y: 48}
+    - name: electric_enviro_miscbackground_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 864
+        width: 32
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 48}
+        - {x: -13, y: 35}
+        - {x: -13, y: -40}
+        - {x: -10, y: -48}
+        - {x: 12, y: -48}
+        - {x: 13, y: -34}
+        - {x: 13, y: 41}
+        - {x: 10, y: 48}
+    - name: electric_enviro_miscbackground_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 32
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 48}
+        - {x: -13, y: 35}
+        - {x: -13, y: -40}
+        - {x: -10, y: -48}
+        - {x: 12, y: -48}
+        - {x: 13, y: -34}
+        - {x: 13, y: 41}
+        - {x: 10, y: 48}
+    - name: electric_enviro_miscbackground_5
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 768
+        width: 32
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 48}
+        - {x: -13, y: 35}
+        - {x: -13, y: -40}
+        - {x: -10, y: -48}
+        - {x: 12, y: -48}
+        - {x: 13, y: -34}
+        - {x: 13, y: 41}
+        - {x: 10, y: 48}
+    - name: electric_enviro_miscbackground_6
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 768
+        width: 32
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 48}
+        - {x: -13, y: 35}
+        - {x: -13, y: -40}
+        - {x: -10, y: -48}
+        - {x: 12, y: -48}
+        - {x: 13, y: -34}
+        - {x: 13, y: 41}
+        - {x: 10, y: 48}
+    - name: electric_enviro_miscbackground_7
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 768
+        width: 32
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 48}
+        - {x: -13, y: 35}
+        - {x: -13, y: -40}
+        - {x: -10, y: -48}
+        - {x: 12, y: -48}
+        - {x: 13, y: -34}
+        - {x: 13, y: 41}
+        - {x: 10, y: 48}
+    - name: electric_enviro_miscbackground_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 672
+        width: 32
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 48}
+        - {x: -13, y: 35}
+        - {x: -13, y: -40}
+        - {x: -10, y: -48}
+        - {x: 12, y: -48}
+        - {x: 13, y: -34}
+        - {x: 13, y: 41}
+        - {x: 10, y: 48}
+    - name: electric_enviro_miscbackground_9
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 672
+        width: 32
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 48}
+        - {x: -13, y: 35}
+        - {x: -13, y: -40}
+        - {x: -10, y: -48}
+        - {x: 12, y: -48}
+        - {x: 13, y: -34}
+        - {x: 13, y: 41}
+        - {x: 10, y: 48}
+    - name: electric_enviro_miscbackground_10
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 672
+        width: 32
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 48}
+        - {x: -13, y: 35}
+        - {x: -13, y: -40}
+        - {x: -10, y: -48}
+        - {x: 12, y: -48}
+        - {x: 13, y: -34}
+        - {x: 13, y: 41}
+        - {x: 10, y: 48}
+    - name: electric_enviro_miscbackground_11
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 672
+        width: 32
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 48}
+        - {x: -13, y: 35}
+        - {x: -13, y: -40}
+        - {x: -10, y: -48}
+        - {x: 12, y: -48}
+        - {x: 13, y: -34}
+        - {x: 13, y: 41}
+        - {x: 10, y: 48}
+    - name: electric_enviro_miscbackground_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 576
+        width: 32
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 48}
+        - {x: -13, y: 35}
+        - {x: -13, y: -40}
+        - {x: -10, y: -48}
+        - {x: 12, y: -48}
+        - {x: 13, y: -34}
+        - {x: 13, y: 41}
+        - {x: 10, y: 48}
+    - name: electric_enviro_miscbackground_13
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 576
+        width: 32
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 48}
+        - {x: -13, y: 35}
+        - {x: -13, y: -40}
+        - {x: -10, y: -48}
+        - {x: 12, y: -48}
+        - {x: 13, y: -34}
+        - {x: 13, y: 41}
+        - {x: 10, y: 48}
+    - name: electric_enviro_miscbackground_14
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 576
+        width: 32
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 48}
+        - {x: -13, y: 35}
+        - {x: -13, y: -40}
+        - {x: -10, y: -48}
+        - {x: 12, y: -48}
+        - {x: 13, y: -34}
+        - {x: 13, y: 41}
+        - {x: 10, y: 48}
+    - name: electric_enviro_miscbackground_15
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 576
+        width: 32
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 48}
+        - {x: -13, y: 35}
+        - {x: -13, y: -40}
+        - {x: -10, y: -48}
+        - {x: 12, y: -48}
+        - {x: 13, y: -34}
+        - {x: 13, y: 41}
+        - {x: 10, y: 48}
+    - name: electric_enviro_miscbackground_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 32
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 48}
+        - {x: -13, y: 35}
+        - {x: -13, y: -40}
+        - {x: -10, y: -48}
+        - {x: 12, y: -48}
+        - {x: 13, y: -34}
+        - {x: 13, y: 41}
+        - {x: 10, y: 48}
+    - name: electric_enviro_miscbackground_17
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 480
+        width: 32
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 48}
+        - {x: -13, y: 35}
+        - {x: -13, y: -40}
+        - {x: -10, y: -48}
+        - {x: 12, y: -48}
+        - {x: 13, y: -34}
+        - {x: 13, y: 41}
+        - {x: 10, y: 48}
+    - name: electric_enviro_miscbackground_18
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 480
+        width: 32
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 48}
+        - {x: -13, y: 35}
+        - {x: -13, y: -40}
+        - {x: -10, y: -48}
+        - {x: 12, y: -48}
+        - {x: 13, y: -34}
+        - {x: 13, y: 41}
+        - {x: 10, y: 48}
+    - name: electric_enviro_miscbackground_19
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 480
+        width: 32
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 48}
+        - {x: -13, y: 35}
+        - {x: -13, y: -40}
+        - {x: -10, y: -48}
+        - {x: 12, y: -48}
+        - {x: 13, y: -34}
+        - {x: 13, y: 41}
+        - {x: 10, y: 48}
+    - name: electric_enviro_miscbackground_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 32
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 48}
+        - {x: -13, y: 35}
+        - {x: -13, y: -40}
+        - {x: -10, y: -48}
+        - {x: 12, y: -48}
+        - {x: 13, y: -34}
+        - {x: 13, y: 41}
+        - {x: 10, y: 48}
+    - name: electric_enviro_miscbackground_21
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 384
+        width: 32
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 48}
+        - {x: -13, y: 35}
+        - {x: -13, y: -40}
+        - {x: -10, y: -48}
+        - {x: 12, y: -48}
+        - {x: 13, y: -34}
+        - {x: 13, y: 41}
+        - {x: 10, y: 48}
+    - name: electric_enviro_miscbackground_22
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 384
+        width: 32
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 48}
+        - {x: -13, y: 35}
+        - {x: -13, y: -40}
+        - {x: -10, y: -48}
+        - {x: 12, y: -48}
+        - {x: 13, y: -34}
+        - {x: 13, y: 41}
+        - {x: 10, y: 48}
+    - name: electric_enviro_miscbackground_23
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 384
+        width: 32
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 48}
+        - {x: -13, y: 35}
+        - {x: -13, y: -40}
+        - {x: -10, y: -48}
+        - {x: 12, y: -48}
+        - {x: 13, y: -34}
+        - {x: 13, y: 41}
+        - {x: 10, y: 48}
+    - name: electric_enviro_miscbackground_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 288
+        width: 32
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 48}
+        - {x: -13, y: 35}
+        - {x: -13, y: -40}
+        - {x: -10, y: -48}
+        - {x: 12, y: -48}
+        - {x: 13, y: -34}
+        - {x: 13, y: 41}
+        - {x: 10, y: 48}
+    - name: electric_enviro_miscbackground_25
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 288
+        width: 32
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 48}
+        - {x: -13, y: 35}
+        - {x: -13, y: -40}
+        - {x: -10, y: -48}
+        - {x: 12, y: -48}
+        - {x: 13, y: -34}
+        - {x: 13, y: 41}
+        - {x: 10, y: 48}
+    - name: electric_enviro_miscbackground_26
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 288
+        width: 32
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 48}
+        - {x: -13, y: 35}
+        - {x: -13, y: -40}
+        - {x: -10, y: -48}
+        - {x: 12, y: -48}
+        - {x: 13, y: -34}
+        - {x: 13, y: 41}
+        - {x: 10, y: 48}
+    - name: electric_enviro_miscbackground_27
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 288
+        width: 32
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 48}
+        - {x: -13, y: 35}
+        - {x: -13, y: -40}
+        - {x: -10, y: -48}
+        - {x: 12, y: -48}
+        - {x: 13, y: -34}
+        - {x: 13, y: 41}
+        - {x: 10, y: 48}
+    - name: electric_enviro_miscbackground_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 32
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 48}
+        - {x: -13, y: 35}
+        - {x: -13, y: -40}
+        - {x: -10, y: -48}
+        - {x: 12, y: -48}
+        - {x: 13, y: -34}
+        - {x: 13, y: 41}
+        - {x: 10, y: 48}
+    - name: electric_enviro_miscbackground_29
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 192
+        width: 32
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 48}
+        - {x: -13, y: 35}
+        - {x: -13, y: -40}
+        - {x: -10, y: -48}
+        - {x: 12, y: -48}
+        - {x: 13, y: -34}
+        - {x: 13, y: 41}
+        - {x: 10, y: 48}
+    - name: electric_enviro_miscbackground_30
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 32
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 48}
+        - {x: -13, y: 35}
+        - {x: -13, y: -40}
+        - {x: -10, y: -48}
+        - {x: 12, y: -48}
+        - {x: 13, y: -34}
+        - {x: 13, y: 41}
+        - {x: 10, y: 48}
+    - name: electric_enviro_miscbackground_31
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 192
+        width: 32
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 48}
+        - {x: -13, y: 35}
+        - {x: -13, y: -40}
+        - {x: -10, y: -48}
+        - {x: 12, y: -48}
+        - {x: 13, y: -34}
+        - {x: 13, y: 41}
+        - {x: 10, y: 48}
+    - name: electric_enviro_miscbackground_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 32
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 48}
+        - {x: -13, y: 35}
+        - {x: -13, y: -40}
+        - {x: -10, y: -48}
+        - {x: 12, y: -48}
+        - {x: 13, y: -34}
+        - {x: 13, y: 41}
+        - {x: 10, y: 48}
+    - name: electric_enviro_miscbackground_33
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 32
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 48}
+        - {x: -13, y: 35}
+        - {x: -13, y: -40}
+        - {x: -10, y: -48}
+        - {x: 12, y: -48}
+        - {x: 13, y: -34}
+        - {x: 13, y: 41}
+        - {x: 10, y: 48}
+    - name: electric_enviro_miscbackground_34
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 32
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 48}
+        - {x: -13, y: 35}
+        - {x: -13, y: -40}
+        - {x: -10, y: -48}
+        - {x: 12, y: -48}
+        - {x: 13, y: -34}
+        - {x: 13, y: 41}
+        - {x: 10, y: 48}
+    - name: electric_enviro_miscbackground_35
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 32
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 48}
+        - {x: -13, y: 35}
+        - {x: -13, y: -40}
+        - {x: -10, y: -48}
+        - {x: 12, y: -48}
+        - {x: 13, y: -34}
+        - {x: 13, y: 41}
+        - {x: 10, y: 48}
+    - name: electric_enviro_miscbackground_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 48}
+        - {x: -13, y: 35}
+        - {x: -13, y: -40}
+        - {x: -10, y: -48}
+        - {x: 12, y: -48}
+        - {x: 13, y: -34}
+        - {x: 13, y: 41}
+        - {x: 10, y: 48}
+    - name: electric_enviro_miscbackground_37
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 48}
+        - {x: -13, y: 35}
+        - {x: -13, y: -40}
+        - {x: -10, y: -48}
+        - {x: 12, y: -48}
+        - {x: 13, y: -34}
+        - {x: 13, y: 41}
+        - {x: 10, y: 48}
+    - name: electric_enviro_miscbackground_38
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 48}
+        - {x: -13, y: 35}
+        - {x: -13, y: -40}
+        - {x: -10, y: -48}
+        - {x: 12, y: -48}
+        - {x: 13, y: -34}
+        - {x: 13, y: 41}
+        - {x: 10, y: 48}
+    - name: electric_enviro_miscbackground_39
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 48}
+        - {x: -13, y: 35}
+        - {x: -13, y: -40}
+        - {x: -10, y: -48}
+        - {x: 12, y: -48}
+        - {x: 13, y: -34}
+        - {x: 13, y: 41}
+        - {x: 10, y: 48}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
