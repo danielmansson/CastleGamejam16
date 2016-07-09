@@ -5,10 +5,13 @@ using System.Collections.Generic;
 public class DangerGenerator {
 	public static void GenerateDangers(List<Timeline> timelines, int startTick, Stage stage)
 	{
+		if(stage.id == 1 || stage.id == 2){
+			startTick += 80; //so you don't instadie
+		}
 		for(int i = 0; i < stage.ticksPerSecond*stage.duration; i++){
 			int dangerTimestamp = ClosestEight(startTick+i);
 			int difficulty = (stage.id/3)+1;
-			if(i % (stage.slowFactor * timelines[0].m_config.totalPlayerActionDuration) == 0){
+			if(stage.id > 1 && i % (stage.slowFactor * timelines[0].m_config.totalPlayerActionDuration) == 0){
 				Danger newDanger = new Danger((Danger.Type)0, (Player.Action)Random.Range(0,2), 1, dangerTimestamp, difficulty);
 				if(DangerDoesntBreakStuff(timelines, newDanger)
 					&& (timelines[0].m_dangers.Count == 0 
@@ -18,7 +21,7 @@ public class DangerGenerator {
 					timelines[0].AddDangerToTimeline(newDanger);
 				}
 			}
-			if(i % (stage.slowFactor * timelines[1].m_config.totalPlayerActionDuration) == 0){
+			if(stage.id > 0 && i % (stage.slowFactor * timelines[1].m_config.totalPlayerActionDuration) == 0){
 				Danger newDanger = new Danger((Danger.Type)1, (Player.Action)Random.Range(0,2), 3, dangerTimestamp, difficulty);
 				if(DangerDoesntBreakStuff(timelines, newDanger)){
 					timelines[1].AddDangerToTimeline(newDanger);

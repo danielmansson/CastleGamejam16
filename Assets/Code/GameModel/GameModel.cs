@@ -125,6 +125,12 @@ public class GameModel
 					};
 				}
 
+				if(m_stage.id == 1){
+					EventManager.Instance.SendEvent<EventChangeText>(new EventChangeText("Portal1"));
+				} else if(m_stage.id == 2){
+					EventManager.Instance.SendEvent<EventChangeText>(new EventChangeText("Portal2"));
+				}
+
 				if(m_stage.musicParameter < 0.9f){
 					AudioEvent.Play("VoiceLevelUp");
 					EventManager.Instance.SendEvent<EventChangeText>(new EventChangeText("LevelUp"));

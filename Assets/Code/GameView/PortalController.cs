@@ -45,6 +45,12 @@ public class PortalController : MonoBehaviour
 		if(args.Name.Equals("GameOver")){
 			StartCoroutine(CloseAllSequence(2.0f));
 		}
+		if(args.Name.Equals("Portal1")){
+			Open2();
+		}
+		if(args.Name.Equals("Portal2")){
+			Open3();
+		}
 	}
 
 	void Awake()

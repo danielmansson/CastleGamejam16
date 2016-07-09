@@ -1204,10 +1204,10 @@ MonoBehaviour:
   m_entries:
   - type: 0
     renderer: {fileID: 466533135}
-    startValue: 0.1
+    startValue: 5
   - type: 1
     renderer: {fileID: 435855351}
-    startValue: 0.1
+    startValue: 5
   - type: 2
     renderer: {fileID: 1487206126}
     startValue: 0.1
