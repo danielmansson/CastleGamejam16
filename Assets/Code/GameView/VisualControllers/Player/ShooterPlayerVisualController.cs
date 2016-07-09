@@ -32,7 +32,7 @@ public class ShooterPlayerVisualController : PlayerVisualController
 
 	void OnDestroy()
 	{
-		EventManager.Instance.RegisterEvent<RobotRequestingShotEventArgs>(OnShotRequest);
+		EventManager.Instance.UnregisterEvent<RobotRequestingShotEventArgs>(OnShotRequest);
 	}
 
 	private void OnDeath(Timeline timeline, Danger danger)

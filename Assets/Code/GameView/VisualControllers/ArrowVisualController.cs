@@ -20,6 +20,7 @@ public class ArrowVisualController : DangerVisualController
 
 	DangerView m_dangerView;
 	bool m_playingDestroy = false;
+	float m_timer = 0f;
 
 	public override void Init(DangerView dangerView)
 	{
@@ -32,6 +33,7 @@ public class ArrowVisualController : DangerVisualController
 			m_arrow.transform.localScale = new Vector3(-1f, 1f, 1f);
 		}
 
+		m_timer = m_dangerView.GetExtrapolatedSecondsToImpact();
 		RefreshTransform();
 	}
 
@@ -42,15 +44,25 @@ public class ArrowVisualController : DangerVisualController
 
 	void Update()
 	{
+		m_timer -= Time.deltaTime;
 		RefreshTransform();
 	}
 
 	void RefreshTransform()
 	{
 		float t = m_dangerView.GetExtrapolatedSecondsToImpact();
+		int c = m_dangerView.Danger.distanceLeft;
+
 		if (!m_playingDestroy)
 		{
-			m_arrow.transform.localPosition = Vector3.right * t * (m_dangerView.Danger.requiredAction == Player.Action.Left ? -1f : 1f) * 80f;
+			if (c == 0)
+			{
+				m_arrow.transform.localPosition = m_arrow.transform.localPosition - Vector3.right * (m_dangerView.Danger.requiredAction == Player.Action.Left ? -1f : 1f) * 80f * Time.deltaTime;
+			}
+			else
+			{
+				m_arrow.transform.localPosition = Vector3.right * t * (m_dangerView.Danger.requiredAction == Player.Action.Left ? -1f : 1f) * 80f;
+			}
 		}
 		else if (t < -10)
 		{
