@@ -219,6 +219,7 @@ GameObject:
   - 33: {fileID: 435855353}
   - 64: {fileID: 435855352}
   - 23: {fileID: 435855351}
+  - 114: {fileID: 435855355}
   m_Layer: 0
   m_Name: Portal1
   m_TagString: Untagged
@@ -283,6 +284,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 9
+--- !u!114 &435855355
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 435855350}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b25af7673d94e84db688d03bc4e83ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  queue: 2050
 --- !u!1 &466533134
 GameObject:
   m_ObjectHideFlags: 0
@@ -294,6 +307,7 @@ GameObject:
   - 33: {fileID: 466533137}
   - 64: {fileID: 466533136}
   - 23: {fileID: 466533135}
+  - 114: {fileID: 466533139}
   m_Layer: 0
   m_Name: Portal2
   m_TagString: Untagged
@@ -358,6 +372,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 10
+--- !u!114 &466533139
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 466533134}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b25af7673d94e84db688d03bc4e83ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  queue: 2000
 --- !u!1001 &642692868
 Prefab:
   m_ObjectHideFlags: 0
@@ -776,6 +802,7 @@ GameObject:
   - 33: {fileID: 1487206128}
   - 64: {fileID: 1487206127}
   - 23: {fileID: 1487206126}
+  - 114: {fileID: 1487206130}
   m_Layer: 0
   m_Name: Portal0
   m_TagString: Untagged
@@ -840,6 +867,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 8
+--- !u!114 &1487206130
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1487206125}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b25af7673d94e84db688d03bc4e83ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  queue: 2100
 --- !u!1 &1525689238
 GameObject:
   m_ObjectHideFlags: 0

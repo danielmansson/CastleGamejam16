@@ -35,6 +35,11 @@ public class ShieldPlayerVisualController : PlayerVisualController
 		m_playerView.Model.OnDeath += OnDeath;
 	}
 
+	void OnDestroy()
+	{
+		EventManager.Instance.UnregisterEvent<BlockedArrowEventArgs>(OnBlockedArrowHandler);
+	}
+
 	private void OnDeath(Timeline timeline, Danger danger)
 	{
 		m_animation.SetTrigger("death");

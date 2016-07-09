@@ -30,6 +30,11 @@ public class ShooterPlayerVisualController : PlayerVisualController
 		EventManager.Instance.RegisterEvent<RobotRequestingShotEventArgs>(OnShotRequest);
 	}
 
+	void OnDestroy()
+	{
+		EventManager.Instance.RegisterEvent<RobotRequestingShotEventArgs>(OnShotRequest);
+	}
+
 	private void OnDeath(Timeline timeline, Danger danger)
 	{
 		m_animation.SetTrigger("death");
@@ -54,7 +59,7 @@ public class ShooterPlayerVisualController : PlayerVisualController
 		if (left)
 			m_leftShot = plasma;
 		else
-			m_rightShot  =plasma;
+			m_rightShot = plasma;
 	}
 
 	private void OnShotRequest(RobotRequestingShotEventArgs args)
