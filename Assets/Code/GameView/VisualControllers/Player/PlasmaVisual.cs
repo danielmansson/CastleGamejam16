@@ -37,7 +37,7 @@ public class PlasmaVisual : MonoBehaviour
 			m_timer += Time.deltaTime;
 			m_root.transform.position = new Vector3(Mathf.Lerp(StartPos.x, Target.transform.position.x, m_timer / TimeToImpact), transform.position.y, transform.position.z);
 			//StartPos = m_root.transform.position;
-			if (TimeToImpact < 0f)
+			if (m_timer > TimeToImpact)
 			{
 				OnReachedTarget();
 			}

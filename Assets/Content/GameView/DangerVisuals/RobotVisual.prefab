@@ -164,6 +164,8 @@ MonoBehaviour:
   m_root: {fileID: 175612}
   m_right: {fileID: 181934}
   m_left: {fileID: 150522}
+  m_deathEffectPrefab: {fileID: 11424624, guid: 56cb3df488958ff43a85ffdf16387d74,
+    type: 2}
 --- !u!212 &21218016
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -230,7 +232,12 @@ Prefab:
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
-    m_Modifications: []
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: m_deathEffectPrefab
+      value: 
+      objectReference: {fileID: 11424624, guid: 56cb3df488958ff43a85ffdf16387d74,
+        type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 169212}

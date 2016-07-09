@@ -43,7 +43,7 @@ public class GameModel
 			type = Timeline.Type.Shooter,
 			totalPlayerActionDuration = 5,
 			playerActionDuration = 1,
-			range = 64
+			range = 70
 		}));
 
 		DangerGenerator.GenerateDangers(timelines, 50, m_stage);

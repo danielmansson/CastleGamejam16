@@ -24,10 +24,13 @@ public class RobotVisualController : DangerVisualController
 	GameObject m_right;
 	[SerializeField]
 	GameObject m_left;
+	[SerializeField]
+	RobotDeath m_deathEffectPrefab;
 	float m_shotSpeed = 7;
 
 	DangerView m_dangerView;
 	float m_timer;
+	bool m_iAmDeadNow = false;
 
 	public GameObject Root { get { return m_root; } }
 
@@ -39,13 +42,13 @@ public class RobotVisualController : DangerVisualController
 		m_right.SetActive(m_dangerView.Danger.requiredAction == Player.Action.Right);
 		m_left.SetActive(m_dangerView.Danger.requiredAction == Player.Action.Left);
 
-		m_timer = m_dangerView.GetExtrapolatedSecondsToImpact(); 
+		m_timer = m_dangerView.GetExtrapolatedSecondsToImpact();
 		RefreshTransform();
 	}
 
-	void Start ()
+	void Start()
 	{
-	
+
 	}
 
 	void RefreshTransform()
@@ -54,10 +57,12 @@ public class RobotVisualController : DangerVisualController
 
 		m_root.transform.localPosition = Vector3.right * t * (m_dangerView.Danger.requiredAction == Player.Action.Left ? -1f : 1f) * 30f;
 	}
-	
-	void Update ()
+
+	void Update()
 	{
-		m_timer -= Time.deltaTime;
+		if(!m_iAmDeadNow)
+			m_timer -= Time.deltaTime;
+
 		RefreshTransform();
 	}
 
@@ -71,6 +76,21 @@ public class RobotVisualController : DangerVisualController
 
 	IEnumerator DestroySoon(float t)
 	{
+		yield return new WaitForSeconds(t);
+		m_iAmDeadNow = true;
+		StartCoroutine(DeathSequence(5f));
+	}
+
+	IEnumerator DeathSequence(float t)
+	{
+		if (m_deathEffectPrefab != null)
+		{
+			var go = m_left.activeInHierarchy ? m_left : m_right;
+			var death = (RobotDeath)Instantiate(m_deathEffectPrefab, go.transform.position, Quaternion.identity);
+			death.BlowUp(m_left.activeInHierarchy);
+			go.SetActive(false);
+		}
+
 		yield return new WaitForSeconds(t);
 		m_dangerView.DestroyView();
 	}
