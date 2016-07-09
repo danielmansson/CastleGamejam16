@@ -58,6 +58,7 @@ public class ArrowVisualController : DangerVisualController
 			if (c == 0)
 			{
 				m_arrow.transform.localPosition = m_arrow.transform.localPosition - Vector3.right * (m_dangerView.Danger.requiredAction == Player.Action.Left ? -1f : 1f) * 80f * Time.deltaTime;
+				m_dangerView.DestroyView();
 			}
 			else
 			{

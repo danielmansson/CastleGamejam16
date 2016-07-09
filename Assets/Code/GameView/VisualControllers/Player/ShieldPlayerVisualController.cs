@@ -42,7 +42,10 @@ public class ShieldPlayerVisualController : PlayerVisualController
 
 	private void OnDeath(Timeline timeline, Danger danger)
 	{
-		m_animation.SetTrigger("death");
+		if(timeline.TimelineType == Timeline.Type.Shield)
+			m_animation.SetTrigger("death");
+		else
+			m_animation.SetTrigger("death2");
 	}
 
 	private void OnBlockedArrowHandler(BlockedArrowEventArgs obj)
