@@ -51,9 +51,10 @@ public class GameModel
 
 		foreach (var timeline in timelines)
 		{
+			var capturedTimeline = timeline;
 			timeline.OnPlayerDeath += (danger) => 
 			{
-				OnAnyDeathHandler(timeline, danger);
+				OnAnyDeathHandler(capturedTimeline, danger);
 			};
 		}
 	}
