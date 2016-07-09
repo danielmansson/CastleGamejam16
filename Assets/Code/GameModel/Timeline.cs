@@ -184,7 +184,7 @@ public class Timeline
 
 	void DestroyDanger(Danger danger, List<Danger> dangersToRemove)
 	{
-		score += danger.hp;
+		score += danger.hp * danger.difficulty;
 		danger.Destroy();
 		dangersToRemove.Add(danger);
 	}

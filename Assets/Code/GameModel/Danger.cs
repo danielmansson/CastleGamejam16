@@ -19,6 +19,7 @@ public class Danger : System.IComparable<Danger>
 	public Danger.State state;
 	public Player.Action requiredAction;
 	public int hp;
+	public int difficulty;
 	public int timestamp;
 	public int distanceLeft;
 
@@ -34,12 +35,13 @@ public class Danger : System.IComparable<Danger>
 		distanceLeft = timestamp;
 	}
 
-	public Danger(Danger.Type type, Player.Action requiredAction, int hp, int timestamp) {
+	public Danger(Danger.Type type, Player.Action requiredAction, int hp, int timestamp, int difficulty) {
 		this.type = type;
 		this.timestamp = timestamp;
 		this.hp = hp;
 		this.requiredAction = requiredAction;
 		this.state = Danger.State.Alive;
+		this.difficulty = difficulty;
 
 		distanceLeft = timestamp;
 	}

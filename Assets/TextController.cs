@@ -43,8 +43,9 @@ public class TextController : MonoBehaviour {
 	IEnumerator ShowGameOverText()
 	{
 		gameOverText.SetActive(true);
-		yield return new WaitForSeconds(1f);
-		scoreText.text = "Score: " + Systems.Instance.GameInfo.score;
+		yield return new WaitForSeconds(5f);
+		scoreText.text = "Score: " + Systems.Instance.GameInfo.score*100;
+		Debug.Log(scoreText + "FFS OMG");
 	}
 
 	void HandleChangeTextEvent(EventChangeText args)

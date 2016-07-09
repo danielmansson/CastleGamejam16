@@ -114,7 +114,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_modelMgr: {fileID: 1818040291}
   musicParameter: 0
-  flag: 0
 --- !u!4 &104221681
 Transform:
   m_ObjectHideFlags: 0
@@ -704,7 +703,6 @@ MonoBehaviour:
   m_modelMgr: {fileID: 1818040291}
   m_timelinePrefab: {fileID: 11437510, guid: 1311f1f98a159424884f909dabb6e88b, type: 2}
   m_distance: 10
-  m_timelines: []
 --- !u!1 &1249683530
 GameObject:
   m_ObjectHideFlags: 0
@@ -828,7 +826,7 @@ MonoBehaviour:
   levelUpText: {fileID: 674535077}
   speedUpText: {fileID: 1132049850}
   gameOverText: {fileID: 712497430}
-  scoreText: {fileID: 1998160734}
+  scoreText: {fileID: 1998160736}
 --- !u!4 &1445961702
 Transform:
   m_ObjectHideFlags: 0
