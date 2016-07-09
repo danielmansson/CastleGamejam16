@@ -65,6 +65,7 @@ public class GameModel
 			GameOver = true;
 			Debug.Log("Death");
 			AudioEvent.ChangeParameter("Music", "GameOver", 1);
+			EventManager.Instance.SendEvent<EventChangeText>(new EventChangeText("GameOver"));
 
 
 			if (OnDeath != null)

@@ -13,35 +13,49 @@ public class TextController : MonoBehaviour {
 		EventManager.Instance.RegisterEvent<EventChangeText>(HandleChangeTextEvent);
 		
 	}
-	
+
 	// Update is called once per frame
 	void Update () {
-	
+
 	}
 
-	void ShowLevelUpText(){
+	// Update is called once per frame
+	void OnDestroy () {
+		EventManager.Instance.UnregisterEvent<EventChangeText>(HandleChangeTextEvent);
+	}
+
+	IEnumerator ShowLevelUpText()
+	{
 		levelUpText.SetActive(true);
+		yield return new WaitForSeconds(1f);
+		levelUpText.SetActive(false);
 	}
 
-	void ShowSpeedUpText(){
+	IEnumerator ShowSpeedUpText()
+	{
 		speedUpText.SetActive(true);
+		yield return new WaitForSeconds(1f);
+		speedUpText.SetActive(false);
 	}
 
-	void ShowGameOverText(){
+	IEnumerator ShowGameOverText()
+	{
 		gameOverText.SetActive(true);
+		yield return new WaitForSeconds(1f);
+		//levelUpText.SetActive(false);
 	}
 
 	void HandleChangeTextEvent(EventChangeText args)
 	{
 		Debug.Log("I wanna change the text: " + args.Name);
 		if(args.Name.Equals("LevelUp")){
-			ShowLevelUpText();
+			StartCoroutine(ShowLevelUpText());
 		}
 		else if(args.Name.Equals("SpeedUp")){
-			ShowSpeedUpText();
-		}
+			StartCoroutine(ShowSpeedUpText());
+			}
 		else if(args.Name.Equals("GameOver")){
-			ShowGameOverText();
+			StartCoroutine(ShowGameOverText());
 		}
 		else
 		{

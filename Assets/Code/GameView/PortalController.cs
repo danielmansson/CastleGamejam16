@@ -28,6 +28,25 @@ public class PortalController : MonoBehaviour
 	[SerializeField]
 	float m_closeEnd = 5.0f;
 
+	// Use this for initialization
+	void Start ()
+	{
+		EventManager.Instance.RegisterEvent<EventChangeText>(HandleChangeTextEvent);
+
+	}
+
+	// Update is called once per frame
+	void OnDestroy () {
+		EventManager.Instance.UnregisterEvent<EventChangeText>(HandleChangeTextEvent);
+	}
+
+	void HandleChangeTextEvent(EventChangeText args)
+	{
+		if(args.Name.Equals("GameOver")){
+			StartCoroutine(CloseAllSequence(2.0f));
+		}
+	}
+
 	void Awake()
 	{
 		foreach (var entry in m_entries)
