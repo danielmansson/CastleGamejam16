@@ -257,24 +257,24 @@ namespace FMODUnity
         {
             #if DEVELOPMENT_BUILD || UNITY_EDITOR
             return GetSetting(LiveUpdateSettings, platform, TriStateBool.Disabled) != TriStateBool.Disabled;
-            #else
-            return GetSetting(LiveUpdateSettings, platform, MyBool.Disabled) == MyBool.Enabled;
-            #endif
-        }
+#else
+            return GetSetting(LiveUpdateSettings, platform, TriStateBool.Disabled) == TriStateBool.Enabled;
+#endif
+		}
 
-        // --------   Overlay Update ----------------------
-        public bool IsOverlayEnabled(FMODPlatform platform)
+		// --------   Overlay Update ----------------------
+		public bool IsOverlayEnabled(FMODPlatform platform)
         {
             #if DEVELOPMENT_BUILD || UNITY_EDITOR
             return GetSetting(OverlaySettings, platform, TriStateBool.Disabled) != TriStateBool.Disabled;
-            #else
-            return GetSetting(OverlaySettings, platform, MyBool.Disabled) == MyBool.Enabled;
-            #endif
-        }
-        
+#else
+            return GetSetting(OverlaySettings, platform, TriStateBool.Disabled) == TriStateBool.Enabled;
+#endif
+		}
 
-        // --------   Real channels ----------------------
-        public int GetRealChannels(FMODPlatform platform)
+
+		// --------   Real channels ----------------------
+		public int GetRealChannels(FMODPlatform platform)
         {
             return GetSetting(RealChannelSettings, platform, 64);
         }
