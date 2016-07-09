@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 using System.Collections;
 
 public class TextController : MonoBehaviour {
@@ -6,6 +7,7 @@ public class TextController : MonoBehaviour {
 	public GameObject levelUpText;
 	public GameObject speedUpText;
 	public GameObject gameOverText;
+	public Text scoreText;
 
 	// Use this for initialization
 	void Start ()
@@ -42,7 +44,7 @@ public class TextController : MonoBehaviour {
 	{
 		gameOverText.SetActive(true);
 		yield return new WaitForSeconds(1f);
-		//levelUpText.SetActive(false);
+		scoreText.text = "Score: " + Systems.Instance.GameInfo.score;
 	}
 
 	void HandleChangeTextEvent(EventChangeText args)
