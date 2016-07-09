@@ -138,7 +138,7 @@ public class Timeline
 					DestroyDanger(dangerToDestroy, dangersToRemove);
 				}
 				else {
-					dangerToDestroy.hp--;
+					dangerToDestroy.Hit();
 				}
 			}
 		}

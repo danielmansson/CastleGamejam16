@@ -57,7 +57,7 @@ public class StartState : GameStateBase
 
 	public override void Update()
 	{
-		if (Input.GetKeyDown(KeyCode.Space))
+		if (Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0))
 		{
 			Systems.Instance.State.QueueState(State.FancyGame);
 		}

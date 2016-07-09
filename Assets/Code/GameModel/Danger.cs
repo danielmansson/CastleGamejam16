@@ -24,6 +24,7 @@ public class Danger : System.IComparable<Danger>
 	public int distanceLeft;
 
 	public event System.Action OnDestroy;
+	public event System.Action OnHit;
 
 	public Danger(DangerData data) {
 		this.type = data.type;
@@ -50,6 +51,15 @@ public class Danger : System.IComparable<Danger>
 	{
 		distanceLeft--;
 		this.state = Danger.State.Alive;
+	}
+
+	public void Hit()
+	{
+		hp--;
+		if (OnHit != null)
+		{
+			OnHit();
+		}
 	}
 
 	public void Destroy()

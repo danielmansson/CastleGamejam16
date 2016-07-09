@@ -28,7 +28,7 @@ public class DangerGenerator {
 				}
 			}
 			if(i % (stage.slowFactor * timelines[2].m_config.totalPlayerActionDuration) == 0){
-				Danger newDanger = new Danger((Danger.Type)2, (Player.Action)Random.Range(0,2), 1, dangerTimestamp, difficulty);
+				Danger newDanger = new Danger((Danger.Type)2, (Player.Action)Random.Range(0,2), 2, dangerTimestamp, difficulty);
 				if(DangerDoesntBreakStuff(timelines, newDanger)){
 					timelines[2].AddDangerToTimeline(newDanger);
 				}

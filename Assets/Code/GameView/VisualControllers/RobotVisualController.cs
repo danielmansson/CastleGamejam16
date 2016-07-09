@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using System;
 
 public class RobotRequestingShotEventArgs : EventArgs
 {
@@ -38,12 +39,36 @@ public class RobotVisualController : DangerVisualController
 	{
 		m_dangerView = dangerView;
 		dangerView.OnDestroy += OnModelDangerDestroyed;
+		dangerView.Danger.OnHit += OnHit;
 
 		m_right.SetActive(m_dangerView.Danger.requiredAction == Player.Action.Right);
 		m_left.SetActive(m_dangerView.Danger.requiredAction == Player.Action.Left);
 
 		m_timer = m_dangerView.GetExtrapolatedSecondsToImpact();
 		RefreshTransform();
+	}
+
+	private void OnHit()
+	{
+		float timer = m_dangerView.GetExtrapolatedSecondsToImpact();
+		float time = Mathf.Abs(timer) / m_shotSpeed;
+		EventManager.Instance.SendEvent(new RobotRequestingShotEventArgs(this, m_dangerView.Danger.requiredAction, time));
+
+		StartCoroutine(DoSoon(time));
+	}
+
+	IEnumerator DoSoon(float t)
+	{
+		yield return new WaitForSeconds(t);
+
+		if (m_right.activeInHierarchy)
+		{
+			m_right.GetComponent<Animator>().SetTrigger("hit");
+		}
+		else
+		{
+			m_left.GetComponent<Animator>().SetTrigger("hit");
+		}
 	}
 
 	void Start()
