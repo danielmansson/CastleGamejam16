@@ -64,7 +64,7 @@ public class SimpleGameController : MonoBehaviour
 					m_model.PerformAction(Player.Action.Right);
 				}
 
-				if (m_model.GameOver)
+				if (m_model.GameOver && Time.unscaledTime > m_model.GameOverTimestamp + 2f)
 				{
 					Systems.Instance.State.QueueState(State.Start);
 				}

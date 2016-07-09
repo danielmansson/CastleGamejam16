@@ -11,6 +11,7 @@ public class GameModel
 	public event System.Action<Timeline, Danger> OnDeath;
 
 	public bool GameOver { get; private set; }
+	public float GameOverTimestamp { get; private set; }
 	public int TotalFrame { get { return totalFrame; } }
 
 	public GameModel()
@@ -67,7 +68,7 @@ public class GameModel
 			Debug.Log("Death");
 			AudioEvent.ChangeParameter("Music", "GameOver", 1);
 			EventManager.Instance.SendEvent<EventChangeText>(new EventChangeText("GameOver"));
-
+			GameOverTimestamp = Time.unscaledTime;
 
 			if (OnDeath != null)
 			{
