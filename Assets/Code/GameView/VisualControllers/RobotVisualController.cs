@@ -80,7 +80,7 @@ public class RobotVisualController : DangerVisualController
 	{
 		float t = m_timer;
 
-		m_root.transform.localPosition = Vector3.right * t * (m_dangerView.Danger.requiredAction == Player.Action.Left ? -1f : 1f) * 30f;
+		m_root.transform.localPosition = Vector3.right * t * (m_dangerView.Danger.requiredAction == Player.Action.Left ? -1f : 1f) * 30f *m_dangerView.Model.GetSpeedFactor();
 	}
 
 	void Update()

@@ -62,7 +62,7 @@ public class ArrowVisualController : DangerVisualController
 			}
 			else
 			{
-				m_arrow.transform.localPosition = Vector3.right * t * (m_dangerView.Danger.requiredAction == Player.Action.Left ? -1f : 1f) * 80f;
+				m_arrow.transform.localPosition = Vector3.right * t * (m_dangerView.Danger.requiredAction == Player.Action.Left ? -1f : 1f) * 80f * m_dangerView.Model.GetSpeedFactor();
 			}
 		}
 		else if (t < -10)

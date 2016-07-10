@@ -47,7 +47,7 @@ public class ObstacleVisualController : DangerVisualController
 
 	void RefreshTransform()
 	{
-		m_root.transform.localPosition = Vector3.right * m_timer * (m_dangerView.Danger.requiredAction == Player.Action.Left ? -1f : 1f) * (50f + m_extraSpeed);
+		m_root.transform.localPosition = Vector3.right * m_timer * (m_dangerView.Danger.requiredAction == Player.Action.Left ? -1f : 1f) * (50f + m_extraSpeed) * m_dangerView.Model.GetSpeedFactor();
 	}
 
 	void OnModelDangerDestroyed(DangerView dangerView)

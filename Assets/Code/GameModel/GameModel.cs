@@ -162,4 +162,9 @@ public class GameModel
 	{
 		return ((float)framesLeft + (1f - InterpolationT)) * m_stage.secondsPerTick;
 	}
+
+	public float GetSpeedFactor()
+	{
+		return (float)m_stage.ticksPerSecond / 14.0f;
+	}
 }
