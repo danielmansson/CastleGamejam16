@@ -43,6 +43,7 @@ public class PortalController : MonoBehaviour
 	void HandleChangeTextEvent(EventChangeText args)
 	{
 		if(args.Name.Equals("GameOver")){
+			StopAllCoroutines();
 			StartCoroutine(CloseAllSequence(2.0f));
 		}
 		if(args.Name.Equals("Portal1")){
@@ -95,12 +96,13 @@ public class PortalController : MonoBehaviour
 	IEnumerator CloseSequence(MeshRenderer renderer)
 	{
 		float timer = 0f;
+		float from = renderer.sharedMaterials[0].GetFloat("_Threshold2");
 
 		while (timer < m_closeTime)
 		{
 			timer += Time.deltaTime;
 			float t = timer / m_closeTime;
-			renderer.sharedMaterials[0].SetFloat("_Threshold2", Mathf.Lerp(m_openEnd, m_closeEnd, t));
+			renderer.sharedMaterials[0].SetFloat("_Threshold2", Mathf.Lerp(from, m_closeEnd, t));
 			yield return null;
 		}
 	}
