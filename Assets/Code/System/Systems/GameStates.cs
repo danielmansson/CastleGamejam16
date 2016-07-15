@@ -20,7 +20,7 @@ public class BootState : GameStateBase
 		}
 	}
 
-	float m_delay = 4f;
+	float m_delay = 0.5f;
 	float m_timer = 0f;
 
 	public override void Update()
@@ -60,6 +60,10 @@ public class StartState : GameStateBase
 		if (Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0))
 		{
 			Systems.Instance.State.QueueState(State.FancyGame);
+		}
+		if (Input.GetKeyDown(KeyCode.Escape))
+		{
+			Application.Quit();
 		}
 	}
 }
@@ -113,6 +117,7 @@ public class FancyGameState : GameStateBase
 	{
 		if (Input.GetKeyDown(KeyCode.Escape))
 		{
+			AudioEvent.Play("PlayerDeath");
 			Systems.Instance.State.QueueState(State.Start);
 		}
 		if (Input.GetKeyDown(KeyCode.F1))

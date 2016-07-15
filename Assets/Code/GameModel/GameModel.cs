@@ -16,6 +16,7 @@ public class GameModel
 
 	public GameModel()
 	{
+		Player.s_shouldPlayJumpSound = false;
 		m_stage = new Stage(0);
 
 		//AudioEvent.Play("Music"); already playing
@@ -128,6 +129,7 @@ public class GameModel
 				}
 
 				if(m_stage.id == 1){
+					Player.s_shouldPlayJumpSound = true;
 					EventManager.Instance.SendEvent<EventChangeText>(new EventChangeText("Portal1"));
 				} else if(m_stage.id == 2){
 					EventManager.Instance.SendEvent<EventChangeText>(new EventChangeText("Portal2"));
@@ -165,6 +167,6 @@ public class GameModel
 
 	public float GetSpeedFactor()
 	{
-		return (float)m_stage.ticksPerSecond / 14.0f;
+		return 1f + ((m_stage.id) / 3) * 0.03f;
 	}
 }

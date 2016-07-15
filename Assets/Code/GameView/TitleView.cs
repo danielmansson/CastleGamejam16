@@ -26,6 +26,7 @@ public class TitleView : MonoBehaviour
 		if(firstTime) {
 			firstTime = false;
 			AudioEvent.Play("Music");
+			AudioEvent.ChangeParameter("Music", "LVL", 0);
 		} else {
 			AudioEvent.ChangeParameter("Music", "LVL", 0);
 		}

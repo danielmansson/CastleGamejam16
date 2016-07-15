@@ -26,6 +26,8 @@ public class Player {
 	int m_actionDuration = 4;
 	int m_timer;
 
+	public static bool s_shouldPlayJumpSound = false;
+
 	public Player(int id, int actionDuration)
 	{
 		m_actionDuration = actionDuration;
@@ -41,10 +43,12 @@ public class Player {
 			m_action = action;
 			state = Player.State.Safe;
 			m_timer = 0;
-			if(id == 2){
+			if(id == 2)
+			{
 				AudioEvent.Play("PlayerShoot");
 			}
-			if(id == 1){
+			if (id == 1 && s_shouldPlayJumpSound)
+			{
 				AudioEvent.Play("PlayerJump");
 			}
 

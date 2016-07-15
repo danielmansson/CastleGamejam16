@@ -50,7 +50,7 @@ public class TextController : MonoBehaviour {
 
 	void HandleChangeTextEvent(EventChangeText args)
 	{
-		Debug.Log("I wanna change the text: " + args.Name);
+//		Debug.Log("I wanna change the text: " + args.Name);
 		if(args.Name.Equals("LevelUp")){
 			StartCoroutine(ShowLevelUpText());
 		}

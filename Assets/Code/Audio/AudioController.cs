@@ -63,7 +63,7 @@ public class AudioController : MonoBehaviour
 
     void HandleAudioEvent(EventPlayAudio args)
     {
-        Debug.Log("I wanna play some sound named: " + args.Name);
+       // Debug.Log("I wanna play some sound named: " + args.Name);
 
         SoundData soundData;
         if (m_sounds.TryGetValue(args.Name, out soundData))

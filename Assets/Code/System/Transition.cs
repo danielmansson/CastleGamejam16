@@ -8,6 +8,8 @@ public class Transition : MonoBehaviour
 	[SerializeField] private float m_durationIn = 0.5f;
 	[SerializeField] private float m_durationOut = 0.5f;
 
+	public static bool s_firstStartOfSession = true;
+
 	void Awake()
 	{
 		m_art.SetActive(false);
@@ -15,7 +17,15 @@ public class Transition : MonoBehaviour
 
 	public IEnumerator In()
 	{
-		AudioEvent.Play("MenuStart");
+		if (s_firstStartOfSession)
+		{
+			s_firstStartOfSession = false;
+		}
+		else
+		{
+			AudioEvent.Play("MenuStart");
+		}
+
 		m_art.SetActive(true);
 		float t = 0;
 		while (t < 1)
