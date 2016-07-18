@@ -44,8 +44,16 @@ public class TextController : MonoBehaviour {
 	{
 		gameOverText.SetActive(true);
 		yield return new WaitForSeconds(5f);
-		scoreText.text = "Score: " + Systems.Instance.GameInfo.score*100;
-		Debug.Log(scoreText + "FFS OMG");
+
+		int highscore = 0;
+		if (PlayerPrefs.HasKey("highscore"))
+			highscore = PlayerPrefs.GetInt("highscore");
+
+		scoreText.text = "Score: " + Systems.Instance.GameInfo.score*100 + "\n" +
+			"Highscore: " + highscore;
+
+
+
 	}
 
 	void HandleChangeTextEvent(EventChangeText args)

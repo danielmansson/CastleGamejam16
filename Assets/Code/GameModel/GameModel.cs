@@ -65,6 +65,16 @@ public class GameModel
 	{
 		if (!GameOver)
 		{
+			Systems.Instance.GameInfo.score = timelines[0].score + timelines[1].score + timelines[2].score;
+
+			int highscore = 0;
+			if (PlayerPrefs.HasKey("highscore"))
+				highscore = PlayerPrefs.GetInt("highscore");
+
+			int score = Systems.Instance.GameInfo.score * 100;
+			if (score > highscore)
+				PlayerPrefs.SetInt("highscore", score);
+
 			GameOver = true;
 			Debug.Log("Death");
 			AudioEvent.ChangeParameter("Music", "GameOver", 1);

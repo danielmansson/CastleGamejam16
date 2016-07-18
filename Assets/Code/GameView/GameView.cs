@@ -66,8 +66,6 @@ public class GameView : MonoBehaviour
 	}
 
 	IEnumerator deathSequence(){
-		List<Timeline> timelines = m_model.GetTimelines();
-		Systems.Instance.GameInfo.score = timelines[0].score + timelines[1].score + timelines[2].score;
 
 		yield return new WaitForSeconds(1.0f);
 		AudioEvent.Play("GameOver");
