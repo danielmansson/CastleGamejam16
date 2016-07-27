@@ -14,9 +14,14 @@ public class GameModel
 	public float GameOverTimestamp { get; private set; }
 	public int TotalFrame { get { return totalFrame; } }
 
+	bool m_shouldPlayJumpSoundSoon = false;
+	float m_jumpSoundTimer = 4.3f;
+
 	public GameModel()
 	{
 		Player.s_shouldPlayJumpSound = false;
+		//AudioEvent.ChangeParameter("Jump", "Portal", 0f);
+
 		m_stage = new Stage(0);
 
 		//AudioEvent.Play("Music"); already playing
@@ -111,7 +116,7 @@ public class GameModel
 	public void Update(float timeStep)
 	{
 		m_stepAccumulator += timeStep;
-		m_stepAccumulator = Mathf.Min(m_stepAccumulator, m_stage.secondsPerTick * 2);
+		m_stepAccumulator = Mathf.Min(m_stepAccumulator, m_stage.secondsPerTick * 6);
 
 		if (m_stepAccumulator > m_stage.secondsPerTick)
 		{
@@ -139,7 +144,8 @@ public class GameModel
 				}
 
 				if(m_stage.id == 1){
-					Player.s_shouldPlayJumpSound = true;
+
+					m_shouldPlayJumpSoundSoon = true;
 					EventManager.Instance.SendEvent<EventChangeText>(new EventChangeText("Portal1"));
 				} else if(m_stage.id == 2){
 					EventManager.Instance.SendEvent<EventChangeText>(new EventChangeText("Portal2"));
@@ -153,6 +159,17 @@ public class GameModel
 					EventManager.Instance.SendEvent<EventChangeText>(new EventChangeText("SpeedUp"));
 				}
 				AudioEvent.ChangeParameter("Music", "LVL", m_stage.musicParameter);
+			}
+		}
+
+		if (m_shouldPlayJumpSoundSoon)
+		{
+			m_jumpSoundTimer -= Time.deltaTime;
+			if (m_jumpSoundTimer < 0f)
+			{
+				Debug.Log("Gonna play some jump sound");
+				Player.s_shouldPlayJumpSound = true;
+				m_shouldPlayJumpSoundSoon = false;
 			}
 		}
 	}
